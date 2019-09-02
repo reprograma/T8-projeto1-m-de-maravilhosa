@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {}
+
+nav {
+    position: absolute;
+    width: 1920px;
+    height: 133px;
+    left: 0px;
+    top: 0px;
+    background: #674582;
+}
+
+.menu {
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.container__logo-m .nome {
+    color: #674582;
+    font-family: Montserrat;
+}
+
+
+/* .imagem_header {
+    background-image:
+} */
+
+@media (min-width: 360) {
+    #menuresponsivo {}
+}
