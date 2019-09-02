@@ -1,0 +1,12 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    
+    flex-direction: row;
+}
+
+ul, li {
+    list-style: none;
+}
