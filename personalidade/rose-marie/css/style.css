@@ -1,0 +1,42 @@
+* {
+ box-sizing: border-box;   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9a43eb;
+    
+}
+
+.logo {
+  size: 5vw;
+}
+
+.link {
+    display: inline-block;
+}
+.link__home {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 15px;
+    
+}
+.link__reprograma {
+   color: #ffffff;
+   text-transform: uppercase;
+   text-decoration: none;
+   margin-left: 15px;
+}
+
+.medias {
+display: inline-block;
+ 
+
+}
+
+.header {
+
+}
