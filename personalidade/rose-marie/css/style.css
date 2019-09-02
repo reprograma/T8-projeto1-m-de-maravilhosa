@@ -1,5 +1,6 @@
 * {
- box-sizing: border-box;   
+ box-sizing: border-box; 
+ margin: 0 auto;  
 }
 
 .menu {
@@ -33,10 +34,16 @@
 
 .medias {
 display: inline-block;
- 
 
 }
 
 .header {
-margin: auto;
+width: 100%;
+
+
+}
+
+.banner {
+    background-image: url(../img/baner.jpg);
+
 }
