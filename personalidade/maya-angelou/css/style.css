@@ -1,0 +1,81 @@
+/*---- Geral ----*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*---- Navegação ----*/
+
+.navegacao{
+    height: 80px;
+    background-color: #674582;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navegacao__logo > a > img{
+    width: 160px;
+}
+
+.navegacao__links > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navegacao__midias-sociais > a > img{
+    width: 44px;
+    height: auto;
+}
+
+/*--- Header ----*/
+.cabecalho{
+    background-image: url("../img/maya-angelou-4.jpg");
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cabecalho > h1{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/*---- Main ----*/
+
+.conteudo__titulo{
+    font-size: 10px;
+    text-align: center;
+    color: #63458A;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*---- Medias ----*/
+
+@media (min-width: 320px){
+    .navegacao__links > a {
+        display: none;
+    }
+
+    .navegacao__midias-sociais > a > img {
+        display: none;
+    }
+}
