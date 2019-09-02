@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ margin: 0%;
+}
+
+
+.menu {
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    width: 139vw;
+    align-items: center;
+    height: 35vw;
+
+}
+ header{
+    background-image:url("../img/angela.png");
+    width: 139vw;
+    height: 91vw;
+    padding: 1.5rem;
+    background-position: center;
+    z-index: 99;
+
+}
+
+header > h1 {
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
