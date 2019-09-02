@@ -68,6 +68,33 @@ body{
     font-family: 'Roboto Slab', serif;
 }
 
+.conteudo__conteiner{
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.conteudo__imagem{
+    height: 180px;
+    width: 180px;
+    background-color: #63458A;
+    border-radius: 8px;
+}
+
+.conteudo__imagem > img{
+    height: 150px;
+    margin-top: 13px;
+    border-radius: 50%;
+}
+
+.conteudo__texto > p{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #63458A;
+}
+
 /*---- Medias ----*/
 
 @media (min-width: 320px){
