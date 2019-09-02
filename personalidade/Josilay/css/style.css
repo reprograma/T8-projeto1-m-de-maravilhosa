@@ -47,5 +47,15 @@ a {
         position: fixed;
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* .navegacao__redes-sociais {
+        display: flex;
+        justify-content: flex-end;  
+    } */
+
+    .navegacao__itens > a {
+        margin-right: 20px;
     }
