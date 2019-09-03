@@ -183,7 +183,7 @@ li {
 .dilma__box {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
 }
 
 .dilma__perfil {
@@ -195,10 +195,10 @@ li {
 
 
 
-/* .dilma__destaque {
+.dilma__destaque {
     border: black solid;
 
-} */
+}
 
 .rodape {
     background-color: #323534;
