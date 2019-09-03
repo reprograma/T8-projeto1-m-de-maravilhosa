@@ -55,6 +55,18 @@ display: flex;
 
 /*     MAIN   */
 
+.tituloBafao{
+    font-size: 17px;
+    font-family: Roboto Slab;
+    text-align: center;
+    
+}
+
+
+.bafao{
+    display: flex;
+
+}
 
 
 
@@ -62,8 +74,16 @@ display: flex;
     width: 21vw;
     height: 16vh;
     border-radius: 10%;
-
 }
+
+.citacao{
+    height: 50%;
+    width: 70%;    
+    border-width: medium;
+    border-style: solid;
+    border-color: #63458A;
+}
+
 
 .fotosub_img{
     width: 100vw;
