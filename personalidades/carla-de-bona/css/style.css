@@ -1,33 +1,108 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {}
+body {
+    margin: 0;
+    width: 100vw;
+}
 
-nav {
-    position: absolute;
-    width: 1920px;
-    height: 133px;
-    left: 0px;
-    top: 0px;
-    background: #674582;
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #674582;
+    width: 100%;
+    color: white;
+}
+
+.hamburguinho {
+    /* background-image: url("../img/menu-nav.png") */
 }
 
 .menu {
-    justify-content: space-between;
-    align-items: stretch;
+    display: none;
 }
 
-.container__logo-m .nome {
+.personalidade>h1 {
+    align-items: center;
+    margin: 212px 0;
+    margin-left: 32%;
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+}
+
+.personalidade>img {
+    width: 100vw;
+}
+
+.primeiro_texto>img {
+    width: 150px;
+    margin-left: 102px;
+}
+
+.primeiro_texto>h1 {
+    text-align: center;
     color: #674582;
-    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.primeiro_texto>p {
+    margin: 0 20px 30px;
+    color: #674582;
+    font-size: 15px;
+}
+
+.citacao {
+    margin: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #674582;
+    border: 1px solid #63458a;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.segundo_texto {
+    margin: 0 20px 30px;
+    color: #674582;
+    font-size: 15px;
+}
+
+.segundo_texto>img {
+    width: 326px;
+}
+
+.bloco {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    background-color: #E4B7E5;
+}
+
+.bloco>img {
+    width: 149px;
+    margin-top: 20px;
+    margin-left: 102px;
+}
+
+.bloco>p {
+    margin-left: 80px;
+    color: #63458a;
+    font-size: 15px;
+}
+
+button {
+    margin-left: 113px;
+    padding-bottom: 10px;
+    border-bottom-color: #C083B9;
+    border-radius: 5PX;
 }
 
 
-/* .imagem_header {
-    background-image:
-} */
+/* -----MEDEIAQ----- */
 
-@media (min-width: 360) {
-    #menuresponsivo {}
-}
+@media (min-width: 768px) {}
