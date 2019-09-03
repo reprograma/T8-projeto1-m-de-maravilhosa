@@ -61,10 +61,6 @@ body{
 .title {
     margin:10px 0px 2px 7px;
     padding: 5px;
-   
-    
-    
-  
 }
 
 h1 {
@@ -72,6 +68,11 @@ h1 {
     color:#cebfbf;
     border: #a79797;
     text-transform: uppercase;
-    
+}
 
+/*===== CONTAINER =====*/
+.container {
+    margin: auto;
+    width: 100px;
+    height: 100px;
 }
