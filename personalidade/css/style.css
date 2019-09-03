@@ -5,41 +5,79 @@
 html {
     font-size: 10px;
 }
-body{
+body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
- margin: 0%;
+    margin: 0%;
+    background-color: #F4F0E4;
 }
 
-
-.menu {
-    background-color: #674582;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    width: 139vw;
-    align-items: center;
-    height: 35vw;
-
+.navegacao {
+width: 100%;
+background-color: purple;
+display: block;
 }
- header{
-    background-image:url("../img/angela.png");
-    width: 139vw;
-    height: 91vw;
-    padding: 1.5rem;
-    background-position: center;
-    z-index: 99;
-
+.navegacao a {
+    padding: 15px;
 }
 
-header > h1 {
+.navegacao__logo {
+    display: inline-block;
+    font-size: 16px;
 }
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    padding: 0;
-}
-
-li {
+.navegacao__itens {
     list-style: none;
+    position: relative;
+    display:flex;
 }
+.navegacao__redes-sociais {
+    display:none;
+}
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+.navegacao_logo{
+    max-width: 50px;
+}
+.navegacao__box-container{
+    display: flex;
+}
+ a: {
+ text-decoration:none;
+        }
+ul {
+    margin-right: 0;
+    padding-left: 0px;
+    width: 301px;
+    text-align: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    }
+    .angel_davis {
+        width: 100%;
+    }
+
+
+    @media(min-width: 768px){
+    .navegacao__menu-hamburguer{
+        display: none;
+}
+.navegacao__redes-sociais {
+    display:flex;
+}
+.navegacao__itens{
+    display: flex;
+}
+.navegacao__nav{
+    display: flex;
+}
+    }
