@@ -278,7 +278,7 @@ li {
     text-align: center;
 }
 
-/*** MEDIA QUERIES ***/
+
 @media (min-width: 768px) {
     /* --- NAV --- */
     .navegacao__itens {
