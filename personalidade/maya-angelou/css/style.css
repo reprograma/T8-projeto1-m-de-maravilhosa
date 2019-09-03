@@ -57,15 +57,17 @@ body{
     color: white;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 8px;
 }
 
 /*---- Main ----*/
 
 .conteudo__titulo{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     color: #63458A;
     font-family: 'Roboto Slab', serif;
+    padding: 0 20px;
 }
 
 .conteudo__conteiner{
@@ -79,20 +81,122 @@ body{
     width: 180px;
     background-color: #63458A;
     border-radius: 8px;
+    margin: 0 auto;
 }
 
 .conteudo__imagem > img{
     height: 150px;
-    margin-top: 13px;
+    margin-top: 15px;
     border-radius: 50%;
 }
 
 .conteudo__texto > p{
     margin-top: 0;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
     font-size: 15px;
     margin-top: 10px;
     color: #63458A;
+}
+
+/*---- Texto box-destaque ----*/
+
+.conteudo__texto-destaque{
+    padding: 0 30px;
+    border: solid 1px #63458A;
+    margin: 0 20px;
+}
+
+.conteudo__texto-destaque > p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #63458A;    
+}
+
+.conteudo-principal{
+    margin: 10px 20px;
+}
+
+.conteudo-principal > h2{
+    font-family: 'Roboto slab', sans-serif;
+    font-size: 20px;    
+    color: #63458A;   
+}
+
+.conteudo-principal > p{
+    font-family: 'Roboto slab', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;    
+}
+
+.conteudo-principal > img{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #63458A;    
+}
+
+/*---- Seção Autora ----*/
+
+.secao-autora{
+    height: 140px;
+    background-color: #E4B7E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 50px 0 0;
+}
+
+.secao-autora__img{
+    width: 140px;
+    height: 139px;
+}
+
+.secao-autora__img > img{
+    width: 140px;
+    position: absolute;
+}
+
+.secao-autora__curriculo > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #63458A;
+    margin-left: 40px;
+}
+
+.secao-autora__curriculo > p > a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*---- Footer ----*/
+
+.btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__call-to-action{
+    background-color: #C083B9;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+/*---- Footer ----*/
+
+footer{
+    display: flex;
+    background-color: #323534;
 }
 
 /*---- Medias ----*/
