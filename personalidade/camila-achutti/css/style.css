@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+
+/* ============= NAVEGAÇÃO =============== */
+
+.navegar {
+    background-color: #674582;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container-navegar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navegar-barra__clicar {
+    width: 100%;
+}
+
+.navegar-barra__img {
+    width: 200px;
+}
+
+@media (max-width: 780px) {
+    .navegar-barra__menu {
+        display: none;
+    }
+}
+
+@media (min-width: 780px) {
+    .navegar-hamburguer {
+        display: none;
+    }
+}
+
+
+/* ============ HEADER ============= */
+
+.cabecalho {
+    background-image: url("../img/camila-achutti_reserva_foto_thaysbittar-2.jpg");
+    background-size: cover;
+    position: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+.cabecalho__nome {
+    margin: 0 auto;
+}
