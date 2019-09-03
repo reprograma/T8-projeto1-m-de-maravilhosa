@@ -1,0 +1,277 @@
+/* ==== GERAL ==== */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%; 
+}
+
+body{
+    margin: 0;
+}
+
+/* ==== BARRA NAVEGAÇÃO ==== */
+
+.container{
+    width: 100vw;
+    height: 88px;
+    background-color: #674582;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    position: fixed;
+    top: 0; 
+    z-index: 9;
+   
+}
+
+.container-nav{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-nav__logo{
+    width: 35vh;
+    margin-top: 15px;
+    margin-right: 60px;
+}
+
+.container-nav__redes-sociais{
+    width: 100%;
+    display: flex;
+}
+
+.container-nav__menu, .container-nav__redes-sociais{
+    display: none;
+}
+
+.icone__redes-sociais{
+    width: 45px;
+}
+
+.container-nav__menu-hamburguer{
+    margin-top: 15px; 
+    margin-left: 5px;
+}
+
+.container-nav__menu-hamburguer img{
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+
+/* ==== HEADER ==== */
+
+.banner{
+    min-height: 80vh;
+    height: 500px;
+    background-image: url(../img/IlustracaoMaud.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.banner-texto__titulo{
+    text-align: center;
+    color: #000000;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-right: 20px;
+}
+
+/* ==== APRESENTAÇÃO (TÍTULO, FOTO E DESCRIÇÃO) ==== */
+
+.conteudo{
+    font-family: 'Montserrat', sans-serif;
+    color: #674582;
+}
+
+.apresentacao-titulo{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.apresentacao-perfil{
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil__foto{
+    width: 120px;
+    margin-top: 15px;
+}
+
+.perfil__texto{
+    width: 50%;
+}
+
+.perfil__texto p{
+    font-size: 13px;
+}
+
+/* ==== CITAÇÃO ==== */
+
+.citacao{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #674582de;
+}
+
+.citacao p{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* ==== HISTÓRIA ==== */
+
+.historia{
+    width: 85%;
+    margin-left: 20px;
+}
+
+.historia > h3{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.historia__sobre{
+    font-size: 13px;
+}
+
+.historia__imagens__tattoo{
+    max-width: 150px;
+    margin-right: 10px;
+}
+
+.historia__imagens__familia{
+    max-width: 130px;
+}
+
+.historia__imagens__senhora{
+    max-width: 120px;
+    margin-left: 95px;
+}
+
+/* ==== INFO PESSOAL ==== */
+
+.info-pessoais{
+    width: 100vw;
+    height: 106px;
+    background-color: #E4B7E5;
+    display: flex;
+    align-items: center;
+}
+
+.info-pessoais__imagem{
+    width: 120px;
+    height: 105px;
+    margin-left: 40px;
+}
+
+.info-pessoais__foto{
+    max-width: 100px;
+    margin-left: 5px;
+}
+
+.info-pessoais span{
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 12px;
+    color: #63458A;
+}
+
+.info-pessoais__texto{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    
+}
+
+.info-pessoais__texto__link{
+    text-decoration: none;
+}
+
+/* ==== BOTÃO ==== */
+
+.botao{
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao__btn-ir-home{
+    width: 45%;
+    height: 36%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #C083B9;
+    border-radius: 7px;
+    border: none;
+}
+
+/* ==== FOOTER ==== */
+
+.rodape{
+    width: 100vw;
+}
+
+.footer-redes{
+    width: 100%;
+    background-color: #323534;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.footer-redes a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-redes__link{
+    font-size: 10px;
+    text-align: center;
+}
+
+.footer__logo{
+    width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768){
+    .container-nav__menu-hamburguer{
+        display: none;
+    }   
+}
