@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    padding: 33px;
+}
+
+h1 {
+    margin-left: 45%;
+}
+
+h2 {
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h6 {
+    align-items: center;
+    margin-top: 50px;
+}
+
+div {
+    display: block;
+   
+}
+
+.rodape {
+    background-color: purple;
+    color: beige;
+    /* display: flex; */
+    width: 100vw;
+    justify-content: space-around;
+
+}
+
+.rodape__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__block {
+    margin-left: 35%;
+    padding-bottom: 25px;
+}
+
+.rodape img {
+    height: 45px;
+    margin-top: 20px;
+}
+
+.rodape li {
+    padding: 1px;
+}
+
+.navegacao {
+    background-color: purple;
+    width: 100vw;
+
+}
+
+.navegacao__box  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .navegacao__menu-hamburguer {
+    width: 25px;
+    margin-right: 89px;
+    display:none;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 33px;
+}
+
+.navegacao__itens {
+    display: flex;
+
+}
+
+.navegacao__redes-sociais {
+    padding-right: 25px;
+}
+
+.navegacao__box {
+    height: 53px;
+}
+
+.nav_img {
+    width: 30px;
+}
+
+/* .navegacao__menu-hamburguer */
+
+.antonieta img {
+    width: 100vw;
+}
+
+.frase__antonieta {
+    border-style: solid;
+    border-radius: 10px;
+    height: 100px;
+    border-color: gray;
+    padding-top: 20px;
+}
+
+@media (max-width: 475px;) {
+    
+    .rodape {
+        background-color: purple;
+        color: beige;
+        /* display: flex; */
+        width: 100vw;
+        justify-content: space-around;
+    
+    }
+    
+    .rodape__flex {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .rodape__block {
+        margin-left: 35%;
+        padding-bottom: 25px;
+    }
+    
+    .rodape img {
+        height: 45px;
+        margin-top: 20px;
+    }
+    
+    .rodape li {
+        padding: 1px;
+    }
+    
+    .navegacao {
+        background-color: purple;
+        width: 100vw;
+    
+    }
+    
+    .navegacao__box  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+     .navegacao__menu-hamburguer {
+        width: 25px;
+        margin-right: 89px;
+        display:none;
+    }
+    
+    .lista {
+        display: flex;
+        justify-content: space-around;
+        padding: 33px;
+    }
+    
+    .navegacao__itens {
+        display: flex;
+    
+    }
+    
+    .navegacao__redes-sociais {
+        padding-right: 25px;
+    }
+    
+    .navegacao__box {
+        height: 53px;
+    }
+    
+    .nav_img {
+        width: 30px;
+    }
+    
+    /* .navegacao__menu-hamburguer */
+    
+    .antonieta img {
+        width: 100vw;
+    }
+    
+    .frase__antonieta {
+        border-style: solid;
+        border-radius: 10px;
+        height: 100px;
+        border-color: gray;
+        padding-top: 20px;
+    }
+    
+}
