@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./carolina-maria-jesus/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Carolina Maria de Jesus</title>
 </head>
 
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <div class="navbar__logo">
-                <a class="navbar__logo" href="index.html">
-                    <img class="navbar__img" src="../img/logo-white.png" alt="Logo M de Maravilhosa"></a>
-            </div>
-            <div>
+            <a class="navbar__logo" href="index.html">
+                <img class="img-responsive" src="../img/logo-white.png" alt="Logo M de Maravilhosa">
+            </a>
+            <div class="navbar__itens" id="navbarDesktop">
                 <div class="navbar__navegacao">
-                    <ul class="navbar__links_">
-                        <li> <a href="index.html">HOME</a> </li>
-                        <li> <a href="https://reprograma.com.br">CONHEÇA A {REPROGRAMA}</a></li>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://reprograma.com.br">Conheça a {Reprograma}</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="navbar__redes-sociais">
@@ -38,71 +42,78 @@
                     </a>
                 </div>
             </div>
-            <div class="navbar__menu-responsivo">
-
+            <div class="navbar__menu-hamburguer" id="navbarHamburguer">
+                <a href="#">
+                    <img src="../img/menu-nav.png" alt="Menu da página">
+                </a>
             </div>
         </div>
     </nav>
-    </nav>
-    <header>
-        <h1>Carolina Maria de Jesus</h1>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__titulo">Carolina Maria de Jesus</h1>
+        </div>
     </header>
-    <section class="conteudo__introducao">
-        <div class="conteudo__introducao_imagem">
-
-        </div>
-        <divc class="conteudo__introducao_texto">
+    <main>
+        <section class="conteudo__introducao">
+            <div class="conteudo__introducao_imagem">
 
             </div>
-    </section>
-    <section class="conteudo__frase">
-        <p>
+            <divc class="conteudo__introducao_texto">
 
-        </p>
-    </section>
-    <section class="conteudo__principal">
-        <div class="conteudo__principal_texto">
-
-        </div>
-        <div class="conteudo__principal_imagem">
-
-        </div>
-    </section>
-    <section class="sobre-autor">
-        <div class="sobre-autor__container">
-            <div class="sobre-autor__imagem">
-
-            </div>
-            <div class="sobre-autor__texto">
-
-            </div>
-            <div class="sobre-autor__link">
-                <button>
-                    <a class="sobre-autor__button" href=""></a>
-                </button>
-            </div>
-        </div>
-    </section>
-    <footer class="rodape">
-        <div class="rodape__principal">
-            <div class="rodape__principal_links">
-                <ul>
-                    <ui></ui>
-                    <ui></ui>
-                </ul>
-            </div>
-            <div class="rodape__principal_logo">
-
-            </div>
-            <div class="rodape__principal_rede-social">
-
-            </div>
-
-        </div>
-        <div class="rodape__secundario">
+                </div>
+        </section>
+        <section class="conteudo__frase">
             <p>
 
             </p>
+        </section>
+        <section class="conteudo__principal">
+            <div class="conteudo__principal_texto">
+
+            </div>
+            <div class="conteudo__principal_imagem">
+
+            </div>
+        </section>
+        <section class="sobre-autor">
+            <div class="sobre-autor__container">
+                <div class="sobre-autor__imagem">
+
+                </div>
+                <div class="sobre-autor__texto">
+
+                </div>
+                <div class="sobre-autor__link">
+                    <button>
+                        <a class="sobre-autor__button" href=""></a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__principal">
+            <ul class="rodape__principal_links">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="http://www.reprograma.com.br/" target="_blank">CONHEÇA A {REPROGRAMA}</a>
+                </li>
+            </ul>
+            <div class="rodape__principal_logo">
+                <img class="img-responsive" src="../img/logo-white.png" alt="logo M de Maravilhosa">
+            </div>
+            <div class="rodape__principal_rede-social">
+                    <a href="https://www.facebook.com/ReprogramaBr/" target="_blank">
+                        <img src="../img/icon-facebook.png" alt="Icone do facebook Reprograma">
+                        <span>/br.mdemaravilhosa</span>
+                    </a>
+            </div>
+        </div>
+        <div class="rodape__secundario">
+            <p>Creative Commons 2018 | Feito com amor por Reprograma</p>
         </div>
     </footer>
 </body>
