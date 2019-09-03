@@ -10,7 +10,6 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     margin: 0;
 }
-
 a {
     text-decoration: none;
     color: inherit;
@@ -22,6 +21,10 @@ ul {
 
 li {
     list-style: none;
+}
+p {
+    color: #674582
+
 }
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
@@ -35,43 +38,6 @@ li {
     width: 100%;
     max-width: 960px;
 }
-
-/* --- BOTAO --- */
-
-.btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
-}
-
-.btn_roxo {
-    color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
-    background-color: rgb(192, 156, 188);
-}
-
-.btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
-}
-
-.btn_center {
-    margin: 0 auto;
-}
-
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
@@ -143,12 +109,11 @@ li {
     margin: 0 1rem;
 }
 
-
 /* --- HEADER --- */
 .header {
     min-height: 80vh;
     height: 500px;
-    background: url(../img/bg-banner-claro.png) center no-repeat;
+    background: url(../img/bg-banner-claro.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -162,51 +127,159 @@ li {
     font-size: 2.5rem;
     font-weight: 900;
 }
+/* --- SECTION CONTEÚDO ---*/
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
+
+.conteudo .container {
+    min-height: 80vh;
+    height: 500px;
+    background-color: white;
+    display:flex;
+    align-content: center;
+    
 }
 
-/* --- SECTION MARAVILHOSAS --- */
-.maravilhosas__titulo {
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    color: #63458a;
-    font-size: 2rem;
+.container {
+    padding: 20px;
+}
+
+.nina-silva__titulo {
+    color: #674582;
+    display: flex;
+    align-items: flex-end;
     text-align: center;
+
 }
 
-.maravilhosas__box {
+
+.nina-silva__quote {
+    border: #674582 1px solid;
+    border-radius: 2px;
+    margin: 0 35px;
+    padding: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+
+
+.nina-silva__perfil {
+    max-width: 220px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
-    color: #63458a;
+    
+    
 }
 
-.maravilhosas__perfil {
-    max-width: 220px;
-    margin: 2rem;
-}
-
-.maravilhosas__perfil img {
+.nina-silva__perfil img {
     background-color: #63458a;
     border-radius: 10px;
 }
 
-.maravilhosas__perfil a img {
-    transition: all .5s;
-}
 
 
-.maravilhosas__perfil a:hover {
-    text-decoration: underline;
-}
 
-.maravilhosas__perfil a:hover img {
-    box-shadow: 0 3px 10px rgba(0,0,0,.2);
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --- FOOTER --- */
 .rodape {
@@ -330,14 +403,6 @@ li {
     .principal__btn {
         margin: 0;
     }
-    /* ---- CONTEÚDO ---*/
-    .nina-silva__perfil {
-        display: flex;
-    }
-
-
-
-
 
     /* --- FOOTER --- */
     .rodape {
@@ -375,5 +440,11 @@ li {
     .principal {
         max-width: 650px;
     }
+    /* ---- CONTEÚDO ---*/
+    .nina-silva__perfil {
+        display: flex;
+    }
+
+    
     
 }
