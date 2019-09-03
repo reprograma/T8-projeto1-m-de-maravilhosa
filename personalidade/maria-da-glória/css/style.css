@@ -85,8 +85,8 @@ header  {
 }
 
 .container-header{    
-    /* min-height: 80vh; */
-    /* height: 140px; */
+    min-height: 80vh;
+    height: 140px;
 }
 
 .title-maravilhosa{
