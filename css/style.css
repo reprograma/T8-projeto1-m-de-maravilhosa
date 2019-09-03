@@ -77,9 +77,6 @@ li {
     background-color: #674582;
     color: white;
     text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
     position: fixed;
     width: 100%;
 }
@@ -96,7 +93,7 @@ li {
 
 .navegacao__itens {
     position: absolute;
-    right: -700px;
+    right: 150px;
     top: 85px;
     width: 100%;
     background-color: #674582;
