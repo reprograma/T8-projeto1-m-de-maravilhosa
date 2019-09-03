@@ -50,12 +50,14 @@ body {
 }
 
 .primeiro_texto>p {
+    text-align: justify;
     margin: 0 20px 30px;
     color: #674582;
     font-size: 15px;
 }
 
 .citacao {
+    text-align: justify;
     margin: 0 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -70,6 +72,7 @@ body {
     margin: 0 20px 30px;
     color: #674582;
     font-size: 15px;
+    text-align: justify;
 }
 
 .segundo_texto>img {
@@ -98,8 +101,13 @@ body {
 button {
     margin-left: 113px;
     padding-bottom: 10px;
-    border-bottom-color: #C083B9;
-    border-radius: 5PX;
+    background-color: #C083B9;
+    border-radius: 5px;
+    color: #674582;
+}
+
+a {
+    text-decoration: none;
 }
 
 
