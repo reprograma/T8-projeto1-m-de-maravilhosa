@@ -24,6 +24,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 15px;
+    position: fixed;
 }
 
 .nav-bar__mobile-logo {
@@ -36,6 +37,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding: 15px 10px;
+    position: fixed;
 }
 
 .nav-bar__desktop-logo {
@@ -73,9 +75,9 @@ body {
 
 .img-header {
   width: 100%;
-  height: 500px;
+  height: 520px;
   background-image: url(../img/rupi-kaur-bg.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,7 +117,7 @@ p {
 
 .abertura__titulo > h2 {
   text-align: center;
-  margin: 70px 0 40px 0;
+  margin: 60px 0 40px 0;
 }
 
 .intro {
