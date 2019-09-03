@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%
+}
+
+.topo{
+    display: flex;
+    background-color: #674582;
+    background-size:100vw;
+    padding-bottom: 15px;
+}
+
+.cabecalho__logo{
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+
+
+.menu__hamburguer{
+    display: inline;
+}
+
+.hamburger-icone{
+    margin: 10px 40px;
+    padding-right: 10px;
+}
+
+
+
+.logo-responsivo{
+    width: 200px;
+}
+
+
+.menu__items {
+    display: none;
+}
+
+.menu__redes-sociais{
+    display: none;
+}
+
+.background{
+    background-image: url("../img/gabriela.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 407px;
+    padding-left: 50px;
+  
+    
+}
+
+.titulo_nome{
+    color: #ffffff;
+   padding: 250px 28px;
+   margin-left: -5px;
+  
+}
+
+.titulo_nome h1{
+    text-shadow: 2px 4px 4px #000000;
+    line-height:1.0;
+}
+
+.container{
+    color: #674582;
+    margin: 15px ;
+    
+
+}
+
+
+
+.titulo h1{
+font-weight: bold;
+font-size: 16px;
+}
+
+.imagem__perfil{
+    margin: 20px 30px;
+}
+
+.perfil{
+    width: 190px;
+    height: 130px;
+    margin-top: 15px;
+   margin-left: 6px;
+}
+
+.texto-conteudo{
+    text-align: left;
+    margin-left:2px;
+    margin-right: 8px;
+
+
+}
+
+.paragrafo span{
+    font-weight: bold;
+}
+
+.bloco-citacao{
+    border: 1px solid #674582;
+    width: 250px;
+    margin: 30px 0px;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.frase1, .frase2{
+   
+  font-weight: bold;  
+    
+}
+
+.bloco-historia{
+    text-align: left;
+    margin-left:2px;
+    margin-right: 10px;
+
+}
+
+.historia_primeira-parte{
+margin-top: 80px;
+}
+
+.historia_primeira-parte h1{
+ font-size: 18px;
+}
+
+.sobre-aserie{
+    margin-left: 2px;
+}
+
+.imagem__esconderijo{
+    width: 280px;
+    margin-left: -5px;
+}
+
+.texto-sobre p{
+   margin-left: -4px;
+}
+
+.texto-sobre h2{
+    margin-left: -2px;
+}
+
+.texto-sobre a{
+    color: #674582;
+    
+}
+
+.bloco-autoras{
+    
+    background-color: #c083b9;
+   
+}
+
+.foto-autora{
+
+}
+
+.imagem-keka{
+  width: 150px;
+  margin-left: 70px;
+  padding-top: 20px;
+  padding-left: 30px;
+  
+}
+
+
+.descricao{
+color: #674582;
+padding-left: 30px;
+}
+.item__lista{
+    list-style: none;
+}
+
+.item__lista a{
+ font-style: italic;
+}
