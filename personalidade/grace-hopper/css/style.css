@@ -13,7 +13,7 @@ body {
     background-color: #674582;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -71,10 +71,14 @@ section {
 }
 
 .texto {
-    padding: 5% 5%;
+    padding: 3% 3% 3% 3% ;
     text-align: center;
 }
 
+.texto h3 {
+    text-align: left;
+    padding-bottom: 3%;
+}
 .citacao {
     margin: 5% 5%;
     border-style: solid;
@@ -101,9 +105,59 @@ section {
 }
 
 .autora {
-    background-color: 
+    width: 100%;
+    background-color: rgba(103, 69, 130,0.56);
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
 
 }
+
+.autora-foto {
+    width: 30%;
+    height: 100%;
+}
+
+.autora-texto {
+    width: 65%;
+    height: 100%;
+}
+
+.ver-todas-elas {
+    width: 100%;
+
+}
+
+.ver-todas-elas-btn {
+    width: 40%;
+    background-color: rgba(103, 69, 130,0.56);
+    color: aliceblue;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
 
 @media (max-width: 425px){
     .menu-redes-sociais {
