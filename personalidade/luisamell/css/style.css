@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+       /*     Menu   */
+
+.menu{
+background-color: #674582;
+width: 126vw;
+height: 16vh
+}
+
+.menu_mdemaravilhosa{    
+width: 240px;
+height: 60px;
+top: 15px;
+}
+
+
+
+.menu_nave{
+width: 69px;
+height: 19px;
+
+
+}
+
+.principal{
+width: 125vw;
+height: 41vh;
+background-image: url("../img/luisaMellPrincipal.jpg");
+background-repeat: no-repeat;
+display: flex;
+
+}
+
+.principal_texto{
+    align-self: flex-end;
+    margin: 0% 0% 0% 30%;
+}
+
+
+
+
+/*     MAIN   */
+
+
+
+
+.fotoBafao_img{
+    width: 21vw;
+    height: 16vh;
+    border-radius: 10%;
+
+}
+
+.fotosub_img{
+    width: 100vw;
+    height: 100vh;
+}
+
+.autora_img{
+    width: 100vw;
+    height: 100vh;
+}
