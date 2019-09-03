@@ -8,4 +8,154 @@ body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
+
+
+/* ========== NAV ================ */
+
+nav{
+    
+    background-color: #674582;
+    background-size: 100vw;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    
+    
+}
+
+.container__navegacao, .container__redes-sociais{
+    display: none;
+    
+}
+
+.menu__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px; 
+
+}
+
+.container__menu-hamburger{
+    height: 21px;
+
+}
+
+
+/* ============== HEADER ================ */
+
+header{
+    background-image: url(../imagem/Webp.net-resizeimage-5.jpg);
+    background-size: cover;
+    height: 171px;
+    background-repeat: no-repeat;
+    margin-top: 85px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+
+header >h1 {
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+
+
+
+/* ===========CONTAINER CONTEUDO============= */
+
+.container__conteudo{
+    display: flex;
+    flex-direction: column;
+}
+.container__conteudo > h2{
+    margin: 35px;
+    color: #63458A;
+    font-size: 25px;
+}
+
+.imagem-perfil{
+    width: 200px;
+    height: 200px;
+    background-color: #674582;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pega__bagaca{
+    display: flex;
+    justify-content: center
+}
+
+.imagem-perfil >img{
+    border-radius: 50%;
+    width: 95%;
+    height: 95%;
+}
+
+.container-infos-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mini__bio{
+    margin: 40px 30px 40px 50px;
+}
+
+.container__citacao{
+    width: 350px;
+    height: 190px;
+    border: 1px solid #63458A;
+    margin-bottom: 20px;
+}
+
+.citacao{
+    display: flex;
+    justify-content: center;
+}
+
+.container__citacao > p{
+    margin: 40px 20px;
+}
+
+
+.container
+
+
+/* ============= FOOTER =============== */
+
+.imagem-logo-footer{
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+/* ============ MIDIA QUERY ============== */
+
+@media (min-width: 720px){
+    .container__menu-hamburger:{
+        display: none;
+
+    }
+
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+@media (min-width: 720px)
