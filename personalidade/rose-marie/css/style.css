@@ -1,49 +1,77 @@
 * {
- box-sizing: border-box; 
- margin: 0 auto;  
+    box-sizing: border-box;  
 }
 
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/* ===== MOBILE FIRST =====*/
+
+/* ===== NAVBAR ====*/
 .menu {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #9a43eb;
-    
+    background-color: #674582;  
 }
 
-.logo {
-  size: 5vw;
+.menu__logo {
+    width: 54vw;
+    height: 10vh;
+  
 }
 
-.link {
-    display: inline-block;
+.menu__link {
+    font-size: 10px;
 }
-.link__home {
+.menu__link-home, .menu__link-reprograma {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 15px;
-    
-}
-.link__reprograma {
-   color: #ffffff;
-   text-transform: uppercase;
-   text-decoration: none;
-   margin-left: 15px;
+    margin-left: 15px;
 }
 
-.medias {
-display: inline-block;
+
+.menu__medias, .menu__link {
+    display: none;
 
 }
 
-.header {
-width: 100%;
-
-
+.menu-img{
+    margin: 20px 10px;
 }
+/* ==== HEADER ====*/
 
 .banner {
-    background-image: url(../img/baner.jpg);
+    width: 100vw;
+    height: 48vh;
+    background: url(../img/baner.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+
+    
+.title {
+    margin:10px 0px 2px 7px;
+    padding: 5px;
+   
+    
+    
+  
+}
+
+h1 {
+    font-size: 30px;
+    color:#cebfbf;
+    border: #a79797;
+    text-transform: uppercase;
+    
 
 }
