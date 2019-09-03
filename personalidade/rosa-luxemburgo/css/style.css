@@ -1,143 +1,69 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
-    font-size: 10px; /* definir uma font-size padrão */
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
+    /* font-family:'Roboto', sans-serif; */
+}
+
+.navegacao {
+    background-color: #674582;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links-redes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
-ul {
-    padding: 0;
+.links {
+    width: 200px;
 }
 
-li {
-    list-style: none;
-}
-
-/* define que as imagens tem que ter o tamanho máximo da div mãe */
-.img-responsive {
-    width: 100%;
-}
-
-.container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 960px;
-}
-
-/* --- NAV --- */
-.navegacao {
-    background-color: #674582;
-    color: white;
+.link-texto {
+    font-size: 10px;
+    justify-content: center;
+    text-decoration: none;
     text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
-    position: fixed;
-    width: 100%;
+    color: white;
+    margin: 7px;
 }
 
-.navegacao__logo {
-    max-width: 200px;
+.redes-sociais img {
+    max-width: 18px;
+    max-height: 17px;
+    margin: 5px;
 }
 
-.navegacao__box {
+.personalidade {
+    background-image: url(../img/rosa-luxemburgo-fundo.jpg);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-.navegacao__itens {
-    position: absolute;
-    right: -700px;
-    top: 85px;
+    justify-content: center;
+    align-items: flex-end;
     width: 100%;
-    background-color: #674582;
-    text-align: center;
-    padding: 3rem 0;
-    transition: right 1s;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;  
 }
 
-.navegacao__itens.ativo {
-    display: block;
-    right: 0;
-    top: 85px;
-    width: 100%;
-    background-color: #674582;
-    text-align: center;
-    padding: 3rem 0;
-    transition: right 1s;
+.personalidade h1 {
+    margin-bottom: 20px;
 }
-
-.navegacao__itens li > a {
-    transition: all .2s;
-}
-
-.navegacao__itens li > a:hover {
-    color: #C083B9;
-}
-
-.navegacao__menu-hamburguer img {
-    background-color: #C083B9;
-    border-radius: 5px;
-}
-
-.navegacao__nav {
-    margin-bottom: 3rem;
-    margin-right: 2rem;
-}
-
-.navegacao__nav li {
-    font-size: 1.5rem;
-    margin: 1rem;
-}
-
-.navegacao__redes-sociais a {
-    margin: 0 1rem;
-}
-
-/*** MEDIA QUERIES ***/
-@media (min-width: 768px) {
-    /* --- NAV --- */
-    .navegacao__itens {
-        position: static;
-        display: flex;
-        padding: 0;
-        width: auto;
-    }
-    .navegacao__redes-sociais img {
-        max-height: 30px;
-    }
-
-    .navegacao__nav {
-        margin-bottom: 0;
-    }
-    
-    .navegacao__itens ul {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .navegacao__itens li {
-        font-size: 1.2rem;
-        margin: 0 .6rem;
-    }
-    
-    .navegacao__menu-hamburguer {
-        display: none;
-    }
 
