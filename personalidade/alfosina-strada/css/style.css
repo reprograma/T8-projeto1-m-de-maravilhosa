@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* margin-bottom: 15px; */
+}
+p{
+    margin-left: 15px;
+    line-height: 1.5; 
+} 
+.imagen-propiedades{
+    width: 100%;
+}
+.contenedor-navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #674582;
+}
+.propiedades-logo{
+    display: flex;
+    align-items: center;
+}
+.navegacion-link a {
+    padding: 0px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+header{
+    background: linear-gradient(
+     rgba(103, 69, 130, 0.56),
+     rgba(1, 0, 2, 0.75)), url(../img/alfonsina-strada.jpg);
+    width: 100%;
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    display: flex;
+    align-items: center;
+}
+.container-historia{
+    display: flex;
+    padding: 18px;
+}
+.container-historia img{
+    width: 950px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+}
+.frase{
+    margin-top: 15px;
+    display: flex;
+    border-color: #63458a;
+    border-style: solid;
+    padding: 10px;
+}
+.titulo-cuerpo{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 20px;
+    text-align: center;
+}
+.img-banner img{
+    width: 100%;
+    height: 270px;
+    background-size: cover;
+}
+.autor{
+    display: flex;
+    margin-left:25px; 
+}
+.autor img{
+    width: 140px;
+    margin-left: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+.imagen-footer{
+    max-width: 250px;
+}
+.footer-lista{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #323534;
+}
+.footer-abajo{
+    background-color: #323534;
+}
+
+
