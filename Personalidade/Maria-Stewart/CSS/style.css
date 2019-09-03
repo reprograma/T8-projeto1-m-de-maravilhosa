@@ -134,6 +134,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #C083B9;
+    margin-top: 30px;
 }
 
 .dados-imagem {
@@ -146,7 +147,7 @@ h3 {
     font-size: 10px;
     margin-left: 20px;
     font-weight: 700;
-
+    
 }
 
 /* =====================FOOTER========================= */
@@ -194,24 +195,26 @@ h3 {
 }
 
 .rodape_logo {
-    width: 30%;
+    width: 100px;
 }
 
 .rodape_facebook {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 5px;;
+    padding-right: 5px;
+    
 
 }
 
 .facebook {
     color: #fffcf7;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .img_facebook {
     margin-top: 20px;
+    height: 15px;
  }
 
 .rodape_final {
@@ -221,4 +224,28 @@ h3 {
    text-align: center; 
    padding-bottom: 3px;
    padding-top: 5px;
+}
+
+/* =================MEDIA QUERIES============================= */
+
+@media (min-width: 768px) {
+    .navegacao_mobile {
+        display: none;
+    }
+
+    .navegacao_desktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;            
+    }
+
+
+    .desktop-links {
+        color: #f0f8ff;
+        margin-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
 }
