@@ -72,7 +72,82 @@ h1 {
 
 /*===== CONTAINER =====*/
 .container {
-    margin: auto;
-    width: 100px;
-    height: 100px;
+    display: block;
 }
+
+.content {
+    margin: 20px 0px;
+    
+    
+}
+
+h2 {
+  display: flex;
+    margin: 20px;
+    padding: 0;
+
+}
+
+
+
+.content__sobre {
+    width: 320px;
+    height: 245px;
+    margin: 40px 20px;
+     
+}
+.content__img {
+    width: 111px;
+    height: 110px;
+    margin: 40px 95px;
+    border-radius: 100px;   
+}
+
+p{
+    color: #674582;
+    
+}
+
+.slogan{
+    width: 320px;
+    height: 110px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #674582;
+    border-radius: 20px;
+    margin:80px 20px;
+    padding: 0 16px;
+    text-justify: distribute;
+    font-weight: bold;
+}
+
+.history{
+    width: 340px;
+    height: 40px;
+    display: block;
+    margin:20px 18px;
+
+}
+
+h3{
+    color:#674582;
+    
+}
+
+span{
+    font-weight: bold;
+}
+figure {
+    width: 85vw;
+    color: #674582;
+    font-style: italic;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #674582;
+    margin:auto;
+}
+.figure__banner {
+    width: 84vw;
+    height: 50vh;
+}
+
