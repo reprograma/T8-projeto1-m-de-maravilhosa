@@ -35,6 +35,7 @@ header {
     background-image: url(../img/foto-capa.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     background: linear-gradient(
         rgba(103, 69, 130,0.56),
         rgba (1, 0, 2, 0.75)), url(../img/foto-capa.jpg);
