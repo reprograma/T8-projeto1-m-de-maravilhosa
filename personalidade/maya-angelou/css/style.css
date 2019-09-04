@@ -111,6 +111,7 @@ body{
 
 .conteudo__texto-destaque > p{
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 15px;
     line-height: 1.5;
     font-weight: bold;
@@ -128,16 +129,18 @@ body{
 }
 
 .conteudo-principal > p{
-    font-family: 'Roboto slab', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
     font-size: 15px;
     line-height: 1.4;
     margin: 10px 0;    
+    color: #63458A;
 }
 
 .conteudo-principal > img{
     width: 100%;
+    margin: 25px 0px;
     padding: 10px;
-    border: solid 1px #63458A;    
+    border: solid 1px #63458A;  
 }
 
 /*---- Seção Autora ----*/
@@ -315,6 +318,7 @@ footer{
 
     .conteudo__texto-destaque > p{
         font-size: 18px;
+        text-align: center;
     }
 
     .conteudo__texto > p{
@@ -374,8 +378,21 @@ footer{
     }
 
     .conteudo__texto > p {
-        font-size: 20px;
+        font-size: 16px;
         padding-right: 200px;
+        margin-left: 30px;
+    }
+
+    .conteudo__conteiner .conteudo__imagem {
+        height: 150px;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .conteudo__imagem > img {
+        margin-top: 0;
+        width: 132px;
+        height: auto;
     }
 
     .secao-autora__curriculo > p{
@@ -388,5 +405,21 @@ footer{
 
     .cabecalho > h1{
         font-size: 50px;
+    }
+
+    .conteudo-principal {
+        padding: 10px 180px;
+    }
+
+    .conteudo__conteiner{
+        padding: 10px 130px;
+    }
+
+    .conteudo__texto-destaque {
+        margin: 10px 200px;
+    }
+
+    .conteudo__texto{
+        
     }
 }
