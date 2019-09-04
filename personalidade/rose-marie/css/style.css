@@ -75,6 +75,7 @@ h1 {
     display: block;
 }
 
+/* ==== CONTENT ==== */
 .content {
     margin: 20px 0px;
     
@@ -146,8 +147,24 @@ figure {
     border-color: #674582;
     margin:auto;
 }
+
 .figure__banner {
     width: 84vw;
     height: 50vh;
 }
 
+/* ==== AUTHOR ==== */
+.author {
+    
+    background-color: #674582;
+
+}
+
+.author__img{
+width: 20vw;
+height: 18vh;
+}
+
+.author__informations{
+    color:#a79797;
+}
