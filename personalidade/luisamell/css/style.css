@@ -6,19 +6,22 @@ body{
     margin: 0;
 }
 
-html{
+/* html{
     width: 100vw;
     height: 100vh;
-}
+} */
 
 
 
        /*     Menu   */
 
 .menu{
-background-color: #674582;
-width: 126vw;
-height: 16vh
+    background-color: #674582;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu_mdemaravilhosa{    
@@ -27,17 +30,12 @@ height: 60px;
 top: 15px;
 }
 
-
-
 .menu_nave{
-width: 69px;
-height: 19px;
-
 
 }
 
 .principal{
-width: 125vw;
+width: 100vw;
 height: 41vh;
 background-image: url("../img/luisaMellPrincipal.jpg");
 background-repeat: no-repeat;
@@ -73,21 +71,14 @@ display: flex;
     color: #63458A;   
 }
 
-.fotoBafao{
+
+.bafao{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
-
-
-
-.textoBafao_texto{   
-    font-family: Montserrat;
-    line-height: 19px;
-    color: #63458A;
-    font-size: 15px
-
+.fotoBafao_foto {
+    margin: 0 0 0 10px
 }
 
 
@@ -96,6 +87,21 @@ display: flex;
     height: 16vh;
     border-radius: 10%;
 }
+
+.textoBafao{
+    margin: 0 0 0 10px
+}
+
+
+.textoBafao_texto{   
+    font-family: Montserrat;
+    line-height: 16px;
+    color: #63458A;
+    font-size: 12px
+}
+
+
+
 
 .citacao{
     height: 50%;
@@ -108,9 +114,9 @@ display: flex;
 
 .citacao > p {
     font-family: Montserrat;
-    line-height: 19px;
+    line-height: 18px;
     color: #63458A;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -122,9 +128,9 @@ display: flex;
 
 .historia_texto > p {
     font-family: Montserrat;
-    line-height: 19px;
+    line-height: 18px;
     color: #63458A;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 
@@ -191,42 +197,54 @@ display: flex;
     height: 20vh;
     background: #323534;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     }
 
-.contatos_menu{
-    background-color: green;
+  
 
-
-}    
+.contatos a{
+    color:#F3F3F3;
+    text-transform: uppercase;
+    font-size: 7px
+}
 
  .contatos_logo img{
-     width: 20%;
-     height: 30%;
-     background-color: white;
+    width: 50px; 
+     height: 35px; 
+
  }
  
  .contatos_facebook{
-     background-color: aqua;
+         flex-direction: row;
  }
  
- .contatos_facebook a{
-    width: 20%;
-    height: 30%;
-    background-color: red
-
- }
+ 
 
  .contatos_facebook img{
-    width: 20%;
-    height: 30%;
+    width: 15px;
+    height: 17px
 
  }
 
  .contatos_facebook p{
-    width: 20%;
-    height: 30%;
-    background-color: orangered;
+    color: #F3F3F3; 
+    font-size: 7px;     
+}
+
+
+
+
+ .criado{        
+    height: 5vh;
+    background-color: #292A2A;
+    display: flex;
+ }
+
+ .criado p{
+    color:#F3F3F3;
+    font-size: 8px;
+    margin: 2px 58px;
 
  }
