@@ -155,9 +155,10 @@ p {
 .nina-silva__quote {
     border: #674582 1px solid;
     border-radius: 2px;
-    margin: 0 35px;
+    margin: 20px 35px;
     padding: 10px 10px 10px 10px;
     font-size: 12px;
+    width: 70vw;
 }
 
 
@@ -178,15 +179,51 @@ p {
 }
 
 
+.autora-container {
+    width: auto;
+    height: 250px;
+    
+}
+.caixa-lilas {
+    background-color: #C083B9; 
+    width: 100vw;
+    height: 162px;
+    display: flex;
+    
 
+}
 
+.caixa-lilas img {
+    width: auto;
+    height: 100%;
+}
 
+.botao {
+    width: auto;
+    height: 88px;
+    text-align: center;
+  
+}
 
-
-
-
-
-
+.btn {
+    color: white;
+    background-color: #63458a;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 6px;
+}
+.bio {
+    padding: 42px;
+    font-weight: 600;
+}
+.btnResponsivo {
+    width: auto;
+    height: 158px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
