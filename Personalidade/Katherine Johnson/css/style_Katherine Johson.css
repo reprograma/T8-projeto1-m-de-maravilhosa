@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; 
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+}
+
+.navegacao {
+    display: flex;
+    
+    background-color: #674582;
+    
+}
+
+.navegacao__box-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home_redes {
+    display: none;
+}
+
+.navegacao_redes-sociais > a {
+    margin: 5px;
+    list-style-type: none;
+}
+
+
+li {
+    list-style-type: none; 
+    margin: 5px;
+}
+
+.header {
+    width: 100%;
+    height: 60%;
+    
+    background-image: url(../img/katherine-g-johnson-nasa.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.nome_maravilhosa {
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    padding-top: 237px;
+    margin: 0 auto;
+       
+}
+
+.container_history {
+    display: flex;
+    width: 100%;
+}
+
+.titulo_maravilhosa {
+    font-size: 18px;
+    color: #63458A;
+    margin: 0 auto;
+}
+
+.titulo_2 {
+    margin: 0 auto;
+    
+}
+
+.descricao_foto1-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.foto_1 {
+    width: 24%;
+    height: 30%;
+    
+}
+
+.descricao_principal {
+    font-size: 12px;
+    color: #63458A;
+    width: 60%;
+    height: 30%;
+    margin-left: 10px;
+    
+    letter-spacing: 1px;
+}
+
+.frase_mmaravilhosa {
+    border: 1px solid #63458A;
+    width: 95%;
+    height: 14%;
+    margin: 6px 10px;
+    
+}
+
+.texto_frase {
+    color: #63458A;
+    font-family: Montserrat;
+    font-size: 16px;
+    text-align: center;
+    width: 90%;
+    height: 20%;
+    margin-left: 17px;
+    line-height: 20px;
+   
+}
+
+.historia_kJ {
+    width: 100%;
+    
+}
+
+.historia_KJ1 {
+    color: #63458A;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 10px;
+    line-height: 20px;
+}
+
+/* .historia_KJ1 {
+    color: #63458A;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px 10px;
+    line-height: 20px;
+} */
