@@ -6,8 +6,7 @@
 
 body{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 /*---- Navegação ----*/
@@ -39,11 +38,14 @@ body{
 }
 
 /*--- Header ----*/
+
 .cabecalho{
-    background-image: url("../img/maya-angelou-4.jpg");
+    background-image: url(../img/maya-angelou-4.jpg);
     background-repeat: no-repeat;
-    background-size: 65vh;
-    height: 200px;
+    background-size: cover;
+    width: 100vw;
+    background-position: center;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -128,7 +130,8 @@ body{
 .conteudo-principal > p{
     font-family: 'Roboto slab', sans-serif;
     font-size: 15px;
-    line-height: 1.4;    
+    line-height: 1.4;
+    margin: 10px 0;    
 }
 
 .conteudo-principal > img{
@@ -172,7 +175,7 @@ body{
     font-weight: bold;
 }
 
-/*---- Footer ----*/
+/*---- Botão ----*/
 
 .btn{
     height: 100px;
@@ -194,9 +197,65 @@ body{
 
 /*---- Footer ----*/
 
-footer{
-    display: flex;
+footer{ 
     background-color: #323534;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteiner__footer{
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__navegacao{
+    margin-bottom: 6px;
+}
+
+.footer__navegacao > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer__logo > img{
+    width: 200px;
+    margin-top: 16px;
+}
+
+.footer__midias-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__midias-sociais > img{
+    width: 15px;
+}
+
+.footer__midias-sociais > p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.footer__direitos-autorais{
+    background-color: #292A2A;
+    text-align: center;
+    height: 25px;
+    padding: 6px;
+}
+
+.footer__direitos-autorais > p{
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
 }
 
 /*---- Medias ----*/
@@ -209,4 +268,73 @@ footer{
     .navegacao__midias-sociais > a > img {
         display: none;
     }
+}
+
+@media (min-width: 768px){ 
+    .navegacao__menu-hamburguer{
+        display: none;
+    }
+
+    .navegacao{
+        padding: 10px 50px;
+    }
+
+    .navegacao__links{
+        margin-right: 20px;
+    }
+
+    .navegacao__links > a{
+        display: inline-block;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .navegacao__midias-sociais > a > img {
+        display: inline-block;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .conteudo-principal{
+        padding: 10px 50px;
+    }
+
+    .conteudo__conteiner{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 40px 70px;
+        align-items: center;
+    }
+
+    .conteudo__texto-destaque{
+        margin: 10px 67px;
+    }
+
+    .conteudo__texto > p{
+        text-align: initial;        
+    }
+
+    .conteudo__titulo{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .conteudo__imagem > img{
+        margin-top: 0;
+    }
+
+    .conteudo__imagem{
+        margin-right: 20px;
+    }
+
+    .conteiner__navegacao{
+        display: flex;
+        align-items: center;
+    }
+
+    .conteudo__conteiner .conteudo__imagem{
+        height: 150px;
+        width: 150px;
+    }    
 }
