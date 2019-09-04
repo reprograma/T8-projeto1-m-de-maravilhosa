@@ -11,6 +11,10 @@ body {
     width: 100vw;
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /* ========== NAV ================ */
 
@@ -47,7 +51,7 @@ nav{
 /* ============== HEADER ================ */
 
 header{
-    background-image: url(../imagem/Webp.net-resizeimage-5.jpg);
+    background-image: url(../imagem/banner.jpg);
     background-size: cover;
     height: 171px;
     background-repeat: no-repeat;
@@ -67,14 +71,14 @@ header >h1 {
 
 
 
-/* ===========CONTAINER CONTEUDO============= */
+/* =========== SECTION CONTEUDO 1 ============= */
 
 .container__conteudo{
     display: flex;
     flex-direction: column;
 }
 .container__conteudo > h2{
-    margin: 35px;
+    margin:35px 32px 35px 50px;
     color: #63458A;
     font-size: 25px;
 }
@@ -111,7 +115,7 @@ header >h1 {
 }
 
 .container__citacao{
-    width: 350px;
+    width: 300px;
     height: 190px;
     border: 1px solid #63458A;
     margin-bottom: 20px;
@@ -127,25 +131,141 @@ header >h1 {
 }
 
 
-.container
 
 
-/* ============= FOOTER =============== */
+/* ================ SECTION CONTEUDO 2 ================ */
 
-.imagem-logo-footer{
-    width: 150px;
+ .container__texto{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:25px 55px;
+}
+
+.container__texto > p{
+    margin: 40px 0;
 }
 
 
+.container__titulo-hist{
+        color:#63458A;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+ }
+
+.container__imagem-arvore{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px:
+}
+
+.imagem-arvore {
+    width: 70vw;
+}
 
 
+/* ===============  SECTION PERFIL AUTORA ============== */
 
+.container__meu-perfil{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    background-color: #E4B7E5;
+    }
+
+.infos-autora{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    padding: 9px;
+    font-weight: bold;
+    color: #63458A;
+
+}
+
+
+.perfil-raissa{
+    width: 150px;
+    margin-left: 20px;
+}
+
+/* ==============  BOTÃO ================ */
+
+.container__botao-acesso-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+
+}
+
+.botao{
+    width:170px;
+    height: 30px;
+    background-color: #C083B9;
+    border-radius:5%;
+    padding: 5px 10px;
+
+}
+
+.botao > a{
+    color: #ffffff;
+    text-decoration: none;
+    margin:5px 15px;
+}
+
+/* ============= FOOTER =============== */
+
+footer{
+    background: #323534;
+    height: 250px;
+}
+.logo-footer{
+    width: 100px;
+}
+
+.imagem-logo-footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.rodape__menor{
+    height: 59px;
+    background: #292A2A;
+}
+
+.links >li{
+    list-style: none;
+
+}
+
+.links >li >a{
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.link-face-maravilhosas{
+    display: flex;
+    justify-content: center;
+}
+
+.link-face-maravilhosas >span{
+    text-align: center;
+}
+
+/* ..container-rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
 
 
 
 /* ============ MIDIA QUERY ============== */
 
-@media (min-width: 720px){
+@media (min-width: 768px){
     .container__menu-hamburger:{
         display: none;
 
@@ -156,6 +276,10 @@ header >h1 {
         justify-content: center;
     }
     
+    header{
+        height: 255px;
+    }
 }
 
-@media (min-width: 720px)
+height: 340px;
+width: 450px;
