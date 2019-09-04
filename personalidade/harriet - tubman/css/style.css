@@ -1,51 +1,45 @@
 body{
-    background-color: white;
+    background-color:#E5E5E5;
 }
 
-.navegacao {
+header{
+    background-image: url(../img/harriet_tubman.jpg);
+    width: 100vw;
+    height: 300px;
+    background-size: cover;
+    background: linear-gradient hsla(290,100%,20%,0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.informacao{
     background-color: #674582;
-    color: white;
-    text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
-    position: fixed;
-    width: 100%;
+    width: 100vw;
+    height: 15vh;
 }
 
-.navegacao__logo {
-    max-width: 200px;
+.logo{
+    width: 40%;
+    padding: 10px; 
 }
 
-.navegacao__itens {
-    position: absolute;
-    right: -700px;
-    top: 85px;
-    width: 100%;
-    background-color: #674582;
-    text-align: center;
-    padding: 3rem 0;
-    transition: right 1s;
-}
+.amburg{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding: 10px;
+   }
 
-.navegacao__menu-hamburguer img {
-    background-color: #C083B9;
-    border-radius: 5px;
-}
+   h1{
+       color: white;
+       align-self: flex-end;
+   }
 
-.navegacao__nav {
-    margin-bottom: 3rem;
-    margin-right: 2rem;
-}
-
-.navegacao__nav li {
-    font-size: 1.5rem;
-    margin: 1rem;
-}
-
-.navegacao__redes-sociais a {
-    margin: 0 1rem;
-}
-
+   .titulo{
+       width: 100%;
+       height: 200%;
+       padding: 10%;
+       align-self: center;
+   }
 
 
