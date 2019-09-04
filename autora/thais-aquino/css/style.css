@@ -94,6 +94,10 @@ body{
     font-weight: bold;
 }
 
+.secao__autor-links{
+    margin-top: 20px;
+}
+
 .secao__autor-links > a{
     text-decoration: none;
     font-weight: bold;
