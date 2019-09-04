@@ -162,15 +162,13 @@ h3 {
 }
 
 .rodape {
-    display: flex;
     background-color: #323534;
-    justify-content: space-evenly;
-    padding-bottom: 15px;   
-}
+    padding: 30px;  
+    }
 
 .rodape_links {
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 30px;
     display: flex;
     flex-direction: column;   
     justify-content: center;
@@ -183,10 +181,11 @@ h3 {
 }
 
 .rodape_logo {
-    width: 100px;
+    width: 150px;
+    margin-top: 20px;
 }
 
-.rodape_facebook {
+.rodape_img-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -195,11 +194,13 @@ h3 {
 
 .facebook {
     color: #fffcf7;
-    font-size: 8px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .img_facebook {
-    margin-top: 20px;
     height: 15px;
 }
 
@@ -273,6 +274,42 @@ h3 {
     .historia_texto {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    .rodape {
+        display: flex;
+        background-color: #323534;
+        justify-content: space-evenly;
+        padding-bottom: 15px; 
+    }
+    .rodape_links {
+        font-size: 10px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: center; 
+    }
+       
+    .rodape_logo {
+        width: 100px;
+    }
+    
+    .rodape_img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 5px;  
+    }
+    
+    .facebook {
+        color: #fffcf7;
+        font-size: 8px;
+    }
+    
+    .img_facebook {
+        margin-top: 20px;
+        height: 15px;
     }
 }
 
