@@ -72,16 +72,15 @@ background-color: #674582;
     /* ======HEADER====== */
 
 header  {
-    /* min-height: 80vh; */
-    height: 140px;
+ 
+    height: 180px;
     background-image: url("../img/img1-maravilhosa.jpg");
     background-color: darkviolet;
     background-size: cover;
     display: flex;
-    /* align-items: flex-end; */
-    justify-content: center;
-    align-items: flex-end
-    
+      justify-content: center;
+   
+       
 }
 
 .container-header{    
@@ -97,18 +96,34 @@ header  {
     justify-content: center;
     text-transform: uppercase;
 }
-.resume{
-    display: flex;
+
+.container-content{
+display: flex;
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
 }
+
+.resume{
+   
+display: flex
+    
+}
+
 .resume img{
+
     max-width: 160px;
     justify-content: start;
+    border-radius: 40%;
 
     
 }
 .resume p{
 justify-content: center;
 }
+
+
+
 
     /* ======MEDIA QUERY====== */
 
