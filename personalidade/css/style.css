@@ -5,6 +5,9 @@
 html {
     margin: 0 auto;
     font-size: 12px;
+    width: 100%;
+    height: 100%;
+    
 }
 
 body {
@@ -37,8 +40,7 @@ li {
     color: white;
     text-transform: uppercase;
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
+    
     position: fixed;
     top: 0;
     width: 100%;
@@ -50,18 +52,18 @@ li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 20px;
 }
 .navbar__itens{
-    position: absolute;
-    right: -700px;
-    top: 85px;
+    display: flex;
+    justify-content: flex-start;
     width: 100%;
     background-color: #674582;
-    text-align: center;
-    padding: 3rem 0;
-    transition: right 1s;
 }
-.navbar__itens.ativo{
+.navbar__itens > ul{
+    display: inline;
+}
+/* .navbar__itens.ativo{
     display: block;
     right: 0;
     top: 85px;
@@ -70,20 +72,20 @@ li {
     text-align: center;
     padding: 3rem 0;
     transition: right 1s;
-}
-.navbar__itens li > a {
+} */
+/* .navbar__itens li > a {
     transition: all .2s;
 }
 .navbar__itens li > a:hover{
     color: #C083B9;
-}
+} */
 .navbar__menu-hamburguer{
     background-color: #C083B9;
     border-radius: 5px;
 }
 .navbar__navegacao{
-    margin-bottom: 3rem;
-    margin-right: 2rem;
+    margin-bottom: 20px;
+    margin-right: 15px;
 }
 .navbar__nav li{
     font-size: 1.5rem;
@@ -109,6 +111,38 @@ li {
     text-transform: uppercase;
     font-size: 2.5rem;
     font-weight: 900;
+}
+/* ===SECTION APRESENTAÇÃO=== */
+.conteudo__introducao > h2{
+    text-align: center;
+}
+.conteudo__introducao_resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #63458a;
+}
+.conteudo__introducao_imagem {
+   width: 50%;
+
+}
+.conteudo__introducao_texto{
+    width: 50%;
+}
+/* ===SECTION FRASE=== */
+.conteudo__frase{
+    margin-left: 10%;
+    width: 80%
+}
+.conteudo__frase_citacao{
+    border: 2px solid #674582;
+    padding: 5%;
+    font-style: italic;
+}
+.conteudo__introducao_imagem > img{
+    border-radius: 50%;
+    padding: 10%;
 }
 
 
