@@ -9,6 +9,10 @@ body{
     margin: 0;
 }
 a{
+    padding: 0px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: uppercase;
     text-decoration: none;
 }
 ul{
@@ -42,7 +46,7 @@ p{
     display: flex;
     align-items: center;
 }
-.navegacion-link a {
+.navegacion-link{
     padding: 0px;
     list-style: none;
     color: #ffffff;
@@ -60,62 +64,123 @@ header{
     display: flex;
     align-items: center;
 }
-.container-historia{
-    display: flex;
-    padding: 18px;
-}
-.container-historia img{
-    width: 950px;
-    margin-left: 20px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
-}
-.frase{
-    margin-top: 15px;
-    display: flex;
-    border-color: #63458a;
-    border-style: solid;
-    padding: 10px;
-}
-.titulo-cuerpo{
+.titulo-maravillosa{
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     color: #63458a;
     font-size: 20px;
     text-align: center;
 }
-.img-banner img{
+.contenedor-historia_maravillosa{
     width: 100%;
-    height: 270px;
-    background-size: cover;
-}
-.autor{
     display: flex;
-    margin-left:25px; 
-}
-.autor img{
-    width: 140px;
-    margin-left: 30px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.3);
-}
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 5px;
-}
-.imagen-footer{
-    max-width: 250px;
-}
-.footer-lista{
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    background-color: #323534;
-}
-.footer-abajo{
-    background-color: #323534;
+    padding: 10px;
+    background-color: #d3add0; 
 }
 
+.img-pequena img{
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.historia-pequena{
+    margin-right: 15px;
+
+}
+.frase{
+    padding: 30px;
+}
+.contenedor-frase{
+    display: flex;
+    border-color: #63458a;
+    border-style: solid;
+    justify-content: center;
+}
+.img-banner{
+    background: linear-gradient(
+     rgba(103, 69, 130, 0.56),
+     rgba(1, 0, 2, 0.75)), url(../img/alfonsina-banner.jpg);
+    width: 100%;
+    height: 197px;
+    background-size: cover;   
+}
+.contenedor-autora_maravillosa{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #674582; 
+}
+.contenedor-volver_home{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+} 
+.contenedor-volver_home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.boton-volver_home{
+    width: 100%;
+    margin:auto 0;
+    background-color: #d3add0;
+    color: #ffffff;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+}
+
+.footer-1{
+    display: block;
+    width: 100%;
+    background-color: #323534;
+    margin: 0 auto;    
+    padding: 2px;
+}
+.footer-lista, .facebook-footer, .propiedades-logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;    
+}
+.imagen-footer{
+    max-width: 100px;
+}
+.logo-facebook{
+    width: 12px;
+}
+.span{
+    font-size: 10px;
+}
+.footer-2{
+    display: flex;
+    background-color: #292A2A;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #e7e5e5;
+    font-size: 10px;
+}
+
+/* footer responsivo 768 */
+
+@media (min-width: 768px){
+    .footer-1{
+        display: flex;
+        width: 100%;
+        height: 30%;
+        padding: 2%;
+        margin: 0 auto;
+    }
+    .span{
+        font-size: 12px;
+    }
+}
 
