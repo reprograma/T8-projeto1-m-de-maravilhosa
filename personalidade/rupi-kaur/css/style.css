@@ -13,6 +13,8 @@ body {
   overflow-x: hidden;
 }
 
+/* ===== NAV BAR ===== */
+
 #nav-bar__mobile {
     display: none;
 }
@@ -27,7 +29,7 @@ body {
     position: fixed;
 }
 
-.nav-bar__mobile-logo {
+.nav-bar__logo {
     width: 80%;
 }
 
@@ -40,8 +42,8 @@ body {
     position: fixed;
 }
 
-.nav-bar__desktop-logo {
-    width: 80%;
+.nav-bar__desktop-menu {
+  margin-left: 100px;
 }
 
 .nav-bar__desktop-lista {
@@ -73,7 +75,9 @@ body {
     padding-right: 15px;
 }
 
-.img-header {
+/* ===== HEADER ===== */
+
+header {
   width: 100%;
   height: 520px;
   background-image: url(../img/rupi-kaur-bg.jpg);
@@ -92,6 +96,18 @@ h1 {
   margin: 0 auto;
 }
 
+.titulo-header__conteudo {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+/* ===== SEÇÃO ABERTURA ===== */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h2 {
   color: #674582;
   font-size: 20px;
@@ -105,14 +121,9 @@ p {
   line-height: 1.5;
 }
 
-.titulo-header__conteudo {
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
-}
-
 .abertura,
 .historia {
-  width: 70%;
-  margin: 0 auto;
+  width: 68%;
 }
 
 .abertura__titulo > h2 {
@@ -122,11 +133,17 @@ p {
 
 .intro {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-.intro__p {
-  width: 580px;
+.intro__img-perfil {
+  width: 230px;
+  display: flex;
+  align-self: center;
+}
+
+.intro__texto {
+  width: 65%;
   height: 100%;
   display: flex;
   align-self: center;
@@ -136,15 +153,10 @@ span {
   font-style: italic;
 }
 
-.img-perfil {
-  width: 230px;
-  display: flex;
-  align-self: center;
-}
-
 .quote {
   border: 1px solid #674582;
-  margin: 60px 0 60px 0;
+  margin: 60px 0 30px 0;
+  padding: 10px;
 }
 
 .quote > p {
@@ -153,18 +165,25 @@ span {
   text-align: center;
 }
 
+/* ===== SEÇÃO HISTÓRIA ===== */
+
 .historia__titulo > h2 {
   margin: 70px 0 40px 0;
 }
 
 .historia__img {
-  width: 950px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
+/* ===== SEÇÃO AUTORA ===== */
 
 .autora {
   margin-top: 100px;
   background-color: #e4b7e5;
   padding: 0 30%;
+  width: 100%;
 }
 
 .autora__conteudo {
@@ -184,13 +203,16 @@ span {
     color: #674582;
     font-size: 17px;
     line-height: 1.5;
-    list-style: none;
+    list-style-type: none;
 }
+
+/* ===== SEÇÃO CTA ===== */
 
 .cta__botao {
     display: flex;
     justify-content: center;
     padding: 40px 0;
+    width: 100%;
 }
 
 .cta__botao-info {
@@ -201,8 +223,16 @@ span {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
     border-radius: 5px;
 }
+
+.cta__botao-info:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+}
+
+/* ===== FOOTER ===== */
 
 footer {
     margin: 0 auto;
@@ -235,44 +265,143 @@ footer {
     color: #C083B9;
 }
 
-.footer__logo > img {
+.footer__principal-logo > img {
     width: 80%;
 }
 
-.footer__fb {
+.footer__principal-fb {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.footer__fb > a {
+.footer__principal-fb > a {
     text-decoration: none;
     font-size: 15px;
     color: #ffffff;   
 }
 
-.footer__fb > a:hover {
+.footer__principal-fb > a:hover {
     color: #C083B9;
 }
 
-.footer__fb-img {
+.footer__principal-fb-img {
     width: 15px;
     padding-right: 5px;
 }
 
+.footer__rodape {
+  background-color: #292A2A;
+  margin: 0 auto;
+  padding: 1px 0;
+}
+
 .footer__rodape > p {
-    background-color: #292A2A;
-    margin: 0 auto;
-    font-size: 10px;
-    color: #ffffff;
-    text-align: center;
-    padding: 5px 0 ;
+font-size: 10px;
+color: #ffffff;
+text-align: center;
+opacity: 0.5;
 }
 
 /* ===== MEDIA QUERIES ===== */
 
+@media (max-width: 1100px) {
+  .intro__texto {
+    width: 60%;
+  }
+}
 
+@media (max-width: 960px){
+  #nav-bar__mobile {
+    display: flex;
+  }
 
+  #nav-bar__desktop {
+    display: none;
+  }
+
+  .abertura, .historia {
+    width: 90%;
+  }
+
+  .intro {
+    display: block;
+  }
+
+  .intro__img-perfil {
+    margin: 0 auto;
+  }
+
+  .intro__texto {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .quote {
+    margin: 10px 0 20px 0;
+  }
+
+  .quote > p {
+    font-size: 17px;
+  }
+
+  .autora {
+    padding: 20px 0 0 0;
+  }
+
+  .autora__conteudo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .autora__img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .autora__perfil {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .autora__perfil-lista {
+    padding: 10px 0 10px 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__principal {
+    display: block;
+  }
+
+  .footer__principal-lista {
+    padding: 0 0 30px 0;
+    margin: 0;
+  }
+
+  .footer__principal-item > a {
+    font-size: 12px;
+  }
+
+  .footer__principal-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__principal-logo > img {
+    width: 200px;
+  }
+
+  .footer__principal-fb {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
 
 
 
