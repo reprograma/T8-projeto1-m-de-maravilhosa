@@ -3,7 +3,11 @@
 }
 
 html {
+<<<<<<< Updated upstream
     font-size: 10px;
+=======
+    font-size: 9px;
+>>>>>>> Stashed changes
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -12,6 +16,7 @@ body {
 }
 
 .navegacao {
+<<<<<<< Updated upstream
 width: 100%;
 background-color: purple;
 display: block;
@@ -23,6 +28,12 @@ display: block;
 .navegacao__logo {
     display: inline-block;
     font-size: 16px;
+=======
+background-color: purple;
+width: 100%;
+}
+
+>>>>>>> Stashed changes
 }
 .navegacao__itens {
     list-style: none;
@@ -31,24 +42,41 @@ display: block;
 }
 .navegacao__redes-sociais {
     display:none;
+<<<<<<< Updated upstream
+=======
+    
+>>>>>>> Stashed changes
 }
 .navegacao__redes-sociais a {
     margin: 0 1rem;
 }
+<<<<<<< Updated upstream
+=======
+
+}
+>>>>>>> Stashed changes
 .navegacao_logo{
     max-width: 50px;
 }
 .navegacao__box-container{
     display: flex;
+<<<<<<< Updated upstream
 }
  a: {
  text-decoration:none;
         }
+=======
+    align-items: flex-start;
+
+}
+
+>>>>>>> Stashed changes
 ul {
     margin-right: 0;
     padding-left: 0px;
     width: 301px;
     text-align: center;
+<<<<<<< Updated upstream
 }
 
 .img-responsive {
@@ -61,23 +89,189 @@ blockquote {
     margin-left: 50px;
     padding-left: 15px;
     border-left: 3px solid #ccc;
+=======
+    text-decoration: none;
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    
+}
+ul {
+    display: none;
+}
+.img-angela {
+    width: 100%;
+
+}
+
+.img-responsive {
+max-width: 109px;
+}
+
+.img {
+    max-width: 200px;
+    display: inline-block
+}
+blockquote {
+    font: 14px/20px normal helvetica, sans-serif;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 40px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+>>>>>>> Stashed changes
     }
     .angel_davis {
         width: 100%;
     }
+<<<<<<< Updated upstream
 
 
     @media(min-width: 768px){
     .navegacao__menu-hamburguer{
         display: none;
+=======
+    p {
+        font: 14px/22px normal helvetica, sans-serif;
+    }
+.sessao-autora {
+    flex-direction: row;
+
+}
+    .rodape {
+        background-color: #323534;
+        color: white;
+        font-size: .9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    
+    .rodape__principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 2px; 0;
+    }
+    
+    .rodape__principal > * {
+        margin: 1rem 0;
+    }
+    
+    .rodape__navegacao > li {
+        font-size: 1.1rem;
+        margin: 1rem;
+    }
+    
+    .rodape__navegacao a {
+        transition: all .5s;
+    }
+    
+    .rodape__navegacao a:hover {
+        color: #C083B9;
+    }
+    
+    .rodape__logo {
+        max-width: 200px;
+    }
+    
+    .rodape__redes-sociais a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .5s;
+    }
+    
+    .rodape__redes-sociais a:hover {
+        color: #C083B9;
+    }
+    
+    .rodape__redes-sociais img {
+        max-width: 10px;
+        margin-right: .5rem;
+    }
+    
+    .rodape__redes-sociais span {
+        display: flex;
+        font-size: 1.5rem;
+    }
+    
+    .rodape__cc {
+        width: 100%;
+        background-color: #292A2A;
+        font-size: 1rem;
+        opacity: 0.5;
+        text-align: center;
+    }
+
+
+    @media(min-width: 600px){
+    .navegacao__menu-hamburguer{
+        display: none;
+        width: 100%;
+>>>>>>> Stashed changes
 }
 .navegacao__redes-sociais {
     display:flex;
 }
 .navegacao__itens{
     display: flex;
+<<<<<<< Updated upstream
 }
 .navegacao__nav{
     display: flex;
 }
     }
+=======
+}.navegacao {
+    width: 100%;
+    background-color: purple;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    }
+    
+    .navegacao__logo {
+        display: inline-block;
+        font-size: 16px;
+    }
+    .navegacao__itens {
+        list-style: none;
+        position: relative;
+        display:flex;
+    }
+    .navegacao_logo{
+        max-width: 50px;
+    }
+    .navegacao__box-container{
+        display: flex;
+    }
+  ul{
+            display:inline;
+            float:left;
+            list-style:none;
+            text-align:center;
+            margin:0px; 
+            padding:0px; 
+        }
+    
+    .img-responsive {
+        width: 100%;
+    }
+    blockquote {
+        width: 100%;
+    }
+    .rodape {
+        background-color: #323534;
+        color: white;
+        font-size: .9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+}
+    }
+>>>>>>> Stashed changes
