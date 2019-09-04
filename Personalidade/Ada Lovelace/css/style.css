@@ -1,3 +1,43 @@
-.compacto{
-    display: flex;
+* {
+    box-sizing: border-box;
 }
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    margin: 0;
+}
+
+ul, li{
+    text-decoration: none;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+    
+header{
+    background-color: #674582;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.fundo-ada{
+    
+}
+
+
+
+
+    
