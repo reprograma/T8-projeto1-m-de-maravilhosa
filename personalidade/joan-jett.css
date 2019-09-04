@@ -12,6 +12,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    
 }
 
 .navbar{
@@ -20,12 +21,48 @@ nav{
     align-items: center;
 }
 
+.navbar__menu-a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+
+.navbar__menu a{
+    color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+.navbar__menu{
+   width: 50%;
+   display: flex;
+   justify-content: space-evenly;
+}
 .navbar__menu a:hover{
     color: #C083B9;
 }
 
+.navbar__redes-sociais img{
+    width: 30px;
+}
+
+.navbar__redes-sociais{
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
 .navbar img{
     height: 10vh;
+}
+
+.menu{
+    width: 40%;
+    display: flex;
+    justify-content: center;
 }
 
 header{
@@ -41,6 +78,7 @@ header{
 header h1{
     color: #674582;
     margin-bottom: 5px;
+    font-size: 30pt;
 }
 
 article{
@@ -53,6 +91,7 @@ article{
 article h2{
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     text-align: center;
+    font-size: 15pt;
     
 }
 
@@ -81,8 +120,14 @@ article h2{
 .article-box__frase h3{
     text-align: center;
     padding: 5px 10px;
+    font-size: 13pt;
 }
 
+.article-box__frase h5{
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: normal;
+}
 .article__historia img{
     width: 80vw;
     border-radius: 5px;
@@ -110,7 +155,7 @@ article h2{
 
 section{
     width: 100%;
-    height: 40vh;
+    height: 53vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,24 +167,27 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 }
 .section__autora div{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     
 }
 
 .section__autora img{
     width: 35vw;
-    margin-left: 40px;
+    margin-top: 10px;
 }
 
 .section__autora p{
     font-weight: bold;
-    font-size: 10pt;
+    font-size: 9pt;
+    padding: 0 5px;
+    line-height: 18px;
 }
 
 .button{
@@ -156,6 +204,7 @@ section button{
     text-transform: uppercase;
     border-radius: 5px;
     padding: 10px 20px;
+    font-weight: bold;
 }
 
 footer{
@@ -216,18 +265,351 @@ footer{
     justify-content: center;
 }
 
+@media(min-width: 375px){
+    header{
+        height: 45vh;
+    }
+    section{
+        height: 58vh;
+    }
+    .article-box__frase h3{
+        font-size: 14pt;
+        padding: 0px 22px;
+    }
+    .article-box__frase h5{
+        text-align: center;
+        padding: 5px 26px;
+        font-weight: normal;
+    }
 
+    .footer-container__logo img{
+        width: 50vw;
+        
+    }
+}
 
-@media(max-width: 760px){
+@media(min-width: 425px){
+    header{
+        height: 50vh;
+    }
+    header h1{
+        font-size: 33pt;
+    }
+
+    article h2{
+        font-size: 16pt;
+    }
+
+    .section__autora div{
+        width: 100%;
+    }
+    .section__autora p{
+        font-size: 10pt;
+    }
+
+    .footer-container__logo img{
+        width: 45vw;
+        
+    }
+}
+
+@media(max-width: 765px){
     .navbar__menu,
     .navbar__redes-sociais{
         display: none;
     }
+    
 }
 
-@media(min-width: 760px){
+@media(min-width: 768px){
     .menu, 
     .menu-hamburguer{
         display: none;
+    }
+
+    .navbar__menu{
+        width: 50%;
+    }
+
+    .navbar__menu-a{
+        margin-top: 10px;
+        justify-content: flex-end;
+        width: 70%;
+        
+    }
+    header{
+        height: 88vh;
+    }
+
+    header h1{
+        font-size: 55pt;
+    }
+    article h2{
+        font-size: 25pt;
+    }
+    .article-box{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .article-box img{
+        width: 37vw;
+        
+    }
+
+    .article-box__foto{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .article-box__texto{
+        width: 49%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .article-box__texto p{
+        font-size: 13pt;
+        line-height: 22px;
+    }
+
+    .article-box__frase h3{
+        font-size: 16pt;
+        padding: 0px 30px;
+    }
+
+    .article-box__frase h5{
+        text-align: center;
+        padding: 5px 30px;
+        font-weight: normal;
+        font-size: 12pt;
+    }
+    .article__historia h4,
+    .article__historia p {
+        font-size: 13pt;
+        line-height: 25px;
+    }
+
+    section{
+        height: 50vh;
+    }
+
+    .section__autora{
+        height: 26vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .section__autora img{
+        width: 19.3vw;
+        margin-left: 45%;
+        margin-top: 0;
+    }
+
+    .section__autora div{
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .section__autora p{
+        margin-right: 165px;
+        font-size: 13pt;
+        line-height: 20px;
+    }
+
+    section button{
+        padding: 13px 24px;
+        font-size: 12pt;    
+    }
+
+    .button{
+        
+        height: 12vh;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .footer-container__logo img{
+        width: 23vw;
+        
+    }
+
+    .footer-container__face img{
+        width: 2vw;
+        margin-bottom: -7px;
+        margin-right: 5px;
+    }
+
+
+    .footer-container__face a,
+    .footer-container__menu a{
+        font-size: 11pt;
+    }
+
+    .footer-container__credito p {
+        font-size: 9pt;
+    }
+}
+
+@media(min-width: 1024px) {
+    header{
+        height: 111vh;
+    }
+
+    header h1{
+        font-size: 62pt;
+    }
+
+    .article-box img {
+        width: 34vw;
+        margin-left: 25px;
+    }
+
+   
+    .article-box__texto p {
+        font-size: 14pt;
+        line-height: 25px;
+        margin-right: 48px;
+    }
+
+    
+
+    .article-box__frase h3 {
+        font-size: 18pt;
+    }
+
+    .article-box__frase h5 {
+        font-size: 13pt;
+    }
+
+    .article__historia h4, .article__historia p {
+        font-size: 14pt;
+        line-height: 25px;
+    }
+    
+    .section__autora img {
+        width: 14.5vw;
+        margin-left: 57%;
+    }
+
+    .section__autora p {
+        margin-right: 299px;
+    }
+
+    .footer-container__logo img {
+        width: 20vw;
+    }
+    
+    .footer-container__credito p {
+        color: #ffffff;
+        font-size: 9pt;
+    }
+}
+
+@media(min-width: 1440px){
+    header {
+        height: 151vh;
+    }
+    header h1 {
+        font-size: 73pt;
+    }
+    article h2 {
+        font-size: 28pt;
+    }
+
+    .article-box__texto {
+        width: 57%;
+        
+    }
+    .article-box__texto p {
+        font-size: 17pt;
+        line-height: 27px;
+        margin-right: 195px;
+    }
+    .article-box img {
+        width: 24vw;
+        margin-right: 30px
+    }
+    .article-box__foto {
+        justify-content: flex-end;
+    }
+
+    .article__historia h4, .article__historia p {
+        font-size: 14pt;
+        line-height: 27px;
+    }
+
+    .article-box__frase {
+        border: 1px solid #674582;
+        width: 69%;
+    }
+
+    .article__historia div {
+        width: 69%;
+    }
+
+    .article__historia h4, .article__historia p {
+        font-size: 17pt;
+        line-height: 27px;
+    }
+
+    .article__historia img,
+    .article__historia-foto2 {
+        width: 69vw;
+    }
+
+    section {
+        height: 73vh;
+    }
+    .section__autora div{
+        width: 40%;
+    }
+    .section__autora {
+        height: 35vh;
+    }
+    .section__autora img {
+        width: 14vw;
+    }
+
+    .section__autora p{
+        font-size: 15pt;
+       line-height: 22px;
+    }
+
+    .button {
+        height: 16vh;
+    }
+
+    section button {
+        padding: 14px 29px;
+        font-size: 14pt;
+    }
+
+    .footer-container__logo img {
+        width: 15vw;
+    }
+
+    .footer-container__face a, .footer-container__menu a {
+        font-size: 12pt;
+    }
+
+    .footer-container__face img {
+        width: 1.2vw;
+    }
+
+    .footer-container__credito p {
+        color: #ffffff;
+        font-size: 9pt;
     }
 }
