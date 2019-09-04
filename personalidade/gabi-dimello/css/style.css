@@ -121,15 +121,16 @@ font-size: 16px;
 .bloco-citacao{
     border: 1px solid #674582;
     width: 250px;
-    margin: 30px 0px;
-    padding-left: 30px;
+    margin: 30px 20px;
+    padding-left: 40px;
     justify-content: center;
 }
 
 .frase1, .frase2{
    
   font-weight: bold;  
-    
+  padding-right: 50px;
+  text-align: center;
 }
 
 .bloco-historia{
@@ -258,6 +259,7 @@ justify-content: center;
 li{
    
     list-style: none;
+   
   
    }
 
@@ -304,3 +306,241 @@ font-size: 10px;
 text-align: center;
 margin-top: 31px;
 }
+
+
+@media (min-width:375px){
+    .menu__items {
+        display: none;
+    }
+    
+    .menu__redes-sociais{
+        display: none;
+    }
+    
+    .logo-responsivo{
+        width: 250px;
+    }
+
+    .hamburger-icone{
+        height: 30px;
+        padding-left: 68px;
+        margin-bottom: 14px;
+        border-radius: 3px;
+        
+       }
+
+    .titulo_nome{
+        color: #ffffff;
+       padding: 320px 43px;
+       margin-left: -30px;
+      
+    }
+    
+    .titulo_nome h1{
+        text-shadow: 2px 4px 4px #000000;
+        line-height:1.0;
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .titulo h1{
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        }
+
+
+    .imagem__perfil{
+        margin: 20px 60px;
+    }
+
+    .bloco-citacao{
+        border: 1px solid #674582;
+        width: 300px;
+        margin: 30px 30px;
+        padding-left: 60px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .imagem__esconderijo{
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    
+    
+    .perfil__imagem-keka{
+       width: 171px;
+       margin-top: 20px;
+        margin-left: 100px;
+    
+    
+    }
+
+    .lista__perfil{
+        color: #674582;
+       align-items: center;
+       margin-left: 40px;
+    
+    }
+
+
+    .botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #c083b9;
+        margin-top: 30px;
+        margin-bottom: 41px;
+        margin-left:80px;
+        width: 202px;
+        height: 40px;
+        border-radius: 4px;
+        box-shadow: 4px 7px 13px -1px rgba(0,0,0,0.75);
+    }
+    
+
+    li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        
+    }
+
+
+    .logo__responsivo-rodape{
+        width: 200px;
+        margin-left: 75px;
+        margin-top: 21px;
+      
+      }
+
+      .link__facebook-rodape{
+        padding-left: 105px;
+        padding-top: 20px;
+    }
+}
+
+@media (min-width:425px){
+    .menu__items {
+        display: none;
+    }
+    
+    .menu__redes-sociais{
+        display: none;
+    }
+
+    .hamburger-icone{
+        height: 30px;
+        padding-left: 100px;
+        margin-bottom: 14px;
+        border-radius: 3px;
+        
+       }
+
+       .titulo_nome{
+        color: #ffffff;
+       padding: 300px 43px;
+       margin-left: -20px;
+      
+    }
+    
+    .titulo_nome h1{
+        text-shadow: 2px 4px 4px #000000;
+        line-height:1.0;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .titulo h1{
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        }
+
+
+        .imagem__perfil{
+            margin: 20px 90px;
+        }
+
+
+        .bloco-citacao{
+            border: 1px solid #674582;
+            width: 300px;
+            margin: 30px 50px;
+            padding-left: 60px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .imagem__esconderijo{
+            width: 280px;
+            margin-left: 45px;
+        }
+    
+
+        .perfil__imagem-keka{
+            width: 171px;
+            margin-top: 20px;
+             margin-left: 130px;
+         
+         
+         }
+     
+         .lista__perfil{
+             color: #674582;
+            align-items: center;
+            margin-left: 70px;
+         
+         }
+
+         .item__link a{
+            font-style: italic;
+            margin-left: 40px;
+           }
+
+
+         .botao{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c083b9;
+            margin-top: 30px;
+            margin-bottom: 41px;
+            margin-left:120px;
+            width: 202px;
+            height: 40px;
+            border-radius: 4px;
+            box-shadow: 4px 7px 13px -1px rgba(0,0,0,0.75);
+        }
+
+        .logo__responsivo-rodape{
+            width: 200px;
+            margin-left: 110px;
+            margin-top: 21px;
+          
+          }
+    
+          .link__facebook-rodape{
+            padding-left: 135px;
+            padding-top: 20px;
+        }
+
+        @media (min-width:768px) {
+        
+            .menu__hamburguer{
+                display: none;
+            }
+            
+            .hamburger-icone{
+             display: none;
+             
+            }
+
+            
+        }
+
+    }
+
+
