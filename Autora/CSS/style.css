@@ -38,15 +38,15 @@ body {
 /* ==================BANNER=================== */
 
 .banner{
-    background-image: url(../IMG/1832.png);
+    background-image: url(../IMG/banner.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 400px; 
+    height: 200px; 
     display: flex;
     justify-content: center;
     align-items: flex-end;
-     padding-bottom: 20px;
+    padding-bottom: 20px;
      color: #fffcf7;
      text-shadow: black 0.1em 0.1em 0.2em;
      font-size: 20px;
@@ -73,20 +73,6 @@ h2 {
     margin-left: 10px;
     margin-right: 10px;
     text-align: left;
-    color: #63458a;    
-}
-
-.apresentacao_citacao {
-    font-size: 12px;
-    font-style: italic;
-    text-align: center;
-    border-width: thin;
-    border-style: outset;
-    border-color: #63458a;
-    margin: 0 15px;
-    margin: 40px;
-    line-height: 25px;
-    font-weight: bold;
     color: #63458a;    
 }
 
@@ -122,23 +108,14 @@ h3 {
 /* ==================DADOS====================== */
 
 .container_dados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #C083B9;
+   background-color: #C083B9;
     margin-top: 30px;
 }
 
 .dados_imagem {
-    width: 100px;
-    height: 100px;
-}
-
-.dados_texto {
-    color: #674582;
-    font-size: 10px;
-    margin-left: 20px;
-    font-weight: 700;    
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 /* =====================FOOTER========================= */
@@ -221,7 +198,7 @@ h3 {
     }
 
     .banner {
-        height: 600px;
+        height: 300px;
     }
 }
 
@@ -252,7 +229,7 @@ h3 {
 
     .banner {
         font-size: 40px;
-        height: 800px;
+        height: 400px;
     }
 
     h2 {
@@ -325,7 +302,6 @@ h3 {
 @media (min-width: 1440px) {
     .banner {
         font-size: 60px;
-        height: 1000px;
     }
     
     .apresentacao_citacao {
