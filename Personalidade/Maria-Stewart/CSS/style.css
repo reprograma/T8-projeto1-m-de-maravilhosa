@@ -40,7 +40,7 @@ body {
     background-image: url(../IMG/1832.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 100%;
+    width: 100% auto;
     height: 400px; 
     display: flex;
     justify-content: center;
@@ -251,7 +251,7 @@ h3 {
 
     .banner {
         font-size: 40px;
-        height: 800px;
+        
     }
 
     h2 {
@@ -324,7 +324,7 @@ h3 {
 @media (min-width: 1440px) {
     .banner {
         font-size: 60px;
-        height: 1000px;
+       
     }
     
     .apresentacao_citacao {
