@@ -222,24 +222,20 @@ color:#C083B9
 
 .footer__cc{
     width: 100%;
-    background-color: #292a2a;
+    background-color:#2d2f2e;
     /* height: 50px; */
-    opacity: 0.5;
-    font-size: 10px;
+    /* opacity: 0.5; */
+    font-size: 10px;    
+    margin:0;
+    height: 24px;
+    padding-top: 7px;
+}
+.footer__cc p{
+    margin: 0;
     text-align: center;
     color: #ffffff;
+   
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -282,6 +278,32 @@ justify-content: space-between
     justify-content:center;
     display: flex;
 }
+
+
+
+.footer-reprograma { 
+    background-color: #323534;
+    display:flex;
+    height: 267.5px;;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top:0;
+    }
+
+
+    
+
+
+}
+
+
+
+
+
+
 
 
     /* ======CONTAINER====== */
