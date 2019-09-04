@@ -15,7 +15,6 @@ body {
 
 .navegacao {
     display: flex;
-    
     background-color: #674582;
     
 }
@@ -44,12 +43,10 @@ li {
 }
 
 .header {
-    width: 100%;
-    height: 60%;
     
     background-image: url(../img/katherine-g-johnson-nasa.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100vw;;
     width: 100%;
     height: 300px;
     
@@ -101,7 +98,6 @@ li {
     width: 60%;
     height: 30%;
     margin-left: 10px;
-    
     letter-spacing: 1px;
 }
 
@@ -138,10 +134,112 @@ li {
     line-height: 20px;
 }
 
-/* .historia_KJ1 {
+.foto_2 {
+    background-repeat: no-repeat;
+    background-size: 100vw;;
+    width: 84%;
+    height: 232px;
+    margin: 0px 30px;
+}
+
+.historia_KJ2 {
     color: #63458A;
     font-size: 12px;
     text-align: center;
     margin: 10px 10px;
     line-height: 20px;
-} */
+}
+
+.autora img {
+    width: 30%;
+    height: 30%;
+    margin: 2% 5%;
+}
+
+.autora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    background-color: #E4B7E5;
+    width: 100vw;
+    height: 40%;
+}
+
+.autora_text {
+    font-size: 10px;
+    color: #63458A;
+    width: 60%;
+    height: 30%;
+    letter-spacing: 1px;
+}
+.mae_ver-todas-elas {
+    
+    width: 100vw;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.ver-todas-elas {
+    background-color: #C083B9;
+    border: 2px solid #C083B9;
+    border-radius: 5%;
+    font-family: Montserrat;
+    width: 40%;
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    font-size: 13px;
+     
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navegacao__box-container2 {
+    width: 100vw;
+    height: 62px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #323534;
+}
+
+.home_link2 {
+    display: block;
+    width: 100px;
+    font-size: 8px;
+    margin-left: 8px;  
+
+}
+.nav_caixa {
+    display: flex;
+    width: 112px;
+}
+
+.navegacao_logo2 {
+    width: 108px;
+    height: 31px;
+}
+
+.logo_fb2 {
+    width: 9%;
+    height: 15%;
+}
+
+.reprograma {
+    font-size: 8px;
+    text-align: center; 
+    color: #FFFFFF;
+    background-color: #292A2A;
+    margin: 0 auto;
+}
