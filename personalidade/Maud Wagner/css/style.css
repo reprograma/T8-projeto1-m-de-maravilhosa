@@ -128,7 +128,7 @@ body{
 }
 
 .citacao p{
-    font-size: 17px;
+    font-size: 14px;
     font-weight: bolder;
     text-align: center;
     line-height: 20px;
@@ -138,7 +138,7 @@ body{
 
 .historia{
     width: 85%;
-    margin-left: 20px;
+    margin-left: 35px;
 }
 
 .historia > h3{
@@ -148,6 +148,7 @@ body{
 
 .historia__sobre{
     font-size: 13px;
+    margin-bottom: 7px;
 }
 
 .historia__imagens__tattoo{
@@ -230,8 +231,9 @@ body{
 
 /* ==== FOOTER ==== */
 
-.rodape{
+.footer{
     width: 100vw;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-redes{
@@ -244,7 +246,25 @@ body{
     color: #ffffff;
 }
 
-.footer-redes a{
+.footer-redes_responsivo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-a{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.footer-redes .footer-a a{ 
+    font-size: 11px;
     color: #ffffff;
     text-decoration: none;
 }
@@ -255,23 +275,250 @@ body{
 }
 
 .footer__logo{
-    width: 70px;
+    width: 55%;
+    margin-left: 82px;
+    margin-top: 20px;
 }
 
+.footer-icone{
+    width: 55%;
+    margin-top: 18px;
+    margin-left: 3px;
+}
 
+.footer-iconelink{
+    font-size: 14.5px;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
 
+.footer__iconeface{
+    width: 11px;
+    margin-right: 5px;
+}
 
+.footer-creative{
+    width: 100vw;
+    background-color: #292a2ab2;
+    margin-top: 25px;
+}
 
+.footer-creative p{
+    font-size: 10px;
+    text-align: center;
+    opacity: 0.5;
+}
 
+/* ==== MEDIA QUERIES ==== */
 
+@media (min-width: 425px){
+    .citacao{
+        margin-top: 20px;
+    }
 
+    .banner-texto__titulo{
+        margin-right: 80px;
+        margin-bottom: 22px;
+    }
+}
 
-
-
-
-
-@media (min-width:768){
+@media (min-width: 768px){
     .container-nav__menu-hamburguer{
         display: none;
-    }   
+    }  
+    
+    .container-nav__menu, .container-nav__redes-sociais{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+    .container-nav{
+        margin-top: 10px;
+    }
+
+    .container-nav__logo{
+        width: 35vh;
+        margin-top: 9px;
+        margin-left: 15px;
+        margin-right: 8px;
+    }
+
+    .container-nav__menu{
+        width: 70%;
+    }
+
+    .container-nav__menu ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container-nav__menu li{
+        list-style: none;
+    }
+
+    .container-nav__home{
+        margin-right: 13px;
+    }
+
+    .container-nav__site{
+        width: 181px;
+    }
+
+    .container-nav__menu a{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .container-nav__redes-sociais{
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    .container-nav__redes-sociais img{
+        max-width: 30px;
+    }
+
+    .banner{
+        margin-top: 88px;
+        min-height: 80vh;
+        height: 750px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .banner-texto__titulo{
+        text-align: center;
+        margin-top: 50px;
+        margin-right: -250px;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+
+    .apresentacao-titulo{
+        font-size: 26px;
+    }
+
+    .apresentacao-perfil {
+        display: flex;
+        justify-content: center;
+    }
+
+    .perfil__foto{
+        width: 150px;
+        margin-top: 15px;
+        margin-right: 100px;
+    }
+    
+    .perfil__texto{
+        width: 30%;
+    }
+    
+    .perfil__texto p{
+        font-size: 15px;
+    }
+
+    .citacao {
+        width: 70%;
+        margin-bottom: 28px;
+    }
+
+    .citacao p{
+        font-size: 19px;
+    }
+
+    .historia {
+        width: 80%;
+        margin-left: 78px;
+    }
+
+    .historia > h3 {
+        font-size: 20px;
+    }
+
+    .historia__sobre {
+        font-size: 15px;
+    }
+
+    .historia__imagens{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .historia__imagens__tattoo{
+        max-width: 162px;
+        margin-right: 0;
+    }
+    
+    .historia__imagens__familia{
+        max-width: 155px;
+    }
+    
+    .historia__imagens__senhora{
+        max-width: 125px;
+        margin-left: 0;
+    }
+
+    .info-pessoais{
+        width: 100vw;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-pessoais__imagem {
+        width: 154px;
+        height: 137px;
+        margin-left: 40px;
+    }
+
+    .info-pessoais__foto{
+        max-width: 131px;
+    }
+
+    .botao{
+        height: 120px;
+    }
+    
+    .botao__btn-ir-home{
+        width: 28%;
+        height: 38%;
+        font-size: 17px;
+    }
+
+    .footer-redes_responsivo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-redes .footer-a a{
+        font-size: 13px;
+    }
+
+    .footer-a{
+        margin-left: 30px;
+    }
+
+    .footer__logo{
+        margin-left: 100px;
+    }
+
+
+
+
+
+}
+
+@media (min-width:1440){
+    
 }
