@@ -182,32 +182,46 @@ li {
 
 .dilma__box {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
+    flex-direction: column;
+    justify-content: center;
+}   
 .dilma__perfil {
     max-width: 220px;
     margin: 2rem;
     display: flex;
-  
 }
-
-
+.img-fotodilma1{
+    width: 300px;  
+}
+.dilma__apresentacao{
+    width: 300px;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-left: 5%;
+}
 
 .dilma__destaque {
     border: black solid;
-
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content:10px;
+    height:16%;
+    margin-left:30%;
+    margin-right: 30%;
+    margin: 5%;
 }
+
+
 
 .rodape {
     background-color: #323534;
     color: white;
-    font-size: .9rem;
+    font-size: 10pt;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: .8rem;
+    padding-top: 10px;
 }
 
 .rodape__principal {
@@ -216,16 +230,16 @@ li {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 10px;
 }
 
 .rodape__principal > * {
-    margin: 1rem 0;
+    margin: 40px;
 }
 
 .rodape__navegacao > li {
-    font-size: 1.1rem;
-    margin: 1rem;
+    font-size: 15px;
+    margin: 10px;
 }
 
 .rodape__navegacao a {
@@ -253,7 +267,7 @@ li {
 
 .rodape__redes-sociais img {
     max-width: 10px;
-    margin-right: .5rem;
+    margin-right: 15px;
 }
 
 .rodape__redes-sociais span {
@@ -264,7 +278,7 @@ li {
 .rodape__cc {
     width: 100%;
     background-color: #292A2A;
-    font-size: 1rem;
+    font-size: 10pt;
     opacity: 0.5;
     text-align: center;
 }
@@ -274,7 +288,7 @@ li {
     /* --- NAV --- */
     .navegacao__itens {
         position: static;
-        display: flex;
+        display: flex;f
         padding: 0;
         width: auto;
     }
@@ -341,6 +355,27 @@ li {
     .rodape__navegacao > li {
         font-size: 1.5rem;
     }
+  
+    .img-fotodilma1{
+        width: 600px;
+    }
+    .dilma__apresentacao{
+        width: 600px;
+        font-size: 3rem;
+        font-weight: 100;
+        margin-left: 5%;
+    }
+    .dilma__destaque {
+        border: black solid;
+        font-size: 2rem;
+        font-weight: 900;
+        display: flex;
+        justify-content:10px;
+        height:16%;
+        margin-left:30%;
+        margin-right: 30%;
+        margin: 5%;
+    }
 }
 
 
@@ -355,8 +390,14 @@ li {
         font-size: 1.5rem;
         margin: 0 1rem;
     }
-    .principal {
-        max-width: 650px;
+    .principal__titulo {
+        font-size: 7rem;
+
     }
-    
-}
+    .dilma__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+
+ }
