@@ -5,6 +5,7 @@
 body {
     overflow-x: hidden;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li {
@@ -16,7 +17,7 @@ h1 {
     margin-left: 45%;
 }
 
-h2 {
+h3 {
     margin-left: 50%;
 }
 
@@ -73,11 +74,10 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
 
  .navegacao__menu-hamburguer {
-    width: 25px;
-    margin-right: 89px;
     display:none;
 }
 
@@ -113,12 +113,27 @@ div {
 .frase__antonieta {
     border-style: solid;
     border-radius: 10px;
-    height: 100px;
+    height: 109px;
     border-color: gray;
     padding-top: 20px;
 }
 
-@media (max-width: 475px;) {
+@media ( max-width: 768px) {
+    
+    li {
+        width: 15vw;
+        /* margin-left: -42vw;
+        margin-top: 8px; */
+    }
+
+    h1 {
+        margin-left: 19%;
+        color: #000000;
+    }
+
+    h3 {
+        margin-left: 37%;
+    }
     
     .rodape {
         background-color: purple;
@@ -129,29 +144,51 @@ div {
     
     }
     
-    .rodape__flex {
-        display: flex;
-        justify-content: space-around;
-    }
+    /* .rodape__flex {
+        /* display: flex; */
+        /* justify-content: space-around;
+        display: block;
+    } */ 
     
     .rodape__block {
-        margin-left: 35%;
-        padding-bottom: 25px;
+        margin-left: 11%;
+
+    }
+
+    /* .rodape__flex {
+        display: flex;
+        /* justify-content: space-around; */
+        /* height: 76px;
+        align-items: center;
+     }  */
+    
+    
+    .img__logo{
+        height: 25px;
     }
     
-    .rodape img {
-        height: 45px;
-        margin-top: 20px;
+    .rodape > li {
+        /* display: block; */
+        justify-content: center;
+        width: 50vw;
     }
-    
-    .rodape li {
-        padding: 1px;
+
+    span {
+        display: none;
+    }
+
+    .img__fb {
+        display: none;
     }
     
     .navegacao {
         background-color: purple;
         width: 100vw;
     
+    }
+
+    .navegacao__img img {
+        height: 37px;
     }
     
     .navegacao__box  {
@@ -162,23 +199,32 @@ div {
     
      .navegacao__menu-hamburguer {
         width: 25px;
-        margin-right: 89px;
-        display:none;
+        display:flex;
     }
     
     .lista {
         display: flex;
         justify-content: space-around;
-        padding: 33px;
+        margin-left: 66px;
     }
-    
+
+    .reprograma__nav {
+        display: flex;
+    padding-left: 46px;
+    }
+
     .navegacao__itens {
         display: flex;
     
     }
     
+    .navegacao__nav {
+        display: none;
+    }
+
     .navegacao__redes-sociais {
         padding-right: 25px;
+        display: none;
     }
     
     .navegacao__box {
@@ -189,8 +235,6 @@ div {
         width: 30px;
     }
     
-    /* .navegacao__menu-hamburguer */
-    
     .antonieta img {
         width: 100vw;
     }
@@ -198,9 +242,34 @@ div {
     .frase__antonieta {
         border-style: solid;
         border-radius: 10px;
-        height: 100px;
+        height: 163px;
         border-color: gray;
-        padding-top: 20px;
+        padding-top: 1px;
     }
-    
+}
+
+@media (max-width: 475px) {
+    .antonieta img {
+        height: 63vh;
+        width: 100vw;
+    }
+
+.rodape__flex {
+    display: block;
+    height: 76px;
+    font-size: 12px;
+    margin-left: 68px;
+}
+.rodape img {
+    margin-top: -12px;
+}
+
+}
+
+@media (width: 728px) {
+    .antonieta img {
+    height: 83vh;
+    width: 100vw;
+}
+
 }
