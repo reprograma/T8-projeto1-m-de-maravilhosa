@@ -213,8 +213,49 @@ ul, li {
     justify-content: space-around;
 }
 
-@media (max-width:375px) {
-.banner-Muhammad {
-    height: 290px;
+@media (max-width:768px) {
+.banner-Muhammad img {
+    height: 33wh;
 }
+.texto-bottom {
+    bottom: 55px;
+    font-size: 37px;
+}
+.titulo-personalidade {
+    bottom: -47px;
+    font-size: 27px;
+}
+.logo-mulher {
+    width: 9vh;
+    margin-left: 10px;
+}
+.texto-personalidade {
+    width: 79vh;
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.texto-geral {
+    font-size: 28px;
+}
+h1 {
+    margin-left: 10px;
+}
+.texto-Muhammad-1 {
+    font-size: 16px;
+    color: #63458a;
+    margin-bottom: 10px;
+}
+.texto-Muhammad-2 {
+    font-size: 16px;
+    color: #63458a;
+    margin-bottom: 10px;
+}
+.texto-Muhammad-3 {
+    font-size: 16px;
+    color: #63458a;
+    margin-bottom: 10px;
 }
