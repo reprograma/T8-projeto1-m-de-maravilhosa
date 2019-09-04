@@ -1,0 +1,220 @@
+* { 
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin: 0 auto;
+}
+.container-row {
+    height: 80px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border: light;
+}
+.logo {
+    width: 180px;
+    height: 50px;
+    margin: 0 auto; 
+}
+.menu-itens {
+
+    font-size: 1.5em;
+}
+.item {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 70px;
+    
+}
+    
+.Facebook {
+    width: 30px;
+    height: 29px;
+}
+.instagram {
+    width: 30px;
+    height: 29px;
+}
+.twitter {
+    width: 30px;
+    height: 29px;
+}
+.linkedin {
+    width: 30px;
+    height: 29px;
+}
+.menu-hamburguer {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.banner-Muhammad img {
+    width: 100vw;
+    height: 100vh; 
+    align-items: center;
+    text-align: center;
+    border: light;
+    
+}
+.texto-bottom {
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.titulo-personalidade {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color:black;
+    font-size: 30px;
+}
+.container-personalidade {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.logo-mulher {
+    width: 20vh;
+    height: 40hw;
+    margin-left: 10px;
+}
+.texto-personalidade {
+    width: 80vh;
+    height: 40hw;
+    font-size: 18px;
+    color: #63458a;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.texto-geral {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.texto-geral-1 {
+    width: 100vh;
+    height: 40hw;
+    font-size: 30px;
+    color: #63458a;
+    letter-spacing: 1px;
+    text-align: center;
+    border: solid;
+    border-block-color:  #63458a;
+    letter-spacing: 2px;
+
+}
+
+.historia-mulher {
+    color: #63458a;
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    font-size: 30px;
+    align-items: center;
+    color: #63458a;
+    text-align: left;
+    margin-left: 350px;
+    margin-bottom: 10px;
+
+}
+
+.texto-Muhammad-1 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+
+}
+.texto-Muhammad-2 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+.esgrima {
+    width: 650px;
+    height: 300px;
+    color: #63458a;
+    margin-left: 350px;
+}
+.texto-Muhammad-3 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+.container-autora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+
+}
+.autora {
+    width: 10vw;
+    height: 10hw;
+    margin-left: 10px;
+
+}
+.texto-autora {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #63458a;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.recuadro-ver-todas {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.buttom-ver-todas {
+    width: 15%;
+    background-color: #c083b9;
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+p {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+ul, li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:375px) {
+.banner-Muhammad {
+    height: 290px;
+}
+}
