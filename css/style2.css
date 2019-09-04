@@ -60,10 +60,76 @@ li{
 .header{
     background-image: url(../img/leticialanz_banner.jpg);
     background-size: cover;
-    display: flex;
     text-align: center;
     margin:0;
     width: 100%;
-    
+    height: 300px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.h2{
+    font-family: Arial;
+    font-size: 8px;
+}
+
+.h3{
+    font-family: Arial;
+    font-size: 9px;
+}
+
+.perfil{
+    display: flex;
+    text-align: right;
+    font-size: 5px;
+    font-family: Arial;
+    margin: 2rem;
+    width: 50%;
+    height: 30%;
+}
+
+.historia{
+
+}
+
+.foto_sua_historia{
+    display: flex;
+    margin:0;
+    width: 100%;
+    height: 300px;
+
+}
+
+.historia2{
+
+}
+
+.links_leticia{
+    display: flex;
+}
+
+.autora{
+    background-color: #674582;
+    display: flex;
+
+}
+
+.todas{
+    background-color: white;
+}
+
+.footer1{
+    font-family: Arial;
+    margin:0;
+
+
+}
+
+.footer2{
+    font-family: Arial;
+    background-color: black;
+    padding:
+
+
 
 }
