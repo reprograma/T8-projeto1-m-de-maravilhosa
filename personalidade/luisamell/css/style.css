@@ -6,14 +6,8 @@ body{
     margin: 0;
 }
 
-/* html{
-    width: 100vw;
-    height: 100vh;
-} */
 
-
-
-       /*     Menu   */
+        /***********     Menu   ************/
 
 .menu{
     background-color: #674582;
@@ -30,9 +24,10 @@ height: 60px;
 top: 15px;
 }
 
-.menu_nave{
 
-}
+     
+/**************  BANNER *****************/
+
 
 .principal{
 width: 100vw;
@@ -220,20 +215,15 @@ display: flex;
          flex-direction: row;
  }
  
- 
 
  .contatos_facebook img{
     width: 15px;
     height: 17px
-
  }
 
- .contatos_facebook p{
-    color: #F3F3F3; 
-    font-size: 7px;     
+.contatos_facebook span {
+    font-size: 6px;
 }
-
-
 
 
  .criado{        
@@ -246,5 +236,85 @@ display: flex;
     color:#F3F3F3;
     font-size: 8px;
     margin: 2px 58px;
+
+ }
+
+
+
+
+
+ @media (min-width: 768px) {
+
+    .principal{
+        background-size: 100%
+    }
+
+    .principal_texto{
+        margin: 0% 0% 0% 61%;
+    }
+
+
+    .tituloBafao > h2{
+        font-size: 27px;
+    }
+
+    .fotoBafao_img {
+        width: 23vw;
+        height: 32vh;
+}
+       
+.textoBafao_texto{
+    line-height: 34px;
+    font-size: 16px;
+}
+
+.citacao {
+    width: 95%;
+    padding: 20px;
+}
+
+.citacao > p{
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.historia > h3{
+    font-size: 24px;
+}
+
+.bafao{
+    margin: 0 0 30px 0;
+}
+
+
+.historia_texto p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.fotosub_img {
+    height: 62vh;
+} 
+
+.autora_img {
+    width: 29vw;
+    height: 34vh;
+}
+
+
+.autora_texto{
+    line-height: 41px;
+    font-size: 11px;
+}
+
+.button button{
+    margin: 0 0 0 112px;
+}
+
+..contatos{
+    flex-direction: row;
+    justify-content:space-between;
+
+}
 
  }
