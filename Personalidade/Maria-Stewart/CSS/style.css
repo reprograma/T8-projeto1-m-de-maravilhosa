@@ -276,6 +276,11 @@ h3 {
         line-height: 20px;
     }
 
+    .dados_texto {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
     .rodape {
         display: flex;
         background-color: #323534;
@@ -283,18 +288,14 @@ h3 {
         padding-bottom: 15px; 
     }
     .rodape_links {
-        font-size: 10px;
+        font-size: 15px;
         line-height: 20px;
         display: flex;
         flex-direction: column;   
         justify-content: center;
         align-items: center; 
     }
-       
-    .rodape_logo {
-        width: 100px;
-    }
-    
+           
     .rodape_img-logo {
         display: flex;
         align-items: center;
@@ -304,12 +305,15 @@ h3 {
     
     .facebook {
         color: #fffcf7;
-        font-size: 8px;
+        font-size: 15px;
     }
     
     .img_facebook {
-        margin-top: 20px;
-        height: 15px;
+        height: 20px;
+    }
+
+    .rodape_final {
+        font-size: 12px;
     }
 }
 
