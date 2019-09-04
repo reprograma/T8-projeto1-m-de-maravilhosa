@@ -61,15 +61,11 @@ h2 {
 
 /* =====================APRESENTAÇÃO=========================*/
 
-.container_apresentacao-corpo {
-    display: flex;
-    align-items: center;   
-}
-
 .apresentacao_foto {
     width: 150px;
-    height: 150px;  
-    margin-left: 10px;    
+    height: 150px; 
+    display: flex;
+    margin: 0 auto;
 }
 
 .apresentacao_texto {
@@ -88,8 +84,9 @@ h2 {
     border-style: outset;
     border-color: #63458a;
     margin: 0 15px;
-    margin-top: 20px;
-    line-height: 20px;
+    margin: 40px;
+    line-height: 25px;
+    font-weight: bold;
     color: #63458a;    
 }
 
@@ -117,8 +114,7 @@ h3 {
 }
 
 .historia_imagem {
-    max-width: 80%;
-    max-height: 300px;
+    max-height: 250px;
     display: flex;
     justify-content: center;   
 }
@@ -217,6 +213,13 @@ h3 {
 }
 
 /* =================MEDIA QUERIES============================= */
+@media (min-width:440px){
+    .container_apresentacao-corpo {
+        display: flex;
+        align-items: center;   
+    }
+}
+
 
 @media (min-width: 768px) {
     .navegacao_mobile {
@@ -230,6 +233,10 @@ h3 {
         width: 80%;            
     }
 
+    .navegacao_desktop-redes {
+        margin-right: 10px;
+    }
+
     .desktop_links {
         color: #f0f8ff;
         margin-left: 20px;
@@ -237,29 +244,62 @@ h3 {
         text-transform: uppercase;
         font-size: 14px;
     }
-}
 
-@media (min-width: 960px) {
     .banner {
-        font-size: 30px;
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
     }
     
+    .container_apresentacao {
+        margin: 30px;
+    }
+
     .apresentacao_citacao {
-        font-size: 15px;
+        font-size: 17px;
+        margin: 60px;
     } 
     
     .apresentacao_texto {
-        font-size: 14px;
+        font-size: 17px;
         line-height: 20px;
     }
+
+    .container_geral {
+        margin: 30px;
+    }
     .historia_texto {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 20px;
     }
 }
 
 @media (min-width: 1440px) {
-   .navegacao {
-        max-width: 80%;
-  
+    .banner {
+        font-size: 60px;
+    }
+    
+    .apresentacao_citacao {
+        font-size: 25px;
+        line-height: 35px;
+    } 
+    
+    .apresentacao_foto {
+        width: 300px;
+        height: 300px;
+    }
+    .apresentacao_texto {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .historia_texto {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .historia_imagem {
+        width: 600px;
+    }
 }
