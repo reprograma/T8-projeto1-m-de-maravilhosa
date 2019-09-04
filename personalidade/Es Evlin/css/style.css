@@ -79,17 +79,18 @@ h1 {
 
 
 .segundo-conteiner_conteudo {
-    display: block;
-    margin-left: 300px;
-    margin-right: 300px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10rem;
+    margin: 0 auto;
     font-family: 'Montserrat';
-    padding: 10px;
+    
 }
 
 .perfil-personagem {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
 }
 
 h2 {
@@ -97,16 +98,12 @@ h2 {
     font-size: 25px;
 }
 
-.perfil-personagem {
-    float: left;
-}
-
 .conteudo-personalidade_citacao {
     font-size: 25px;
-    margin-left: 300px;
-    margin-right: 300px;
     border: 1px solid #63458a;
-    padding: 30px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* --------------- TERCEIRA CONTEINER --------------*/ 
@@ -119,8 +116,8 @@ h2 {
 }
 
 .esdev-conteiner_historia {
-    width: 900px;
-    height: 600px;
+    width: 100%;
+    /* height: 600px; */
     padding: 20px;
 }
 
@@ -139,21 +136,24 @@ p {
 
 .amostradepalco {
     background-color: black;
+    color: white;
+    
 }
 
 .amostradepalco_palcos {
-    width: 500px;
+    width: 40%;
 }
 
 /* --------------- QUARTO CONTEINER --------------*/
 
 .quarto-conteiner-autora {
 background-color: plum;
-width: 100%; 
+width: 100%;
 height: 200px;
 white-space: pre-line;
 display: flex; 
-justify-content: space-around;
+justify-content: center;
+padding: 1px;
 }
 
 .adriela {
@@ -166,7 +166,145 @@ justify-content: space-around;
 
 .quinto-conteiner-sobreelas {
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
+.btnroxo {
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    display: block;
+    max-width: 400px;
+    height: 40px;
+    transition: all .5s;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.btnroxo a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------- FOOTER --------------*/
+
+footer {
+    background-color: #323534;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+/* --------------- media query TABLET --------------*/
+
+
+
+@media (max-width: 768px) 
+{
+    .navegacao
+   {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+   }
+
+   li a {
+       font-size: 17px;
+   }
+
+   .logo {
+       width: 30%;
+   }
+
+   .redessociais {
+       width: 30px;
+   }
+
+   header {
+       width: 100%;
+       height: 261px;
+   }
+
+   .segundo-conteiner_conteudo {
+    width: 100%; 
+    display: inline-block;
+    text-align: center;
+   }
+
+}
+
+/* --------------- CERULA --------------*/
+
+@media (max-width: 320px) 
+{
+
+.navegacao
+{
+display: flex;
+justify-content: space-around;
+width: 100%;
+margin: 0 auto;
+}
+
+.navegacao__boxmenu {
+    display: none;
+}
+  
+.redessociais {
+    display: none;
+} 
+
+.logo {
+    width: 70%;
+}
+
+.perfil-personagem {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+footer {
+display: inline-block;
+}
+
+.segundo-conteiner_conteudo {
+    padding: unset;
+}
+
+..quarto-conteiner-autora {
+    display: inline-block;
+    font-size: 5px;
+    height: 250;
+}
+
+.adriela {
+    width: 100px;
+    height: 100px;
+}
+
+
+}
