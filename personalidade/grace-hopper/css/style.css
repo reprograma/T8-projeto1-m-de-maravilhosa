@@ -1,91 +1,81 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
 }
-
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
-
 .menu-principal {
     width: 100%;
     background-color: #674582;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    position: fixed;
+    margin: auto;
 }
-
-.maravilhosa {
-
+.menu-principal a {
+    text-decoration: none;
+    color: #ffffff;
 }
-
 .menu-hamburguer {
-
 }
-
 .menu-redes-sociais {
     text-transform: uppercase;
 }
-
 header {
-    width: 100%;
+    width: 100pw;
     height: 250px;
     background-image: url(../img/foto-capa.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: 100vw;
+    background-repeat: space;
     background: linear-gradient(
         rgba(103, 69, 130,0.56),
         rgba (1, 0, 2, 0.75)), url(../img/foto-capa.jpg);
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
     }
-
-h1 {
+header h1 {
     text-align: center;
-    color: aliceblue;
-
+    color: blanchedalmond;
 }
-
 section {
     color: #674582;
 }
-
 .titulo {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     text-align: center;
 }
-
 .apresentacao {
     display: flex;
     align-content: center;
     flex-direction: column;
 }
-
 .primeira-foto {
-    display: flex;
-    text-align: center;
-
+    width: 100%;
 }
-
+.primeira-foto-1 {
+    width: 30%;
+    margin-left: 35%;
+}
 .texto {
     padding: 3% 3% 3% 3% ;
     text-align: center;
 }
-
 .texto h3 {
     text-align: left;
     padding-bottom: 3%;
 }
 .citacao {
-    margin: 5% 5%;
+    margin: 5%;
+    padding: 5%;
     border-style: solid;
     text-align: center;
 }
-
 .video-sobre {
     width: 100%;
     position: relative;
@@ -95,7 +85,6 @@ section {
     display: flex;
     justify-content: center;
 }
-
 .video-sobre iframe {
     Position: absolute;
     top: 0;
@@ -104,70 +93,107 @@ section {
     height: 90%;
     padding-left: 5%;
 }
-
+.textoeimagem {
+    color: #674582;
+    width: 100pw;
+    margin-bottom: 30px;
+}
+.textoeimagem a {
+    text-decoration: none;
+    color: #674582;
+}    
 .autora {
     width: 100%;
-    background-color: rgba(103, 69, 130,0.56);
+    background-color: #e4b7e5;
     display: flex;
-    justify-content: center;
-    margin-top: 3%;
-
-
+    flex-direction: row;
+    align-items: center;
 }
-
 .autora-foto {
-    width: 30%;
-    height: 100%;
+    align-content: flex-end;
 }
-
-.autora-texto {
-    width: 65%;
-    height: 100%;
+.autora a {
+    text-decoration: none;
+    color: #674582;
 }
-
 .ver-todas-elas {
     width: 100%;
-
 }
-
 .ver-todas-elas-btn {
     width: 40%;
-    background-color: rgba(103, 69, 130,0.56);
-    color: aliceblue;
+    background-color: #c083b9;
     text-align: center;
     text-transform: uppercase;
     border-radius: 5px;
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
-
+.ver-todas-elas-btn a {
+    text-decoration: none;
+    color: white;
+}
 .rodape {
     background-color: #323534;
     color: white;
+    font-size: .9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: .8rem;
 }
-
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
 .rodape-principal {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+.rodape-logo {
+    padding-bottom: 3%;
+}
+.rodape-redes-sociais {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+.rodape-final {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: small;
+    opacity: 0.5;
     text-align: center;
 }
 
-
-
-@media (max-width: 425px){
+@media (max-width: 767px){
     .menu-redes-sociais {
         display: none;
     }
 }
 
-@media (min-width: 425px){
+@media (min-width: 768px){
+
+  
+    .menu-redes-sociais {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-redes-sociais a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+    }
     .menu-hamburguer {
         display: none;
+    }
+    header {
+        width: 100pw;
+        height: 400px;
     }
 }
