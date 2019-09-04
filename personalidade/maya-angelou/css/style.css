@@ -193,6 +193,7 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 
 /*---- Footer ----*/
@@ -309,6 +310,11 @@ footer{
 
     .conteudo__texto-destaque{
         margin: 10px 67px;
+        font-size: 40px;
+    }
+
+    .conteudo__texto-destaque > p{
+        font-size: 18px;
     }
 
     .conteudo__texto > p{
@@ -365,5 +371,22 @@ footer{
 
     body{
         overflow-x: hidden;
+    }
+
+    .conteudo__texto > p {
+        font-size: 20px;
+        padding-right: 200px;
+    }
+
+    .secao-autora__curriculo > p{
+        font-size: 15px;
+    }
+
+    .cabecalho{
+        height: 400px;
+    }
+
+    .cabecalho > h1{
+        font-size: 50px;
     }
 }
