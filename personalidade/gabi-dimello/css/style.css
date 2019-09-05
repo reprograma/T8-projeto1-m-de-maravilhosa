@@ -830,14 +830,98 @@ margin-top: 31px;
 
         .bloco-autoras {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             background-color: #e4b7e5;
-            height: 307px;
+            height: 201px;
             margin-top: 95px;
             width: 100vw;
         }
 
-        
+        .perfil__imagem-keka {
+            width: 200px;
+            margin-top: 0px;
+            margin-left: 471px;
+        }
+        .lista__perfil {
+            color: #674582;
+            align-items: center;
+            margin-left: -80px;
+            padding-top: 62px;
+        }
+        .item__link a {
+            font-style: italic;
+            margin-left: -24px;
+        }
+
+        .botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #c083b9;
+            margin-top: 30px;
+            margin-bottom: 41px;
+            margin-left: 569px;
+            width: 202px;
+            height: 40px;
+            border-radius: 4px;
+            box-shadow: 4px 7px 13px -1px rgba(0,0,0,0.75);
+        }
+
+        .menu-footer {
+            background-color: #323534;
+            height: 163px;
+            width: 100vw;
+        }
+
+        .rodape__preto{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .lista__rodape-preto{
+
+        }
+
+        .bloco__rodape{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-right: 43px;
+        }
+
+
+        .link__facebook-rodape {
+          
+            padding-top: 40px;
+        }
+
+        .logo__responsivo-rodape {
+            width: 200px;
+            margin-left: 438px;
+            margin-top: 40px;
+        }
+
+        .imagem__rodape{
+            width:50px;
+        }
+
+        .logo__responsivo-rodape {
+            width: 200px;
+            margin-left: 332px;
+            margin-top: 40px;
+        }
+
+        .link__facebook-rodape {
+            padding-top: 60px;
+            padding-left: 783px;
+        }
+
+        .creditos__rodape-reprograma {
+            color: #ffffff;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 43px;
+        }
 
         }       
         
