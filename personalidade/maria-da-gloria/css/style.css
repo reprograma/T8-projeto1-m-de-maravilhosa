@@ -70,12 +70,13 @@ background-color: #674582;
 
     /* ======HEADER====== */
 
-header  {
- 
+header  { 
 height: 180px;
-background-image: url("../img/img1-maravilhosa.jpg");
+background-image: url("../img/img-02-maria-da-gloria.jpg");
+background-repeat: repeat;
 background-color: darkviolet;
 background-size: cover;
+background-position: center;
 display: flex;
 justify-content: center;
    
@@ -83,72 +84,137 @@ justify-content: center;
 }
 
 .container-header{    
-/* min-height: 80vh;
-height: 140px; */
+display: flex;
 }
 
 .title-maravilhosa{
 min-width: 100%;
-margin:0 auto;
+margin: 150px auto;
 color: #ffffff;
-font-weight: 900;
-justify-content: center;
 text-transform: uppercase;
+font-weight: 900;
+display: flex;
+align-items:  flex-end;
 }
+
+.title-maravilhosa h1{
+    align-items:  flex-end;
+}
+
 
 .container-content{
 display: flex;
 margin: 0 auto;
-width: 100%;
-max-width: 960px;
+width: 80%;
+/* max-width: 960px; */
 }
+
+
+.about-maravilhosa{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    text-align: center;
+}
+
 
 .resume{   
-display: flex
+display: flex;    
+flex-direction: column;
+text-align: initial;
+    color: #63458a;
     
 }
+.resume-back{
+    background-color: #63458a;
+    max-width: 174px;
+    margin: 0 auto;
+    height: 185px;;
+    border-radius: 10%;
+}
+
 
 .resume img{
-max-width: 180px;
-justify-content: start;
-border-radius: 40%;
+max-width: 160px;
 
+justify-content: start;
+border-radius: 25%;
+margin: 14px auto;
     
 }
 .resume p{
-justify-content: center;
+justify-content: space-around;
+line-height: 16px;
 }
 
+.quote{
+    border-style: solid;
+    color: #63458a86;
+    padding: 20px auto;
+}
+.quote span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #63458a;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 20px;
+    height: 70%;
+    padding: 20px;
+}
+.story h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: #63458a;
+    font-size: larger;
+    font-weight: bold;
 
+}
+.story p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: initial;
+    color: #63458a;
+    line-height: 16px;
+}
     /* ======FOOTER====== */
 
 .footer-autor{
     display: flex;
     background-color: #C083B9;
     justify-content: center;
-    height:150px;
+    height:120px;
 }
 
-
-.footer-autor img{
-max-width: 100px;
-flex-direction: column;
-border-radius: 100%;
-}
-
-
-.footer__call-to-action{
-    color: white;
-     display: block;
-    max-width: 250px;
+.footer-autor p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: center;
-    background-color: #C083B9;
-    margin: 0 auto;
-    text-transform: uppercase;
+    color: #63458a;
     font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
+    width: 116px;
+    
+
+}
+.footer-autor img{
+max-height: 92px;
+flex-direction: column;
+border-radius: 25%;
+margin: 10px;
+}
+
+.footer-botao {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    
 
 }
 
@@ -156,6 +222,21 @@ border-radius: 100%;
 transform: translateY(-1rem);
 box-shadow: 0 10px 10px rgba(0,0,0,.2);
 background-color: rgb(192, 156, 188);
+
+}
+.footer__call-to-action{
+    color: white;
+     display: block;
+    max-width: 250px;
+    text-align: center;
+    background-color: #C083B9;
+    margin: 10 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    max-height: 60px;
 
 }
 
@@ -278,6 +359,63 @@ justify-content: space-between
     justify-content:center;
     display: flex;
 }
+
+header  { 
+    height: 180px;
+    background-image: url("../img/foto-perfil.jpg");
+    background-repeat: repeat;
+    background-color: darkviolet;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+       
+           
+    }
+
+.resume{   
+    display: flex;    
+   text-align: center;
+   flex-direction: row;
+    color: #63458a;
+}    
+
+main{
+    padding: 60px auto;
+}
+.container-content{
+  padding:  60px auto;  
+}
+.footer-autor {
+
+    display: flex;
+    background-color: #C083B9;
+    justify-content: center;
+    height: 156px;
+    margin: 10px auto;
+
+}
+
+.footer-autor p{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: #63458a;
+    font-weight: bold;
+    width: 116px;
+    
+}
+.footer-autor img{
+    height: 135px;
+flex-direction: column;
+border-radius: 25%;
+margin: 10px;
+}
+
+
+
 
 
 
