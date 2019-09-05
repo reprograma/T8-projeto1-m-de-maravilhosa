@@ -37,10 +37,8 @@ body {
 /* ==================BANNER=================== */
 
 .banner{
-    background-image: url(../IMG/1832.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100% auto;
+    background: url(../IMG/1832.png) center no-repeat;
+    background-size: cover;
     height: 400px; 
     display: flex;
     justify-content: center;
@@ -65,6 +63,7 @@ h2 {
     height: 150px; 
     display: flex;
     margin: 0 auto;
+    border-radius: 20px;
 }
 
 .apresentacao_texto {
@@ -239,7 +238,7 @@ h3 {
 
     .navegacao_desktop-redes {
         margin-right: 10px;
-    }
+        }
 
     .desktop_links {
         color: #f0f8ff;
