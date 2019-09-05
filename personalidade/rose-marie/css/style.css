@@ -263,8 +263,8 @@ footer {
     /* ====NAV ==== */
    
     .menu__logo { 
-    width:25vw;
-    height: 11vh;
+    width:22vw;
+    height: 10vh;
     }
     .menu-img {
         display: none;
@@ -274,9 +274,32 @@ footer {
         align-items: center;
     }
     .menu__medias a {
-        
-        
-        
+        margin:3px;  
+     
     }
 
+    .menu__link-home, .footer__link-reprograma{
+        margin-left: 5px;
+    }
+
+    /* ==== HEADER ==== */
+    .banner{
+        width: 100vw;
+        height: 500px;
+    }
+
+    .title{
+        margin:14px 0px 0px 333px;
+        padding: 5px;
+    }
+    h1{
+        font-size: 35px;
+        color: #ffffff;
+        border: #cebfbf;
+    }
+
+    /* ==== Content ==== */
+    h2{
+        font-size: 30px;
+    }
 }
