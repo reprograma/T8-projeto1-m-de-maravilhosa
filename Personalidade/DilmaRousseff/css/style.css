@@ -7,8 +7,12 @@ html {
 }
 
 body {
-    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
     margin: 0;
+    
 }
 
 a {
@@ -34,50 +38,13 @@ li {
     max-width: 960px;
 }
 
-/* --- BOTAO --- */
-
-.btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
-}
-
-.btn_roxo {
-    color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
-    background-color: rgb(192, 156, 188);
-}
-
-.btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
-}
-
-.btn_center {
-    margin: 0 auto;
-}
 
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
     color: white;
     text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
+    padding: 3%;
     position: fixed;
     width: 100%;
 }
@@ -151,27 +118,18 @@ li {
     display: flex;
     align-items: flex-end;
     text-align: center;
-    padding: 11rem 2rem 5rem 2rem;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(22, 22, 22);
-    font-size: 3em; color: #f30606;
-        
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(22, 22, 22); */
+    font-size: 16pt; color:black;
 }
 
 .principal__titulo {
     text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 900;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
-}
 
 .dilma__titulo {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
@@ -204,38 +162,66 @@ li {
     border: black solid;
     font-size: 2rem;
     font-weight: 900;
-    display: flex;
-    justify-content:10px;
     height:16%;
-    margin-left:30%;
-    margin-right: 30%;
     margin: 5%;
+    padding: 5%;
 }
 
 .container__dilma {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
     padding: 10px; 
 }
 
+.sobre__dilma{
+    font-size: 26pt;
+
+}
+
 .foto__dilmahist {
-    width: 200px;
-    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px;  */
+}
+
+.foto__dilmahist>img{
+    width: 60%;
 }
 
 .autora {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
-    background-color: #E4B7E5
+    background-color: #E4B7E5;
+    font-size: 12pt;
+}
+
+.autora>img{
+    width: 30%;
+    margin-right: 30px;
 }
 
 .foto__autora {
     width: 90px;
     height: 100%;
+}
+
+/* --- BOTAO --- */
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 14pt;
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 
@@ -314,7 +300,7 @@ li {
     /* --- NAV --- */
     .navegacao__itens {
         position: static;
-        display: flex;f
+        display: flex;
         padding: 0;
         width: auto;
     }
@@ -351,15 +337,11 @@ li {
     }
 
     .principal__titulo {
-        font-size: 2.9rem;
+        font-size: 150%;
     }
     
     .principal__sub {
         font-size: 1.8rem;
-    }
-
-    .principal__btn {
-        margin: 0;
     }
 
     /* --- FOOTER --- */
@@ -386,14 +368,14 @@ li {
         width: 600px;
     }
     .dilma__apresentacao{
-        width: 600px;
-        font-size: 3rem;
+        font-size: 20px;
         font-weight: 100;
         margin-left: 5%;
+        margin-right: 5%;
     }
     .dilma__destaque {
         border: black solid;
-        font-size: 2rem;
+        font-size: 20px;
         font-weight: 900;
         display: flex;
         justify-content:10px;
@@ -402,6 +384,26 @@ li {
         margin-right: 30%;
         margin: 5%;
     }
+
+    .dilma__perfil{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .dilma__perfil>img{
+        width: 200px;
+        height: 227px;
+    }
+    .autora>img{
+        width: 20%;
+
+    }
+    .dilma__box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
 }
 
 
@@ -420,10 +422,6 @@ li {
         font-size: 7rem;
 
     }
-    .dilma__box {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    } 
+   
 
  }
