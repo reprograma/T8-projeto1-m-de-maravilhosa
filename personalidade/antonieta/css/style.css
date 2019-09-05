@@ -13,9 +13,9 @@ li {
     padding: 33px;
 }
 
-h1 {
+/* h1 {
     margin-left: 45%;
-}
+} */
 
 h3 {
     margin-left: 50%;
@@ -140,6 +140,18 @@ p {
     background-color: darkorchid;
     display: flex;
     margin-bottom: 20px;
+}
+
+.nome {
+    margin-left: 40%;
+}
+
+.hist {
+    margin-left: 446px;
+}
+
+h3 {
+    margin-left: 46%;
 }
 
 
@@ -326,4 +338,19 @@ p {
         align-items: center;
     }
 
+    .nome {
+        margin-left: 12%;
+    }
+
+    .hist {
+        margin-left: 30%;
+    }
+
+}
+
+@media (min-width: 480px) {
+    .eu img {
+    width: 22vw;
+    height: 18vh;
+}
 }
