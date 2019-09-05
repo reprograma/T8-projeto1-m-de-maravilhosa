@@ -14,7 +14,12 @@ body {
     align-items: center;
     background-color: #674582;
     width: 100%;
+    height: 88px;
     color: white;
+}
+
+.topo>img {
+    width: 200px;
 }
 
 .hamburguinho {
@@ -25,12 +30,12 @@ body {
     display: none;
 }
 
-.personalidade>h1 {
+.personalidade h1 {
     align-items: center;
-    margin: 212px 0;
-    margin-left: 32%;
-    color: #ffffff;
     position: absolute;
+    top: 46%;
+    left: 24%;
+    color: #ffffff;
     font-size: 20px;
 }
 
@@ -55,6 +60,17 @@ body {
     margin: 0 20px 30px;
     color: #674582;
     font-size: 15px;
+}
+
+.texto-img>img {
+    width: 200px;
+    margin-left: 77px;
+}
+
+.texto-img p {
+    color: #63458a;
+    text-align: justify;
+    margin: 21px;
 }
 
 .citacao {
@@ -120,6 +136,7 @@ a {
 
 .rodape {
     width: 100%;
+    height: 162px;
     margin-top: 50px;
     background-color: #323534;
     padding-top: 7px;
@@ -127,10 +144,9 @@ a {
 }
 
 .rodape ul {
+    padding: 0;
     color: white;
-    width: 200px;
     height: 50px;
-    margin-left: 50px;
     margin-bottom: 0;
     font-size: 12px;
     list-style: none;
@@ -162,7 +178,7 @@ a {
     color: #ffffff;
     font-size: 12px;
     font-size: 11px;
-    margin-left: 24px;
+    /* margin-left: 246px; */
 }
 
 
@@ -170,10 +186,198 @@ a {
 
 @media (min-width: 768px) {
     .topo {
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
     .hamburguinho {
         display: none;
     }
-    .menu {}
+    .menu {
+        display: flex;
+        color: #ffffff;
+        align-items: inherit;
+    }
+    .menu a {
+        margin: 11px;
+    }
+    .redes {
+        display: flex;
+    }
+    .redes img {
+        width: 32px;
+        height: 32px;
+        margin: 0%;
+    }
+    .personalidade h1 {
+        top: 85%;
+        left: 31%;
+        font-size: 35px;
+    }
+    .primeiro_texto img {
+        width: 200px;
+        margin-left: 260px;
+    }
+    .primeiro_texto p {
+        text-align: justify;
+        margin: 0 20px 30px;
+        color: #674582;
+        font-size: 15px;
+    }
+    .bloco {
+        display: flex;
+        align-items: center;
+        padding-bottom: 18px;
+    }
+    .bloco p {
+        margin-left: 69px;
+        color: #63458a;
+        font-size: 15px;
+    }
+    .segundo_texto img {
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 97px;
+    }
+    .bloco img {
+        width: 149px;
+        margin-top: 20px;
+        margin-left: 237px;
+    }
+    section a {
+        margin-left: 261px;
+    }
+    .rodape {
+        height: 155px;
+        align-items: center;
+    }
+    .rodape ul {
+        padding: 0;
+        margin-left: 20px;
+    }
+    .rodape img {
+        margin-left: 296px;
+    }
+    .rodape__link {
+        margin-left: 10px;
+    }
+    .rodape__segundo p {
+        /* margin-left: 211px; */
+    }
+}
+
+@media (min-width: 1024px) {
+    .personalidade h1 {
+        top: 85%;
+        left: 31%;
+    }
+    .primeiro_texto img {
+        margin-bottom: 24px;
+        margin-left: 403px;
+    }
+    .bloco {
+        max-width: none;
+    }
+    section a {
+        margin-left: 400px;
+    }
+    .rodape {
+        justify-content: space-evenly;
+        display: flex;
+        height: 110px;
+        align-items: center;
+        justify-content: center;
+    }
+    .rodape ul {
+        /* margin-left: -119px; */
+        margin-bottom: none;
+    }
+    .rodape__segundo p {
+        font-size: 14px;
+        margin-left: 328px;
+    }
+    .rodape img {
+        margin-left: 251px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 1440px) {
+    .personalidade h1 {
+        top: 46%;
+        left: 38%;
+        font-size: 44px;
+    }
+    .personalidade img {
+        height: 452px;
+    }
+}
+
+.primeiro_texto h1 {
+    font-size: 50px;
+}
+
+.primeiro_texto img {
+    width: 309px;
+    margin-left: 198px;
+}
+
+.primeiro_texto p {
+    font-size: 20px;
+}
+
+.texto-img {
+    display: flex;
+    margin-bottom: 50px;
+    margin-right: 200px;
+}
+
+.citacao {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.segundo_texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 21px;
+}
+
+.segundo_texto img {
+    width: 800px;
+}
+
+.bloco {
+    max-width: none;
+}
+
+.bloco img {
+    margin-left: 493px;
+}
+
+.bloco p {
+    font-size: 19px;
+}
+
+section a {
+    margin-left: 569px;
+}
+
+.rodape {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rodape ul {
+    margin-left: -119px;
+    margin-bottom: none;
+}
+
+.rodape__segundo p {
+    font-size: 14px;
+    margin-left: 517px;
+}
+
+
 }
