@@ -14,8 +14,7 @@ body {
 }
 
 p {
-    font-size: 16px;
-    
+    font-size: 16px;    
 }
 
 .navegacao {
@@ -30,8 +29,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     width: 600px;
-    align-items: center;
-   
+    align-items: center; 
 }
 
 .links > ul {
@@ -46,8 +44,6 @@ p {
 a {
     text-decoration: none;
 }
-
-
 
 .link-texto {
     font-size: 10px;
@@ -74,8 +70,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
-    color: white; 
-    
+    color: white;     
 }
 
 .personalidade h1 {
@@ -124,6 +119,11 @@ a {
     margin-bottom: 1%;
 }
 
+.foto-frase {
+    width: 89%;
+    margin-left: 60px;
+}
+
 .foto-descricao {
     display: flex;
     justify-content: center;
@@ -158,8 +158,7 @@ button {
 }
 
 footer {
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 
 .cinza-claro {
@@ -167,7 +166,7 @@ footer {
     background-color: #323534;
     display: flex;
     justify-content: space-around;
-    padding: 65px 35px;
+    padding: 40px 35px;
     margin: 0;
 }
 
@@ -182,7 +181,6 @@ footer {
 
 .cinza-claro__item > a {
     color: #ffffff;
-
 }
 
 .cinza-claro__item > a:hover {
@@ -199,7 +197,6 @@ footer {
 
 .cinza-escuro {
     background-color: #292A2A;
-
 }
 
 .cinza-escuro > p {
@@ -223,6 +220,10 @@ footer {
     .intro__texto {
         margin: 0 auto;  
     }
+    .foto-frase {
+        margin-left: 31px;
+    }
+
     .cinza-claro {
         display: block;    
     }
@@ -236,22 +237,23 @@ footer {
         display: flex;
         justify-content: center;
     }
-
-    
 }
 
 @media (max-width: 320px) {
     .cinza-claro {
         text-align: center;
-
     }
 
     .links-redes {
         display: none;
-    
     }
+
     .personalidade {
         background-position: center;
+    }
+
+    .foto-frase {
+        margin-left: 14px;
     }
 
 }
@@ -260,3 +262,5 @@ footer {
         display: none;
     }
 }
+
+
