@@ -23,8 +23,16 @@ li {
     list-style: none;
 }
 p {
-    color: #674582
+    color: #674582;
+    font-size: 16px;
 
+}
+h1 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 32px;
+    color: #674582;
 }
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
@@ -155,27 +163,34 @@ p {
 .nina-silva__quote {
     border: #674582 1px solid;
     border-radius: 2px;
-    margin: 20px 35px;
+    margin: 20px auto;
     padding: 10px 10px 10px 10px;
-    font-size: 12px;
-    width: 70vw;
+    font-size: 16px;
+    width: 63vw;
+    text-align: center;
 }
 
 
 .nina-silva__perfil {
-    max-width: 220px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 20px;
+    max-width: 95%;
+
+    
+    
+}
+
+.nina-silva__perfil h3 {
     text-align: center;
-    
-    
+
+}
+.nina-silva__perfil p {
+   font-size: 16px;
 }
 
 .nina-silva__perfil img {
     background-color: #63458a;
     border-radius: 10px;
+    display: flex;
 }
 
 
@@ -189,7 +204,14 @@ p {
     width: 100vw;
     height: 162px;
     display: flex;
+    justify-content: center;
     
+
+}
+
+.bio {
+    display: block;
+   
 
 }
 
@@ -213,7 +235,7 @@ p {
     padding: 6px;
 }
 .bio {
-    padding: 42px;
+    padding: 32px;
     font-weight: 600;
 }
 .btnResponsivo {
@@ -224,100 +246,9 @@ p {
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nina-silva__historia {
+    max-width: 90% auto;
+}
 /* --- FOOTER --- */
 .rodape {
     background-color: #323534;
@@ -440,7 +371,29 @@ p {
     .principal__btn {
         margin: 0;
     }
+    /* --- CONTEUDO ---*/
+    .nina-silva__perfil {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nina-silva__perfil img {
+        width: 27%;
+    }
 
+    .perfil_resumo {
+        width: 80%;
+        margin-left: 40px;
+
+    }
+    .nina-silva__quote {
+        border: #674582 1px solid;
+        border-radius: 2px;
+        margin: 20px auto;
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+        width: 80vw;
+        text-align: center;
+}
     /* --- FOOTER --- */
     .rodape {
         padding-top: 0;
@@ -458,7 +411,7 @@ p {
     }
 
     .rodape__navegacao > li {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
 }
 
@@ -478,10 +431,19 @@ p {
         max-width: 650px;
     }
     /* ---- CONTEÚDO ---*/
-    .nina-silva__perfil {
-        display: flex;
-    }
+    
 
     
     
+}
+@media (max-width: 320px) {
+
+    .rodape__principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
 }
