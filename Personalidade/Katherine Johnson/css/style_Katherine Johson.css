@@ -147,9 +147,10 @@ li {
 
 /* ===autora=== */
 .autora img {
-    width: 30%;
-    height: 30%;
+    width: 27%;
+    height: 27%;
     margin: 2% 5%;
+    border-radius: 47%;
 }
 
 .autora {
