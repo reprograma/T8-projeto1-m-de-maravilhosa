@@ -539,8 +539,49 @@ margin-top: 31px;
             }
 
             
-        }
+           .cabecalho__logo{
+               width: 100vw;
+            display: flex;
+            flex-direction: row;
+            
+            }
 
+            .menu__lista{
+                width: 100vw;
+            display: flex;
+            flex-direction: row;
+            }
+
+            .menu__lista a{
+            font-size: 14px;
+            margin-left: 40px;
+
+            }
+
+            .menu__topo-home, .menu__topo-reprograma{
+                margin-left: 10px;
+                margin-top: -3px;
+            }
+
+            .menu__lista-redes{
+           
+            
+            }
+
+            .logo-responsivo{
+                width: 200px;
+                margin-top: -5px;
+            }
+
+
+
+            .background{
+            background-image: url("../img/gabriela.jpg");
+            background-repeat: no-repeat;
+             background-size: 100%;
+        
+    }
+        
     }
 
 
