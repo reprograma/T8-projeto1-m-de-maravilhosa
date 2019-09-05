@@ -46,8 +46,8 @@ section {
     color: #674582;
 }
 .titulo {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 .apresentacao {
@@ -63,61 +63,57 @@ section {
     margin-left: 35%;
 }
 .texto {
-    padding: 3% 3% 3% 3% ;
+    padding: 20px 20px 20px 20px;
     text-align: center;
 }
 .texto h3 {
     text-align: left;
-    padding-bottom: 3%;
+    padding-bottom: 10px;
 }
 .citacao {
-    margin: 5%;
-    padding: 5%;
+    margin: 15px;
+    padding: 15px;
     border-style: solid;
     text-align: center;
 }
-.video-sobre {
-    width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
-    height: 0;
+.ultima-foto-grace {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
 }
-.video-sobre iframe {
-    Position: absolute;
-    top: 0;
-    left: 0;
-    width: 90%;
-    height: 90%;
-    padding-left: 5%;
-}
-.textoeimagem {
-    color: #674582;
-    width: 100pw;
-    margin-bottom: 30px;
-}
-.textoeimagem a {
-    text-decoration: none;
-    color: #674582;
-}    
 .autora {
     width: 100%;
     background-color: #e4b7e5;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 .autora-foto {
-    align-content: flex-end;
+    width: 120px;
+    height: 120px;
+}
+.autora-texto {
+    padding: 15px;
 }
 .autora a {
     text-decoration: none;
     color: #674582;
 }
+.credito-texto-e-imagem {
+    color: #674582;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.credito-texto-e-imagem a {
+    text-decoration: none;
+    color: #674582;
+}    
 .ver-todas-elas {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .ver-todas-elas-btn {
     width: 40%;
@@ -140,6 +136,7 @@ section {
     flex-direction: column;
     align-items: center;
     padding-top: .8rem;
+    text-align: center;
 }
 .rodape a {
     text-decoration: none;
@@ -150,16 +147,16 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 15px;
 }
 .rodape-logo {
-    padding-bottom: 3%;
+    padding-bottom: 15px;
 }
 .rodape-redes-sociais {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 15px;
 }
 .rodape-final {
     width: 100%;
@@ -168,18 +165,14 @@ section {
     opacity: 0.5;
     text-align: center;
 }
-
 @media (max-width: 767px){
     .menu-redes-sociais {
         display: none;
     }
 }
-
 @media (min-width: 768px){
-
-  
     .menu-redes-sociais {
-        width: 60%;
+        width: 55%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -194,6 +187,48 @@ section {
     }
     header {
         width: 100pw;
-        height: 400px;
+        height: 450px;
     }
+}
+@media (min-width: 1000px) {
+    .menu-redes-sociais {
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu-redes-sociais a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    .menu-hamburguer {
+        display: none;
+    }
+    header {
+        width: 100pw;
+        height: 550px;
+    }
+    .primeira-foto-1 {
+        width: 20%;
+        margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+
 }
