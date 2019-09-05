@@ -23,11 +23,14 @@ a {
     color: white;
     text-transform: uppercase;
     box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.img-responsive {
+    width: 200px;
 }
 
 .navegacao__itens > a {
@@ -44,13 +47,14 @@ a {
 
 /* SOBRE A PERSONALIDADE */
 .header {
-    min-height: 50vh;
+    min-height: 30vh;
     height: 100px;
     background-image: url("../img/josipalestra.jpg");
     background-repeat: no-repeat;   
     display: flex;
     align-items: flex-end;
     text-align: center;
+    background-size: cover;   
 }
 
 .palestra__fundo {
@@ -58,6 +62,7 @@ a {
     align-items: center;
     background-repeat: no-repeat;
     display: flex;
+    margin-top: 10px;
 }
 
 a {
@@ -78,6 +83,7 @@ a {
     font-weight: 900;
     margin: 3px;
     padding: 0px;
+    margin-top: auto;
 }
 
 .titulo__bafao {
@@ -91,7 +97,7 @@ a {
 
 .foto__perfil {
     height: 200px;
-    width: 360px;
+    width: 300px;
     border-radius: 5px;
     margin: 7px;
     margin-top: -12px;
@@ -106,7 +112,7 @@ a {
 
 .frase__impacto {
     font-family: 'Cormorant Infant', serif;
-    color: #5f0f5f;
+    color: mediumpurple;
     font-size: 20px;
     border-width: 3px;
     border-style: solid;
@@ -116,7 +122,7 @@ a {
 
 .foto__mulheres {
     height: 200px;
-    width: 360px;
+    width: 305px;
     border-radius: 5px;
     margin: 7px;
     margin-top: -5px;
@@ -167,6 +173,7 @@ a {
     color: #674582;
     display: flex;
     align-items: center;
+    width: 320px;
 }
 
 .dados__autora {
@@ -201,11 +208,11 @@ a {
     background-color: #323534;
     color: white;
     font-family: 'Helvetica';
-    font-size: 10px;
+    font-size: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .rodape__principal {
@@ -265,6 +272,7 @@ a {
     
     .header {
         background-size: cover;
+        min-height: 60vh;
     }
 
     /* PERSONALIDADE */
@@ -316,7 +324,8 @@ a {
 
     /* AUTORA */
     .dados {
-        justify-content: center;
+        justify-content: space-around;
+        width: 768px;
     }
 
     /* RODAPÉ */
@@ -396,19 +405,21 @@ a {
         height: 393px;
         width: 1024px;
         border-radius: 5px;
-        margin: 270px;
+        margin: 180px;
         margin-top: -20px;
     }
 
     .texto__mulheres {
-        margin-top: -265px;
-        margin-left: 75px;
+        margin-top: -194px;
         font-size: 18px;
+        margin-left: 0px;
     }
+
 
    /* AUTORA */
     .dados {
         margin-top: 35px;
+        width: 1348px;
     }
 
     .foto__giane {
