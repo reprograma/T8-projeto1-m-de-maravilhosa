@@ -96,6 +96,8 @@ h1 {
 h2 {
     text-align: center;
     font-size: 25px;
+    margin-top: 15px;
+
 }
 
 .conteudo-personalidade_citacao {
@@ -106,11 +108,21 @@ h2 {
     margin: 0 auto;
 }
 
+.conteudo-personalidade {
+    padding: 14px;
+    text-align: justify;
+    letter-spacing: 1x;
+}
+
+p {
+    padding: 10px;
+}
+
 /* --------------- TERCEIRA CONTEINER --------------*/ 
 
 .terceiro-conteiner_historia {
     text-align: center;
-    padding: 40px;
+    /* padding: 40px; */
     color: black;
     font-family: 'Montserrat';
 }
@@ -125,12 +137,15 @@ h3 {
     text-align: center;
     font-size: 25px;
     align-items: center;
+    margin-top: 15px;
 }
 
-p {
+
+.conteiner-historia {
     text-align: center;
     font-size: 17px;
     font-family: 'Montserrat';
+    margin-top: 60px;
     
 }
 
@@ -148,17 +163,22 @@ p {
 
 .quarto-conteiner-autora {
 background-color: plum;
-width: 100%;
+width: 100vw;
 height: 200px;
 white-space: pre-line;
 display: flex; 
 justify-content: center;
 padding: 1px;
+
 }
 
 .adriela {
     width: 200px;
     height: 200px;
+}
+
+.sobre-a-autora {
+    margin-top: 60px;
 }
 
 
@@ -176,14 +196,16 @@ padding: 1px;
 
 .btnroxo {
     color: white;
-    background-color: black;
+    background-color: #C083B9;
     font-size: 15px;
     display: block;
-    max-width: 400px;
-    height: 40px;
+    width: 300px;
+    height: 30px;
     transition: all .5s;
     font-family: 'Montserrat';
     text-align: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .btnroxo a {
@@ -217,12 +239,35 @@ ol {
     list-style: none;
 }
 
+.ultima-parte {
+    background-color: #292A2A;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/* --------------- media query desktop --------------*/
+
+@media (min-width: 1024px) 
+{
+.menu-hamburguer {
+display: none;
+}
+}
+
+
 /* --------------- media query TABLET --------------*/
 
 
 
 @media (max-width: 768px) 
 {
+
+    .menu-hamburguer {
+        display: none;
+        }
+
     .navegacao
    {
     display: flex;
@@ -237,6 +282,7 @@ ol {
 
    .logo {
        width: 30%;
+       height: auto;
    }
 
    .redessociais {
@@ -245,40 +291,61 @@ ol {
 
    header {
        width: 100%;
-       height: 261px;
+       height: 300px;
+       background-size: cover;
+   }
+
+
+   p {
+    text-align: justify;
+    padding: 15px;
    }
 
    .segundo-conteiner_conteudo {
     width: 100%; 
     display: inline-block;
     text-align: center;
+    padding: 10px;
    }
+
+   
+   
 
 }
 
 /* --------------- CERULA --------------*/
 
-@media (max-width: 320px) 
-{
+@media (max-width: 320px) {
 
-.navegacao
-{
+.navegacao {
 display: flex;
 justify-content: space-around;
 width: 100%;
 margin: 0 auto;
+height: auto;
 }
 
 .navegacao__boxmenu {
     display: none;
 }
+
+.menu-hamburguer {
+    display: flex;
+    }
   
 .redessociais {
     display: none;
 } 
 
 .logo {
-    width: 70%;
+        width: 70%;
+        height: auto;
+}
+
+header {
+    background-size: cover;
+    height: 200px;
+    width: 100%;
 }
 
 .perfil-personagem {
@@ -288,22 +355,61 @@ margin: 0 auto;
 }
 
 footer {
-display: inline-block;
+display: flex; 
+justify-content: center;
+flex-direction: column;
+height: 250px;
 }
 
 .segundo-conteiner_conteudo {
     padding: unset;
 }
 
-..quarto-conteiner-autora {
-    display: inline-block;
-    font-size: 5px;
-    height: 250;
+.quarto-conteiner-autora {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.sobre-a-autora {
+    text-align: center;
+    margin: 0;
+
 }
 
 .adriela {
     width: 100px;
     height: 100px;
+}
+
+.footer-list a {
+    width: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.conteudo-personalidade_citacao {
+    font-size: 20px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.ultima-parte {
+    font-size: 12px;
 }
 
 
