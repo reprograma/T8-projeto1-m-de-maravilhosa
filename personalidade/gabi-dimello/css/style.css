@@ -347,7 +347,7 @@ margin-top: 31px;
         font-weight: bold;
         font-size: 16px;
         text-align: center;
-        }
+    }
 
 
     .imagem__perfil{
@@ -414,7 +414,7 @@ margin-top: 31px;
         margin-left: 75px;
         margin-top: 21px;
       
-      }
+    }
 
       .link__facebook-rodape{
         padding-left: 105px;
@@ -437,7 +437,7 @@ margin-top: 31px;
         margin-bottom: 14px;
         border-radius: 3px;
         
-       }
+    }
 
        .titulo_nome{
         color: #ffffff;
@@ -457,7 +457,7 @@ margin-top: 31px;
         font-weight: bold;
         font-size: 16px;
         text-align: center;
-        }
+    }
 
 
         .imagem__perfil{
@@ -486,19 +486,19 @@ margin-top: 31px;
              margin-left: 130px;
          
          
-         }
+        }
      
          .lista__perfil{
              color: #674582;
             align-items: center;
             margin-left: 70px;
          
-         }
+        }
 
          .item__link a{
             font-style: italic;
             margin-left: 40px;
-           }
+        }
 
 
          .botao{
@@ -527,6 +527,8 @@ margin-top: 31px;
             padding-top: 20px;
         }
 
+    }
+
         @media (min-width:768px) {
         
             .menu__hamburguer{
@@ -538,50 +540,165 @@ margin-top: 31px;
              
             }
 
+            .topo{
+              
+                padding-bottom: 4px;
+                padding-top: 10px;
+            }
+
             
-           .cabecalho__logo{
-               width: 100vw;
+           .cabecalho{
+               display:flex;
+              
+           }
+
+           .menu__items{
             display: flex;
             flex-direction: row;
             
-            }
+           }
 
-            .menu__lista{
-                width: 100vw;
+           .menu__item-lista {
+               width: 100%;
             display: flex;
             flex-direction: row;
-            }
+            margin-top: 30px;
+                }
 
-            .menu__lista a{
-            font-size: 14px;
-            margin-left: 40px;
 
-            }
+           .menu__item-lista > ul{
+            display: flex;
+            flex-direction: row;
+                }
 
-            .menu__topo-home, .menu__topo-reprograma{
-                margin-left: 10px;
-                margin-top: -3px;
-            }
+                .menu__item-lista  a{
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
 
-            .menu__lista-redes{
-           
-            
-            }
+             .home, .reprograma{
+                    margin-left: 20px;
+                    
+             }
+
 
             .logo-responsivo{
                 width: 200px;
                 margin-top: -5px;
             }
 
+            .menu__redes-sociais{
+              display: flex;  
+            
+              margin-top: 20px;
+              margin-left: 22px;
+            }
 
+            .icone__facebook, .icone__twitter, .icone__instagram, .icone__linkedin{
+                width: 40px;
+                margin-left: 9px;
+                
+            }
 
             .background{
             background-image: url("../img/gabriela.jpg");
             background-repeat: no-repeat;
              background-size: 100%;
+             height: 504px;
         
     }
-        
-    }
+            
+                .titulo_nome{
+                    color: #ffffff;
+                    padding: 401px 116px;
+                margin-left: -20px;
+                
+                }
+                
+            .titulo_nome h1{
+                text-shadow: 2px 4px 4px #000000;
+                line-height:1.0;
+                font-size: 38px;
+                text-align: left;
 
+            }
+
+            .perfil {
+                width: 206px;
+                height: 144px;
+                margin-top: 15px;
+                margin-left: 166px;
+            }
+
+            .bloco-citacao {
+                border: 1px solid #674582;
+                width: 308px;
+                margin: 39px 193px;
+                padding-left: 60px;
+                text-align: center;
+                justify-content: center;
+            }
+                
+            .imagem__esconderijo {
+                width: 368px;
+                margin-left: 179px;
+            }
+
+            .perfil__imagem-keka {
+                width: 171px;
+                margin-top: 20px;
+                margin-left: 307px;
+            }
+
+            .lista__perfil {
+                color: #674582;
+                align-items: center;
+                margin-left: 255px;
+            }
+
+            .botao {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #c083b9;
+                margin-top: 30px;
+                margin-bottom: 41px;
+                margin-left: 291px;
+                width: 202px;
+                height: 40px;
+                border-radius: 4px;
+                box-shadow: 4px 7px 13px -1px rgba(0,0,0,0.75);
+            }
+
+            .logo__responsivo-rodape {
+                width: 200px;
+                margin-left: 275px;
+                margin-top: 21px;
+            }
+
+            .link__facebook-rodape {
+                padding-left: 313px;
+                padding-top: 20px;
+            }
+
+            .item__link a {
+                font-style: italic;
+                margin-left: 40px;
+            }
+
+            .creditos__rodape-reprograma {
+                color: #ffffff;
+                font-size: 15px;
+                text-align: center;
+                margin-top: 30px;
+            }
+
+            .lista__rodape-preto {
+                margin-right: 26px;
+                padding-top: 30px;
+                text-align: center;
+            }
+        
+        }
+        
 
