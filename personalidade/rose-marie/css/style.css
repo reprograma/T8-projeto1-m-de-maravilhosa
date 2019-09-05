@@ -261,7 +261,21 @@ footer {
 /* ==== media querie ====*/
 @media ( min-width:768px) {
     /* ====NAV ==== */
-    .menu-img{
+   
+    .menu__logo { 
+    width:25vw;
+    height: 11vh;
+    }
+    .menu-img {
+        display: none;
+    }
+    .menu__medias, .menu__link{
+        display: flex;
+        align-items: center;
+    }
+    .menu__medias a {
+        
+        
         
     }
 
