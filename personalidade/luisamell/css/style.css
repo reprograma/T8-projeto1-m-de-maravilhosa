@@ -24,6 +24,10 @@ height: 60px;
 top: 15px;
 }
 
+.menu_nave img{
+    margin: 0 15px 0 0;
+}
+
 
      
 /**************  BANNER *****************/
@@ -45,6 +49,7 @@ display: flex;
     color: #63458A;   
     text-transform: uppercase;
     font-size: 15px;
+    text-shadow: 3px 3px black;    
     }
 
 
@@ -78,8 +83,8 @@ display: flex;
 
 
 .fotoBafao_img{
-    width: 21vw;
-    height: 16vh;
+    width: 30vw;
+    height: 21vh;
     border-radius: 10%;
 }
 
@@ -162,6 +167,15 @@ display: flex;
     line-height: 19px;
     color: #63458A;
     font-size: 10px;
+    padding: 0 0 0 23px
+}
+
+.autora_texto a {
+    font-family: Montserrat;
+    line-height: 19px;
+    color: #63458A;
+    font-size: 10px;
+    
 }
 
 
@@ -202,11 +216,11 @@ display: flex;
 .contatos a{
     color:#F3F3F3;
     text-transform: uppercase;
-    font-size: 7px
+    font-size: 10px
 }
 
  .contatos_logo img{
-    width: 50px; 
+    width: 130px; 
      height: 35px; 
 
  }
@@ -217,12 +231,12 @@ display: flex;
  
 
  .contatos_facebook img{
-    width: 15px;
-    height: 17px
+    width: 22px;
+    height: 21px
  }
 
 .contatos_facebook span {
-    font-size: 6px;
+    font-size: 10px;
 }
 
 
@@ -235,18 +249,27 @@ display: flex;
  .criado p{
     color:#F3F3F3;
     font-size: 8px;
-    margin: 2px 58px;
+    margin: 2px 83px;
 
  }
 
 
 
 
+ /*************      MEDIA QUERY   ********/
+
 
  @media (min-width: 768px) {
 
+    .menu{
+        height: 14vh;
+
+    }    
+
+
     .principal{
-        background-size: 100%
+        background-size: cover;
+
     }
 
     .principal_texto{
@@ -311,10 +334,173 @@ display: flex;
     margin: 0 0 0 112px;
 }
 
-..contatos{
+.contatos{
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
+    height: 16vh;  
+}
+
+.contatos_logo img {
+    width: 169px;
+    height: 71px;
+}
+
+
+
+.contatos a{
+    font-size: 14px;
+    width: 164px;
+    height: 61px;
+}
+
+.contatos_facebook img{
+    width: 41px;
+    height: 48px;
+}
+
+.contatos_facebook span {
+    font-size: 14px;
+ }
+
+ .criado p {    
+    font-size: 10px;
+    margin: 2px 257px;
+}
+
+.texto_sub {
+    line-height: 22px;
+    font-size: 15px;
+ }
+
+ @media (min-width: 1024px) {
+
+    .menu{
+        height: 14vh;        
+    }
+
+    .menu_logo{
+        height: 149px;
+        width: 367px;
+        margin: 0 0 0px 21px;
+        padding: 0 0 55px 0;
+    }
+
+    .menu_nave img{
+        height: 55px;
+        width: 80px;
+        padding: 0 15px 0 0 ;
+    }
+
+    .principal{
+        background-size: 100%
+    }
+
+    .principal_texto{
+        font-size: 27px;
+    }
+
+    .tituloBafao > h2{
+        font-size: 47px;
+    }
+
+    .fotoBafao_img {
+        width: 27vw;
+        height: 48vh;
+    }
+
+    .textoBafao_texto {
+        line-height: 61px;
+        font-size: 26px;
+    }
+
+    .citacao {
+        width: 97%;
+        padding: 42px;
+    }
+
+    .citacao > p {
+        line-height: 39px;
+        font-size: 24px;
+    }
+
+    .historia_texto p {
+        line-height: 61px;
+        font-size: 26px;  
+    } 
+
+    .fotosub_img {
+        height: 90vh;
+    }
+
+    .texto_sub {
+        line-height: 61px;
+        font-size: 26px;}
+
+    .autora_img {
+        width: 36vw;
+        height: 59vh;
+        margin: 33px;
+    }
+
+    .autora_texto {
+        line-height: 61px;
+        font-size: 26px;}
+
+    .button span {
+        font-size: 29px;
+    }    
+
+    .button button {
+        margin: 0 0 0 324px;
+        border-radius: 37px;
+    }
+
+    .contatos a {
+        font-size: 31px;
+    }
+
+
+    .contatos_logo img {
+        width: 290px;
+        height: 110px;
+    }
+
+
+    .contatos_facebook img {
+        width: 86px;
+        height: 80px;
+    }
+
+    .contatos_facebook span {
+        font-size: 23px;
+    }
+
+    .criado p {
+        font-size: 18px;
+        margin: 2px 498px;}
+
+    }     
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
 }
 
- }
+
+
