@@ -105,10 +105,12 @@ article h2{
 
 .article-box__foto{
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .article-box__foto img{
     border-radius: 10px;
-    width: 80vw;
+    height: 30vh;
     
 }
 
@@ -129,7 +131,7 @@ article h2{
     font-weight: normal;
 }
 .article__historia img{
-    width: 80vw;
+    height: 31vh;
     border-radius: 5px;
 }
 
@@ -146,7 +148,7 @@ article h2{
 }
 
 .article__historia-foto2{
-    width: 80vw;
+   height: 48vh;
     border-radius: 5px;
 }
 .article__historia div{
@@ -170,6 +172,14 @@ section{
     flex-direction: column;
     
 }
+
+.section__autora a{
+    text-decoration: none;
+}
+
+.section__autora a:hover{
+    color: #C083B9;
+}
 .section__autora div{
     width: 100%;
     display: flex;
@@ -179,7 +189,7 @@ section{
 }
 
 .section__autora img{
-    width: 35vw;
+    height: 22vh;
     margin-top: 10px;
 }
 
@@ -299,7 +309,9 @@ footer{
     article h2{
         font-size: 16pt;
     }
-
+    .article__historia img{
+        height: 34vh;
+    }
     .section__autora div{
         width: 100%;
     }
@@ -354,12 +366,12 @@ footer{
     }
 
     .article-box img{
-        width: 37vw;
+        height: 31vh;
         
     }
 
     .article-box__foto{
-        width: 40%;
+        width: 35%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -394,6 +406,14 @@ footer{
         line-height: 25px;
     }
 
+    .article__historia img {
+        height: 50vh;
+    }
+    .article__historia-foto2 {
+        height: 65vh;
+        border-radius;
+    }
+
     section{
         height: 50vh;
     }
@@ -421,7 +441,10 @@ footer{
         font-size: 13pt;
         line-height: 20px;
     }
-
+    .section__autora img{
+        height: 100%;
+        width: auto;
+    }
     section button{
         padding: 13px 24px;
         font-size: 12pt;    
@@ -464,16 +487,18 @@ footer{
 
 @media(min-width: 1024px) {
     header{
-        height: 111vh;
+        height: 130vh;
     }
 
     header h1{
         font-size: 62pt;
     }
-
+    .article__titulo {
+        width: 70%;
+    }
     .article-box img {
-        width: 34vw;
-        margin-left: 25px;
+        height: 35vh;
+        margin-left: 53px;
     }
 
    
@@ -483,7 +508,9 @@ footer{
         margin-right: 48px;
     }
 
-    
+    .article-box__frase {
+        width: 69%;
+    }
 
     .article-box__frase h3 {
         font-size: 18pt;
@@ -497,9 +524,20 @@ footer{
         font-size: 14pt;
         line-height: 25px;
     }
-    
+    .article__historia div {
+        width: 68%;
+    }
+
+    .article__historia img {
+        height: 55vh;
+    }
+
+    .article__historia-foto2 {
+        height: 70vh;
+    }
     .section__autora img {
-        width: 14.5vw;
+        width: auto;
+        height: 100%;
         margin-left: 57%;
     }
 
@@ -517,6 +555,71 @@ footer{
     }
 }
 
+@media(min-width:1300px){
+    header{
+        height: 150vh;
+    }
+    article h2{
+        font-size: 20pt;
+    }
+    .article__titulo{
+        width: 
+    }
+    .article-box__foto{
+        width: 27%
+    }
+    .article-box__foto img{
+        height: 30vh;
+    }
+    
+    .article__historia div {
+        width: 55%;
+    }
+
+    .article-box__frase{
+        margin-top: 20px;
+        width: 55%;
+    }
+
+    .article-box__texto{
+        width: 40%;
+    }
+    .article-box__texto p {
+        font-size: 12pt;
+    line-height: 22px;
+    }
+    .article__historia h4, 
+    .article__historia p {
+        font-size: 12pt;
+    }
+    .article-box__frase h3 {
+        font-size: 15pt;
+    }
+    .article-box__frase h5{
+        font-size: 11pt;
+    }
+    
+    .article__historia-foto img{
+        height: 80vh;
+    }
+    .section__autora div{
+        width: 35%;
+    }
+    .footer-container__face img {
+        width: auto;
+        height: 4vh;
+    }
+
+    .footer-container__logo img{
+        height: 9vh;
+        width: auto;
+    }
+    .footer-container__menu a{
+        font-size: 10pt;
+    }
+    
+}
+
 @media(min-width: 1440px){
     header {
         height: 151vh;
@@ -525,11 +628,11 @@ footer{
         font-size: 73pt;
     }
     article h2 {
-        font-size: 28pt;
+        font-size: 25pt;
     }
 
     .article-box__texto {
-        width: 57%;
+        width: 50%;
         
     }
     .article-box__texto p {
@@ -538,7 +641,7 @@ footer{
         margin-right: 195px;
     }
     .article-box img {
-        width: 24vw;
+        height: 30vh;
         margin-right: 30px
     }
     .article-box__foto {
@@ -552,11 +655,11 @@ footer{
 
     .article-box__frase {
         border: 1px solid #674582;
-        width: 69%;
+        width: 62%;
     }
 
     .article__historia div {
-        width: 69%;
+        width: 62%;
     }
 
     .article__historia h4, .article__historia p {
@@ -564,11 +667,12 @@ footer{
         line-height: 27px;
     }
 
-    .article__historia img,
-    .article__historia-foto2 {
-        width: 69vw;
+    .article__historia img,{
+        height: 60vh;
     }
-
+    .article__historia-foto2{
+        height: 75vh;
+    }
     section {
         height: 73vh;
     }
@@ -579,7 +683,8 @@ footer{
         height: 35vh;
     }
     .section__autora img {
-        width: 14vw;
+        width: auto;
+        height: 100%;
     }
 
     .section__autora p{
@@ -613,3 +718,4 @@ footer{
         font-size: 9pt;
     }
 }
+
