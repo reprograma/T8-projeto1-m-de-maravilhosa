@@ -46,7 +46,7 @@ body{
 
 .banner {
     width: 100vw;
-    height: 48vh;
+    height: 277px;
     background: url(../img/baner.jpg);
     background-size: cover;
     background-position: 0px 0px;
@@ -73,19 +73,18 @@ h1 {
 /*===== CONTAINER =====*/
 .container {
     display: block;
+    width: 100vw;
 }
 
 /* ==== CONTENT ==== */
 .content {
     margin: 20px 0px;
-    
-    
+    width: 100vw;  
 }
 
 h2 {
-  display: flex;
-    margin: 20px;
-    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
 
 }
 
@@ -93,8 +92,7 @@ h2 {
 
 .content__sobre {
     width: 320px;
-    height: 245px;
-    margin: 40px 20px;
+    margin: 40px 4px;
      
 }
 .content__img {
@@ -106,26 +104,26 @@ h2 {
 
 p{
     color: #674582;
+
     
 }
-
+.resumo{
+    margin:20px;
+}
 .slogan{
-    width: 320px;
-    height: 110px;
+    width: 85vw;
     border-style:solid;
     border-width: 1px;
     border-color: #674582;
     border-radius: 20px;
-    margin:80px 20px;
+    margin:20px 20px;
     padding: 0 16px;
     text-justify: distribute;
     font-weight: bold;
 }
 
 .history{
-    width: 340px;
-    height: 40px;
-    display: block;
+    width: 90vw;
     margin:20px 18px;
 
 }
@@ -155,16 +153,116 @@ figure {
 
 /* ==== AUTHOR ==== */
 .author {
-    
-    background-color: #674582;
-
+    display: flex;
+    background-color: #C083B9;
+    width:100vw ;
 }
 
 .author__img{
-width: 20vw;
-height: 18vh;
+    width: 38vw;
+    margin: 0 24px;
 }
 
 .author__informations{
     color:#a79797;
+}
+ 
+.author__informations > p{
+    color:#3b244e;
+    font-weight: bold;
+}
+
+/* ==== BUTTON ====*/
+.button {
+    width: 100vw;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+.button > a{
+    margin: 58px 25px 60px 106px;
+    padding: 14px;
+    border-radius: 11%;
+    background-color: #C083B9;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #323534;   
+}
+
+.infos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__links{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+
+
+}
+.footer__link-home, .footer__link-reprograma {
+    text-decoration: none;
+    color:#ffffff;
+    
+}
+
+.footer__logo{
+    padding: 5px;
+    width: 42vw;
+    height: 63px;
+    padding-top: 10px
+    
+}
+
+.rede__maravilhosas{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 15px;
+    padding-bottom: 10px;
+}
+
+.rede__maravilhosas a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.rede-logo {
+    height: 20px;
+}
+.footer__copirigth {
+    width: 100vw;
+    height: 5vh;
+    background-color:#292A2A;
+    padding-bottom: 32px;
+}
+
+
+.footer__copirigth  p {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    padding:10px;
+
+}
+
+
+
+/* ==== media querie ====*/
+@media ( min-width:768px) {
+    /* ====NAV ==== */
+    .menu-img{
+        
+    }
+
 }
