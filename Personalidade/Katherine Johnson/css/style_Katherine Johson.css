@@ -12,6 +12,7 @@ body {
     font-family: 'Libre Baskerville', serif;
     margin: 0;
 }
+/* ====nave==== */
 
 .navegacao {
     display: flex;
@@ -24,11 +25,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-}
-
-.home_redes {
-    display: none;
+    justify-content: space-between;
+    margin-right: 21px;
 }
 
 .navegacao_redes-sociais > a {
@@ -42,6 +40,7 @@ li {
     margin: 5px;
 }
 
+/* ===header=== */
 .header {
     
     background-image: url(../img/katherine-g-johnson-nasa.jpg);
@@ -75,7 +74,6 @@ li {
 
 .titulo_2 {
     margin: 0 auto;
-    
 }
 
 .descricao_foto1-texto {
@@ -88,8 +86,7 @@ li {
 
 .foto_1 {
     width: 24%;
-    height: 30%;
-    
+    height: 30%;    
 }
 
 .descricao_principal {
@@ -101,12 +98,12 @@ li {
     letter-spacing: 1px;
 }
 
+/* ===meio=== */
 .frase_mmaravilhosa {
     border: 1px solid #63458A;
     width: 95%;
     height: 14%;
-    margin: 6px 10px;
-    
+    margin: 6px 10px; 
 }
 
 .texto_frase {
@@ -118,12 +115,10 @@ li {
     height: 20%;
     margin-left: 17px;
     line-height: 20px;
-   
 }
 
 .historia_kJ {
     width: 100%;
-    
 }
 
 .historia_KJ1 {
@@ -150,6 +145,7 @@ li {
     line-height: 20px;
 }
 
+/* ===autora=== */
 .autora img {
     width: 30%;
     height: 30%;
@@ -181,9 +177,6 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
-
 }
 
 .ver-todas-elas {
@@ -205,6 +198,7 @@ a:link, a:visited, a:hover, a:active {
     
 }
 
+/* ===footer=== */
 .navegacao__box-container2 {
     width: 100vw;
     height: 62px;;
@@ -216,9 +210,10 @@ a:link, a:visited, a:hover, a:active {
 
 .home_link2 {
     display: block;
-    width: 100px;
+    justify-content: center;
+    width: 107px;
     font-size: 8px;
-    margin-left: 8px;  
+    margin-left: -34px;  
 
 }
 .nav_caixa {
@@ -236,10 +231,307 @@ a:link, a:visited, a:hover, a:active {
     height: 15%;
 }
 
+.reprograma_text{
+    width: 100vw;
+    height: 16px;
+    background-color: #292A2A;
+}
+
 .reprograma {
     font-size: 8px;
+    font-family: Montserrat;
+    font-weight: normal;
     text-align: center; 
     color: #FFFFFF;
-    background-color: #292A2A;
     margin: 0 auto;
+    padding: 3px;
+}
+
+@media (max-width: 767px) {
+.home_redes {
+    display: none;
+}
+}
+
+@media (min-width: 768px){
+
+/* ====nave==== */
+
+.navegacao__menu-hamburguer {
+    display: none;
+}
+
+.home_redes {
+    display: flex;        
+}
+
+.home_link {
+    display: flex;
+}
+
+.navegacao_redes-sociais {
+    display: flex;
+    align-content: center;
+    margin-left: 55px;
+    margin-top: 3px;
+}
+.navegacao_redes-sociais > a {
+    width: 40%;
+    height: 20%;
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.navegacao_redes-sociais img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ===header=== */
+
+.header {
+    background-image: url(../img/katherine-g-johnson-nasa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;;
+    width: 100%;
+    height: 587px;
+}
+
+.nome_maravilhosa {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: white;
+    text-align: center;
+    padding-top: 498px;
+    margin: 0 auto;
+}
+
+.titulo_maravilhosa {
+    font-size: 16px;
+}
+
+.titulo_2 {
+    margin-left: 65px;
+}
+
+.descricao_foto1-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.foto_1 {
+    width: 16%;
+    height: 30%;
+}
+
+.descricao_principal {
+    width: 50%;
+    font-size: 18px;
+}
+
+/* ===meio=== */
+.frase_mmaravilhosa {
+    border: 2px solid #63458A;
+    width: 73%;   
+    margin: 19px 104px;
+}
+
+.texto_frase {
+    font-size: 18px;
+}
+
+.historia_KJ1{
+    font-size: 14px;
+}
+
+.foto_2 {
+    width: 73%;
+    height: 338px;
+    margin: 0px 93px;
+}
+
+.historia_KJ2 {
+    font-size: 14px;
+    margin-top: -26px;
+    margin-bottom: 34px;
+}
+
+/* ===autora=== */
+.autora img {
+    width: 23%;
+    margin: 2% 2%;
+}
+
+.autora {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    background-color: #E4B7E5;
+    width: 100vw;
+    height: 40%;
+}
+
+.autora_text {
+    font-size: 12px;
+    width: 42%;
+    letter-spacing: 3px;
+}
+.ver-todas-elas {
+    width: 35%;
+    font-size: 14px;
+}
+
+/* ===footer=== */
+.navegacao__box-container2 {
+    width: 100vw;
+    height: 62px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #323534;
+}
+
+.home_link2 {
+    font-size: 9px;  
+    width: 114px;
+    margin-left: -46px;  
+}
+.navegacao_logo2 {
+    width: 143px;
+    height: 40px;
+}
+
+.logo_fb2 {
+    width: 12%;
+}
+
+.reprograma_text{
+    width: 100vw;
+    height: 20px;
+    background-color: #292A2A;
+}
+
+.reprograma {
+    font-size: 11px;
+}
+}
+
+@media (min-width: 1000px) {
+
+    /* ====nave==== */
+
+.navegacao__menu-hamburguer {
+    display: none;
+}
+
+/* ===header=== */
+
+.header {
+    background-image: url(../img/teste.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100%;
+    height: 490px;
+    background-size: cover;
+    background-position: left;
+}
+
+.nome_maravilhosa {
+    font-family: Montserrat;
+    text-shadow: 22px 8px 12px black;
+    font-size: 38px;
+    padding-top: 441px;
+}
+
+.titulo_maravilhosa {
+    font-size: 27px;
+}
+
+.titulo_2 {
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.foto_1 {
+    width: 15%;
+    height: 30%;
+}
+
+.descricao_principal {
+    width: 47%;
+    font-size: 20px;
+}
+
+/* ===meio=== */
+.frase_mmaravilhosa {
+    border: 2px solid #63458A;
+    width: 76%;
+    margin: 26px 160px;
+}
+
+.texto_frase {
+    font-size: 20px;
+}
+
+.historia_KJ1{
+    line-height: 28px;
+}
+
+.foto_2 {
+    width: 50%;
+    height: 428px;
+    margin: 0px 307px;
+}
+
+.historia_KJ2 {
+    line-height: 28px;
+}
+
+/* ===autora=== */
+.autora img {
+    width: 21%;
+}
+
+.autora_text {
+    font-size: 17px;
+}
+.ver-todas-elas {
+    width: 34%;
+    font-size: 18px;
+    height: 30px;
+}
+
+/* ===footer=== */
+.navegacao__box-container2 {
+    width: 100vw;
+    height: 62px;
+}
+
+.home_link2 {
+    font-size: 10px;
+    width: 122px;
+    margin-left: -46px;  
+}
+.navegacao_logo2 {
+    width: 216px;
+    height: 57px;
+}
+
+.logo_fb2 {
+    width: 15%;
+}
+
+.reprograma_text{
+    width: 100vw;
+    height: 25px;
+}
+
+.reprograma {
+    font-size: 13px;
+}
 }
