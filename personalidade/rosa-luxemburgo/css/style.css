@@ -157,6 +157,10 @@ button {
     text-transform: uppercase;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 footer {
     margin: 0 auto;    
 }
