@@ -270,6 +270,10 @@ a {
         display: none;
     }
     
+    .navegacao__redes-sociais img {
+       margin: 5px;
+    }
+
     .header {
         background-size: cover;
         min-height: 60vh;
