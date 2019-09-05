@@ -80,14 +80,15 @@ body{
     margin-top: 20px;
 }
 
-.banner-texto__titulo{
-    text-align: center;
+.banner-texto__titulo {
     color: #000000;
     font-family: 'Monteserrat', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
-    margin-top: 80px;
-    margin-right: 20px;
+    margin-top: 479px;
+    margin-right: 25px;
+    text-align: center;
+    text-shadow: black 0px 0 10px;
 }
 
 /* ==== APRESENTAÇÃO (TÍTULO, FOTO E DESCRIÇÃO) ==== */
@@ -111,11 +112,11 @@ body{
 
 .perfil__foto{
     width: 120px;
-    margin-top: 15px;
+    margin-top: 50%;
 }
 
-.perfil__texto{
-    width: 50%;
+.perfil__texto {
+    width: 60%;
 }
 
 .perfil__texto p{
@@ -153,6 +154,10 @@ body{
 .historia__sobre{
     font-size: 13px;
     margin-bottom: 7px;
+}
+
+.span-italic{
+    font-style: italic;
 }
 
 .historia__imagens__tattoo{
@@ -394,17 +399,17 @@ body{
         min-height: 80vh;
         height: 750px;
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
-    .banner-texto__titulo{
+    .banner-texto__titulo {
         text-align: center;
-        color: #ffffff;
-        margin-top: 50px;
-        margin-right: -250px;
+        color: #000000;
+        margin-top: 720px;
+        margin-right: -4px;
         margin-bottom: 0;
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .apresentacao-titulo{
@@ -418,12 +423,12 @@ body{
 
     .perfil__foto{
         width: 150px;
-        margin-top: 15px;
-        margin-right: 100px;
+        margin-top: 20%;
+        margin-right: 55px;
     }
     
-    .perfil__texto{
-        width: 30%;
+    .perfil__texto {
+        width: 42%;
     }
     
     .perfil__texto p{
@@ -519,6 +524,39 @@ body{
     }
 }
 
+@media (min-width:1024px){
+    .container-nav__redes-sociais {
+        width: 22%;
+        margin-right: 15px;
+    }
+
+    .banner{
+        height: 940px;
+    }
+
+    .banner-texto__titulo{
+        margin-top: 906px;
+        font-size: 33px;
+    }
+
+    .apresentacao-titulo {
+        font-size: 28px;
+    }
+
+    .perfil__texto {
+        width: 34%;
+    }
+
+    .citacao {
+        width: 67%;
+        margin-bottom: 30px;
+    }
+
+    .citacao p {
+        font-size: 20px;
+    }
+}
+
 @media (min-width:1440px){
     .container-nav {
         display: flex;
@@ -555,10 +593,20 @@ body{
     .banner {
         margin-top: 87px;
         height: 1320px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
 
     .banner-texto__titulo {
-        font-size: 30px;
+        font-size: 36px;
+        color: black;
+        margin-right: 8px;
+    }
+
+    .apresentacao-perfil {
+        display: flex;
+        margin-left: 0;
     }
 
     .apresentacao-titulo {
@@ -567,34 +615,15 @@ body{
 
     .perfil__foto {
         width: 200px;
+        margin-top: 30px;
     }
 
     .perfil__texto {
-        width: 17%;
+        width: 28%;
     }
 
     .perfil__texto p {
         font-size: 18px;
-    }
-
-    .apresentacao-perfil {
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 450px;
-    }
-
-    .perfil__foto {
-        width: 200px;
-        margin-right: 80px;
-    }
-
-    .perfil__texto {
-        width: 24%;
-        /* margin-right: 25px; */
-    }
-
-    .perfil__texto p {
-        font-size: 17px;
     }
 
     .citacao {
