@@ -90,6 +90,7 @@ display: flex;
     width: 30vw;
     height: 21vh;
     border-radius: 10%;
+    border: 2px solid #63458A
 }
 
 .textoBafao{
@@ -139,6 +140,8 @@ display: flex;
 .fotosub_img{
     width: 100vw;
     height: auto;
+    border-radius: 4%;
+    border: 2px solid #63458A;
 }
 
 .texto_sub{
@@ -161,7 +164,8 @@ display: flex;
 .autora_img{
     width: 25vw;
     height: 20vh;
-    margin: 2px
+    margin: 2px;
+    border: 3px solid #63458A
 }
 
 .autora_texto{
@@ -263,6 +267,12 @@ display: flex;
 
  @media (min-width: 768px) {
 
+    main{
+        margin-left: 7%;
+        margin-right: 10%;
+    }
+
+
     .menu{
         height: 14vh;
 
@@ -271,7 +281,7 @@ display: flex;
     .menu_nave img {
         margin: 0 25px 0 0;
         height: 74px;
-        width: 86px
+        width: 66px
     }
 
 
@@ -290,13 +300,13 @@ display: flex;
     }
 
     .fotoBafao_img {
-        width: 23vw;
-        height: 32vh;
+        width: 40vw;
+        height: 40vh;
 }
        
 .textoBafao_texto{
-    line-height: 34px;
-    font-size: 16px;
+    line-height: 66px;
+    font-size: 23px;
 }
 
 .citacao {
@@ -324,11 +334,12 @@ display: flex;
 }
 
 .fotosub_img {
-    height: 62vh;
+    height: 58vh;
+    width: 94%;
 } 
 
 .autora_img {
-    width: 29vw;
+    width: 20vw;
     height: 34vh;
 }
 
@@ -414,12 +425,7 @@ display: flex;
     font-size: 19px;
     }
 
-    .menu_icon {
-        
-    }
-
-
-
+    
     .principal{
         background-size: 100%
     }
@@ -461,19 +467,17 @@ display: flex;
         line-height: 61px;
         font-size: 26px;  
     } 
+   
 
-    .fotosub_img {
-        height: 90vh;
-    }
-
+    
     .texto_sub {
         line-height: 61px;
         font-size: 26px;}
 
     .autora_img {
-        width: 36vw;
-        height: 59vh;
-        margin: 33px;
+        width: 20vw;
+        height: 40vh;
+        margin: 33px;;
     }
 
     .autora_texto {
@@ -491,7 +495,7 @@ display: flex;
     }    
 
     .button button {
-        margin: 0 0 0 183px;
+        margin: 0 0 0 180px;
         border-radius: 37px;
     }
 
@@ -516,7 +520,7 @@ display: flex;
     }
 
     .criado{
-        height: 15vh;
+        height: 3vh;
     }
 
     .criado p {
