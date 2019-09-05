@@ -113,7 +113,20 @@ p{
     width: 100%;
     display: flex;
     padding: 10px;
-    /* background-color: #d3add0;  */
+    background-color: #d3add0; 
+    color: #63458a;
+    font-weight: bold;
+}
+.img-pequena_angelica img{
+    width: 27vw;
+    height: 20vh;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.navegacion-link_autora a{
+    color: #63458a;
 }
 .contenedor-volver_home{
     width: 100%;
@@ -132,22 +145,14 @@ p{
     width: 100%;
     margin:auto 0;
     background-color: #d3add0;
-    color: #ffffff;
+    color: #63458a;
+    font-weight: bold;
+    font-size: 9px;
     box-shadow: 0 5px 5px rgba(0,0,0,.2);
     text-transform: uppercase;
     border-radius: 5px;
 }
-.img-pequena_angelica img{
-    width: 27vw;
-    height: 20vh;
-    display: flex;
-    border-radius: 5px;
-    margin-top: 13px;
-    margin-left: 20px;
-}
-.navegacion-link_autora a{
-    color: #292A2A;
-}
+
 .footer{
     width: 100%;
 }
@@ -239,6 +244,7 @@ p{
     .boton-volver_home{
         width: 150px;
         height: 50px;
+        font-size: 12px;
     }
     .img-pequena_angelica img{
         width: 15vw;
