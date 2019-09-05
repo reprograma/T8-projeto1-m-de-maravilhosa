@@ -28,8 +28,8 @@ li {
     width: 100%;
 }
 .container {
-    width: 100%;
-    height: 960px;
+    width: 80%;
+    /* height: 960px; */
 }
 /* ===NAVBAR=== */
 .navbar{
@@ -272,6 +272,8 @@ span{
     .navbar__navegacao{
         width: 350px;
         font-size: 12px;
+        text-align: right;
+        padding-left: 70px;
     }
     .navbar__redes-sociais{
         width: 200px;
@@ -314,4 +316,76 @@ span{
     .rodape__principal_links span{
         font-size: 12px;
     }
+    .rodape__principal {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
 }
+@media (min-width: 1440px){
+    .navbar__container {
+        height: 60px;
+    }
+    .navbar__logo{
+        width: 200px;
+    }
+    .navbar__navegacao {
+        width: 500px;
+    }
+    .navbar__navegacao a{
+        margin-right: 20px;
+        text-align: right;
+        font-size: 18px;
+        padding-left: -100px;
+    }
+    .conteudo__introducao_resumo {
+        padding: 0 50%;
+        margin: 30px 0 30px 0;
+    }
+    .conteudo__introducao_texto > p{
+        font-size: 18px;
+    }
+    .conteudo__principal_texto{
+        font-size: 18px;
+        margin: 0 10%;
+    }
+    .conteudo__principal_texto img{
+        margin: 2% 25%;
+    }
+    .conteudo__frase{
+        margin: 0 10%;
+    }
+    .sobre-autor__imagem{
+        height: 170px;
+    }
+    .sobre-autor__imagem img{
+        height: 170px;
+    }
+    .sobre-autor__texto{
+        font-size: 18px;
+    }
+    button{
+        margin: 3%;
+        width: 200px;
+        height: 50px;
+    }
+    .sobre-autor__button {
+        font-size: 18px;
+    }
+    .rodape__principal span{
+        font-size: 18px;
+    }
+    .rodape__principal a {
+        font-size: 18px;
+    }
+    .rodape__principal {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .conteudo__principal{
+        padding: 0px 144px;
+    }
+
+}
+/* Barbara Silva 08 */
