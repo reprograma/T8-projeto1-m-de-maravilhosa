@@ -1,0 +1,237 @@
+/* === GERAL=== */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;    
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #63458a; 
+}
+
+/* === NAVEGAÇÃO=== */
+.nav {
+    background-color: #674582;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    position: fixed;
+    margin-top: -50px;
+    
+
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav__links >ul>li {
+    list-style-type: none;
+    display: none;
+
+}
+
+.nav__links > ul>li> a {
+    text-decoration: none;
+    color: white;
+    font: 10px;
+}
+.img-responsive {
+    width:70%;
+}
+
+.nav__img {
+    width: 10%;
+}
+
+.nav__redes-sociais{
+    display: none;
+}
+/* === HEADER=== */
+
+.header{
+    background: linear-gradient(rgba(211, 165, 255, 0.591), rgba(235, 132, 255, 0.591)), url(../img/oprah_1.jpg);
+    background-size: cover; /* para a img conter exatamente o tamanho da div*/
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    width: 100vw;
+    margin-top: 50px;
+    
+    }
+    
+    h1 {
+        margin-top: 220px;
+        color: white;
+        text-transform: uppercase;
+        margin-left: 40px;
+    }
+    
+    /* === IMAGENS=== */
+    
+    .img__historia{
+        width: 100%;
+       margin: 10px 10px; 
+       }
+    
+    .img__autora {
+        width: 20vw;
+        
+    }
+    
+    .img__perfil {
+    width: 40vw;
+    margin: 10px;
+    }
+    
+    
+/* === MAIN=== */
+
+.principal__sub {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 15px;
+}
+
+.resumo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px;   
+
+}
+
+.frase {
+        border: 1px solid #63458a;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.historia__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px;
+
+}
+
+.historia {
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.autora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #E4B7E5;
+}
+
+.autora > ul > li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 8px;
+    margin-left: -20px;
+}
+
+/* === BOTÃO=== */
+
+.btn_vertodas {
+    background-color: #C083B9;
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: 0px solid #C083B9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+
+.btn_vertodas > a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    
+}
+
+/* === FOOTER=== */
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 30px;   
+}
+.rodape__navegacao {
+    margin-left: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape__navegacao >li > a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape__navegacao > li {
+    list-style-type: none;
+    font-size: 11px;
+    line-height: 2;
+    text-align: center;
+    display: block; 
+    
+}
+.rodape__redes-sociais > a > span {
+    color: white;
+    font-size: 15px;
+     
+}
+
+.rodape__redes-sociais > a > span >  img {
+    max-width: 10px;     
+}
+
+.rodape__logo > img {
+    max-width: 20vw;
+}
+
+.rodape__cc {
+    background-color: #292A2A;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:10px;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin-top: 20px;
+    
+}
