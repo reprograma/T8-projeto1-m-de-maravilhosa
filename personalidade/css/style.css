@@ -69,6 +69,10 @@ header{
     margin-top: 6px;
 }
 
+.container__menu-hamburger >a{
+    display: none;
+}
+
 
 
 
@@ -288,7 +292,8 @@ footer{
 /* ============ MIDIA QUERY ============== */
 
 @media (min-width: 768px){
-    .container__menu-hamburger:{
+
+    #container__menu-hamburger{
         display: none;
 
     }
@@ -300,8 +305,105 @@ footer{
     
     header{
         height: 255px;
+        margin-top: 75px;
     }
+
+    footer{
+        height: 101px;
+    }
+
+    .container__menu-hamburger >a{
+        display: flex;
+        margin: 5px;
+    }
+
+    .container__menu-hamburger{
+        display: flex;
+        align-items: center;
+    }
+
+    .container__citacao {
+        width: 670px;
+        height: 150px;
+        border: 1px solid #63458A;
+        margin-bottom: 20px;
+    }
+
+    .container__infos-foto{
+        display: flex;
+        margin: 40px 50px 20px 50px;
+    }
+
+    .citacao {
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+
+    }
+
+    .container__rodape{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape__links{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        width: 50%;
+    }
+
+    .container__imagem-logo-footer{
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .container__redes-sociais{
+        display: flex;
+    }
+
+    .container__navegacao{
+        display: flex;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .container__navegacao  a{
+        text-decoration: none;
+        color: #ffffff;
+        margin: 15px;
+        
+    }
+    .container__menu-hamburger img{
+        width: 25px;
+        margin: 5px;
+        height: 25px;
+
+    }
+
+    .container__logo img{
+        width: 180px;
+    }
+
+    .face-maravilhosas{
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+    }
+
+    .face-maravilhosas >a >image{
+        height: 30px;
+        margin-right: 3px;
+    }
+
+    .imagem-logo-footer img{
+        width: 180px;
+    }
+
+   
 }
 
-height: 340px;
-width: 450px;
+
