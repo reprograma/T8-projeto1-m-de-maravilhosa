@@ -700,5 +700,145 @@ margin-top: 31px;
             }
         
         }
+
+        @media (min-width:1024px){
+
+            body{
+                overflow-x: hidden;
+            }
+
+            .menu__hamburguer{
+                display: none;
+            }
+            
+            .hamburger-icone{
+             display: none;
+             
+            }
+
+            .logo-responsivo {
+                width: 200px;
+                margin-top: -5px;
+            }
+
+            .menu__item-lista  a{
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+
+            .menu__item-lista {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                margin-top: 30px;
+            }
+
+           
+
+           .cabecalho{
+               width: 90vw;
+               display: flex;
+               justify-content: space-between;
+               margin: 0 auto;
+           }
+              
+    
+           .metade__cabecalho{
+               display: flex;
+               flex-direction: row;
+           }
+
+
+
+           .menu__redes-sociais {
+            display: flex;
+            margin-top: 29px;
+            margin-left: 25px;
+        }
+
+        .icone__facebook, .icone__twitter, .icone__instagram, .icone__linkedin{
+            width: 30px;
+            margin-left: 18px;
+            
+        }
+
+        .background {
+            background-image: url(../img/gabriela.jpg);
+            background-repeat: no-repeat;
+            background-position: bottom;
+           width:100vw;
+            height: 660px;
+        }
+
+        .titulo_nome {
+            color: #ffffff;
+            padding: 509px 367px;
+            margin-left: 3px;
+        }
+
+        .titulo h1{
+            margin-left: 82px;
+        }
+
+        .perfil {
+            width: 235px;
+            height: 160px;
+            margin-top: 25px;
+            margin-left: 97px;
+        }
+
+        .coluna__conteudo{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .texto-conteudo {
+            text-align: left;
+            margin-left: -55px;
+            margin-right: 83px;
+            margin-top: 70px;
+        }
+
+        .bloco-citacao {
+            border: 1px solid #674582;
+            width: 308px;
+            margin: 50px 485px;
+            padding-left: 60px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .historia_primeira-parte {
+            margin-top: 80px;
+            margin-left: 64px;
+        }
+
+        .imagem__esconderijo {
+            width: 417px;
+            margin-left: 434px;
+        }
+
+        .texto-sobre p {
+            margin-left: 64px;
+            margin-top: 50px;
+        }
+
+        .texto-sobre h2 {
+            margin-left: 78px;
+            margin-top: 53px;
+        }
+
+        .bloco-autoras {
+            display: flex;
+            flex-direction: column;
+            background-color: #e4b7e5;
+            height: 307px;
+            margin-top: 95px;
+            width: 100vw;
+        }
+
+        
+
+        }       
         
 
