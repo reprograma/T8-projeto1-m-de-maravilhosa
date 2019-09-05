@@ -17,6 +17,32 @@ a {
     color: inherit;
 }
 
+   /* ITENS DE NAVEGAÇÃO */
+   .navegacao__box__container {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navegacao__itens > a {
+    margin-right: 20px;
+}
+
+.navegacao__redes-sociais {
+    display: none;
+}
+
+.navegacao__itens {
+    display: none;
+}
+
+/* SOBRE A PERSONALIDADE */
 .header {
     min-height: 50vh;
     height: 100px;
@@ -44,31 +70,7 @@ a {
     width: 100%;
     max-width: 960px;  
 }
-
-.navegacao__box__container {
-    background-color: #674582;
-    color: white;
-    text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-    
-.navegacao__itens > a {
-    margin-right: 20px;
-    }
-
-.navegacao__redes-sociais {
-    display: none;
-}
-
-.navegacao__itens {
-    display: none;
-}
-
+ 
 .nome__maravilhosa {
     text-transform: uppercase;
     font-size: 33px;
@@ -93,7 +95,6 @@ a {
     border-radius: 5px;
     margin: 7px;
     margin-top: -12px;
-   
 }
 
 .texto__bafao {
@@ -129,6 +130,7 @@ a {
 .frase__impacto {
     margin-top: -5px;
 }
+
 .historia {
     font-family: 'Helvetica';
     color: #800080;
@@ -152,6 +154,7 @@ a {
     margin: 10px;
 }
 
+/* SOBRE A AUTORA */
 .foto__giane {
     height: 80px;
     width: 100px;
@@ -182,6 +185,7 @@ a {
     margin-top: 25px;
 }
 
+/* BOTÃO */
 .botao {
     background-color:#674582;
     font-weight: bold;
@@ -192,6 +196,7 @@ a {
     border-radius: 5px;
 }
 
+/* RODAPÉ */
 .rodape {
     background-color: #323534;
     color: white;
@@ -201,7 +206,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
-    }
+}
 
 .rodape__principal {
     align-items: center;
@@ -225,7 +230,6 @@ a {
     font-size: 20px;
 }
 
-
 .rodape__redes-sociais img {
     max-width: 10px;
     margin-right: 3px;
@@ -243,6 +247,7 @@ a {
     opacity: 0.5;
     text-align: center;
 }
+
 /* MEDIA QUERES */
 @media (min-width: 768px) {
 
@@ -255,67 +260,165 @@ a {
     }
 
     .navegacao__redes-sociais {
-    display: none;
+        display: none;
     }
     
+    .header {
+        background-size: cover;
+    }
+
+    /* PERSONALIDADE */
     .nome__maravilhosa {
-    display: flex;
-    margin-left: 150px;
+        display: flex;
+        margin-left: 237px;
+        padding-bottom: 43px;
     }
 
     .titulo__bafao {
-    font-size: 23px;
-    text-align: center;
-    margin-right: 100px;
-    margin-top: 15px;
-    margin: 20px;
+        font-size: 23px;
+        text-align: center;
+        margin-right: 100px;
+        margin-top: 15px;
+        margin: 20px;
     }
 
     .frase__impacto, .historia, .historia__texto, .texto__mulheres, .texto__bafao {
-    margin: 20px;   
+        margin: 20px;   
     }
 
     .foto__perfil {
-    width: 394px;
-    height: 240px;
-    border-radius: 5px;
-    margin: 153px;
-    margin-top: -12px;
+        width: 459px;
+        height: 344px;
+        border-radius: 5px;
+        margin: 177px;
+        margin-top: -12px;
     }
 
     .texto__bafao {
-    font-size: 21px;
-    display: flex;
-    margin-top: -150px;
-    justify-content: inherit; 
+        font-size: 19px;
+        display: flex;
+        margin-top: -167px; 
     }
 
     .foto__mulheres {
-    height: 309px;
-    width: 645px;
-    border-radius: 5px;
-    margin: 60px;
-    padding: 20px;
-    margin-top: -8px;
-    margin-bottom: 0;
+        height: 309px;
+        width: 645px;
+        border-radius: 5px;
+        margin: 60px;
+        padding: 20px;
+        margin-top: -8px;
+        margin-bottom: 0;
     }
 
     .texto__mulheres {
-    margin-top: -8px;   
+        margin-top: -8px;   
     }
 
+    /* AUTORA */
     .dados {
-    justify-content: center;
+        justify-content: center;
+    }
+
+    /* RODAPÉ */
+    .rodape {
+        padding-top: 0;
+    }
+    
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+    }
+    
+    .rodape__logo img {
+        max-width: 250px;
     }
 }
 
 @media (min-width: 1440px) {
-.header {
-    background-size: cover;
-    height: 714px;
-}
+    /* NAV */
+    .navegacao__redes-sociais {
+        display: flex;
+    }
 
-.nome__maravilhosa {
-    margin-left: 500px;
-}
+    .header {
+        background-size: cover;
+        height: 714px;
+    }
+
+    /* PERSONALIDADE */
+    .nome__maravilhosa {
+        margin-left: 500px;
+    }
+
+    .foto__perfil {
+        width: 552px;
+        height: 396px;
+        border-radius: 5px;
+        margin: 33px;
+        margin-top: -103px;
+        float: left;
+    }
+
+    .historia__texto {
+        font-size: 20px;
+        margin-right: 123px;
+    }
+
+   /*BAFÃO  */
+    .foto__texto__bafao {
+        display: flex;
+        font-size: 25px;
+        margin-top: 167px;
+    }
+
+    .texto__bafao {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-right: 205px;
+    }
+
+    .titulo__bafao {
+        font-size: 30px;
+        margin-top: 56px;
+        margin: 61px;
+        margin-left: 262px;
+    }
+
+    .frase__impacto {
+        margin-right: 128px;
+        text-align: center;
+    }
+
+    /* MULHERES */
+    .foto__mulheres {
+        height: 393px;
+        width: 1024px;
+        border-radius: 5px;
+        margin: 270px;
+        margin-top: -20px;
+    }
+
+    .texto__mulheres {
+        margin-top: -265px;
+        margin-left: 75px;
+        font-size: 18px;
+    }
+
+   /* AUTORA */
+    .dados {
+        margin-top: 35px;
+    }
+
+    .foto__giane {
+        height: 100px;
+        width: 148px;
+        margin: 7px;
+        margin-top: 5px;
+    }
+
+    .dados__autora {
+        font-size: 20px;
+    }
 }
