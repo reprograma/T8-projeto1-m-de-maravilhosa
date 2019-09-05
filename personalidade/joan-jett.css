@@ -12,7 +12,6 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
-    
 }
 
 .navbar{
@@ -26,7 +25,6 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     width: 70%;
-    
 }
 
 .navbar__menu a{
@@ -41,6 +39,7 @@ nav{
    display: flex;
    justify-content: space-evenly;
 }
+
 .navbar__menu a:hover{
     color: #C083B9;
 }
@@ -108,10 +107,10 @@ article h2{
     display: flex;
     justify-content: center;
 }
+
 .article-box__foto img{
     border-radius: 10px;
     height: 30vh;
-    
 }
 
 .article-box__frase{
@@ -130,6 +129,7 @@ article h2{
     padding: 5px 10px;
     font-weight: normal;
 }
+
 .article__historia img{
     height: 31vh;
     border-radius: 5px;
@@ -151,6 +151,7 @@ article h2{
    height: 48vh;
     border-radius: 5px;
 }
+
 .article__historia div{
     width: 80%;
 }
@@ -170,7 +171,6 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 
 .section__autora a{
@@ -180,12 +180,12 @@ section{
 .section__autora a:hover{
     color: #C083B9;
 }
+
 .section__autora div{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .section__autora img{
@@ -207,7 +207,11 @@ section{
     align-items: flex-end;
 }
 
-section button{
+button:hover{
+    cursor: pointer;
+}
+
+section button{ 
     border: none;
     background-color: #C083B9;
     color: #ffffff;
@@ -244,6 +248,7 @@ footer{
 .footer-container a:hover{
     color: #C083B9;
 }
+
 .footer-container a{
     color: #ffffff;
     margin-bottom: 10px;
@@ -261,6 +266,7 @@ footer{
     margin-bottom: -5px;
     margin-right: 5px;
 }
+
 .footer-container__credito p{
     
     color: #ffffff;
@@ -279,13 +285,16 @@ footer{
     header{
         height: 45vh;
     }
+
     section{
         height: 58vh;
     }
+
     .article-box__frase h3{
         font-size: 14pt;
         padding: 0px 22px;
     }
+
     .article-box__frase h5{
         text-align: center;
         padding: 5px 26px;
@@ -302,6 +311,7 @@ footer{
     header{
         height: 50vh;
     }
+
     header h1{
         font-size: 33pt;
     }
@@ -309,19 +319,21 @@ footer{
     article h2{
         font-size: 16pt;
     }
+
     .article__historia img{
         height: 34vh;
     }
+
     .section__autora div{
         width: 100%;
     }
+
     .section__autora p{
         font-size: 10pt;
     }
 
     .footer-container__logo img{
         width: 45vw;
-        
     }
 }
 
@@ -347,8 +359,8 @@ footer{
         margin-top: 10px;
         justify-content: flex-end;
         width: 70%;
-        
     }
+
     header{
         height: 88vh;
     }
@@ -356,9 +368,11 @@ footer{
     header h1{
         font-size: 55pt;
     }
+
     article h2{
         font-size: 23pt;
     }
+
     .article-box{
         display: flex;
         justify-content: center;
@@ -367,7 +381,6 @@ footer{
 
     .article-box img{
         height: 31vh;
-        
     }
 
     .article-box__foto{
@@ -375,7 +388,6 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
     .article-box__texto{
@@ -400,6 +412,7 @@ footer{
         font-weight: normal;
         font-size: 10pt;
     }
+
     .article__historia h4,
     .article__historia p {
         font-size: 13pt;
@@ -409,9 +422,10 @@ footer{
     .article__historia img {
         height: 50vh;
     }
+
     .article__historia-foto2 {
         height: 65vh;
-        border-radius;
+        border-radius: 5px;
     }
 
     section{
@@ -441,17 +455,18 @@ footer{
         font-size: 13pt;
         line-height: 20px;
     }
+
     .section__autora img{
         height: 100%;
         width: auto;
     }
+
     section button{
         padding: 13px 24px;
         font-size: 12pt;    
     }
 
     .button{
-        
         height: 12vh;
     }
 
@@ -493,15 +508,16 @@ footer{
     header h1{
         font-size: 62pt;
     }
+
     .article__titulo {
         width: 70%;
     }
+
     .article-box img {
         height: 35vh;
         margin-left: 53px;
     }
 
-   
     .article-box__texto p {
         font-size: 14pt;
         line-height: 25px;
@@ -524,6 +540,7 @@ footer{
         font-size: 14pt;
         line-height: 25px;
     }
+
     .article__historia div {
         width: 68%;
     }
@@ -535,6 +552,7 @@ footer{
     .article__historia-foto2 {
         height: 70vh;
     }
+
     .section__autora img {
         width: auto;
         height: 100%;
@@ -559,15 +577,15 @@ footer{
     header{
         height: 150vh;
     }
+
     article h2{
         font-size: 20pt;
     }
-    .article__titulo{
-        width: 
-    }
+    
     .article-box__foto{
         width: 27%
     }
+
     .article-box__foto img{
         height: 30vh;
     }
@@ -584,17 +602,21 @@ footer{
     .article-box__texto{
         width: 40%;
     }
+
     .article-box__texto p {
         font-size: 12pt;
-    line-height: 22px;
+        line-height: 22px;
     }
+
     .article__historia h4, 
     .article__historia p {
         font-size: 12pt;
     }
+
     .article-box__frase h3 {
         font-size: 15pt;
     }
+
     .article-box__frase h5{
         font-size: 11pt;
     }
@@ -602,9 +624,15 @@ footer{
     .article__historia-foto img{
         height: 80vh;
     }
+
     .section__autora div{
-        width: 35%;
+        width: 37%;
     }
+
+    .section__autora img{
+        margin-right: 80px;
+    }
+
     .footer-container__face img {
         width: auto;
         height: 4vh;
@@ -614,6 +642,7 @@ footer{
         height: 9vh;
         width: auto;
     }
+
     .footer-container__menu a{
         font-size: 10pt;
     }
@@ -624,17 +653,21 @@ footer{
     header {
         height: 151vh;
     }
+
     header h1 {
         font-size: 73pt;
     }
+
     article h2 {
         font-size: 25pt;
     }
+
 
     .article-box__texto {
         width: 50%;
         
     }
+
     .article-box__foto {
         width: 36%;
     }
@@ -642,18 +675,22 @@ footer{
     .article-box__frase h3 {
         font-size: 17pt;
     }
+
     .article-box__frase h5 {
         font-size: 13pt;
     }
+
     .article-box__texto p {
         font-size: 17pt;
         line-height: 27px;
         margin-right: 195px;
     }
+
     .article-box img {
         height: 30vh;
         margin-right: 30px
     }
+
     .article-box__foto {
         justify-content: flex-end;
     }
@@ -677,21 +714,26 @@ footer{
         line-height: 27px;
     }
 
-    .article__historia img,{
+    .article__historia img{
         height: 60vh;
     }
+
     .article__historia-foto2{
         height: 75vh;
     }
+
     section {
         height: 73vh;
     }
+
     .section__autora div{
         width: 40%;
     }
+    
     .section__autora {
         height: 35vh;
     }
+
     .section__autora img {
         width: auto;
         height: 100%;
