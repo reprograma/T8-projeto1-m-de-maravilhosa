@@ -1,9 +1,10 @@
 * {
     box-sizing: border-box;
+ 
 }
 
 html {
-    font-size: 10px; /* definir uma font-size padrão */
+    font-size: 6px; /* definir uma font-size padrão */
 }
 
 body {
@@ -213,6 +214,7 @@ h3 {
 
 .bio {
     display: block;
+
    
 
 }
@@ -240,6 +242,7 @@ h3 {
 
 }
 .bio {
+    font-size: 16px;
     padding: 32px;
     font-weight: 600;
 }
@@ -428,7 +431,7 @@ h3 {
 }
 
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
     .navegacao__box {
         max-width: 80%;
     }
@@ -444,11 +447,10 @@ h3 {
     }
     /* ---- CONTEÚDO ---*/
     .nina-silva__quote {
-        height: 90px;
-        width: 100%;
+        height: 125px;
+        width: 86%;
     }
     
-
     
     
 }
