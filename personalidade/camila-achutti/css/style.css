@@ -1,16 +1,12 @@
-* {
+    * {
     box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 body {
     margin: 0;
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 
@@ -19,7 +15,6 @@ body {
 .navegar {
     background-color: #674582;
     margin: 0 auto;
-    padding: 10px;
     position: fixed;
     width: 100%;
 }
@@ -39,27 +34,15 @@ body {
     width: 200px;
 }
 
-@media (max-width: 768px) {
-    .navegar-barra__menu {
-        display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    .navegar-hamburguer {
-        display: none;
-    }
-}
-
 
 /* ============ HEADER ============= */
 
 .cabecalho {
     background-image: url("../img/camila-achutti_reserva_foto_thaysbittar-255-1024x683.jpg");
     background-size: cover;
-    position: contain;
+    position: static;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 300px;
     /* padding-top: 50px; */
 }
@@ -69,7 +52,10 @@ body {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    padding-left: 244px;
+    padding-top: 355px;
+    text-transform: uppercase;
 }
 
 
@@ -77,17 +63,14 @@ body {
 
 .conteudo {
     width: 100%;
-    padding: 18px;
+    padding: 30px;
 }
 
 .conteudo-titulo {
     color: #674582;
     font-size: 20px;
-    padding: 15px;
-    padding-top: 30px;
     text-align: center;
     text-transform: uppercase;
-    font-family: Roboto, Slab;
 }
 
 .conteudo-perfil {
@@ -96,12 +79,12 @@ body {
 }
 
 .conteudo-perfil__img {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
 }
 
 .conteudo-biografia {
-    font-size: 18px;
+    font-size: 15px;
     color: #63458a;
     padding: 15px;
 }
@@ -121,11 +104,10 @@ body {
 
 .conteudo-historia {
     width: 100%;
-    padding: 12px;
+    padding: 20px;
 }
 
 .conteudo-historia__tema {
-    padding-top: 40px;
     font-size: 20px;
     font-weight: bold;
     color: #63458a;
@@ -145,25 +127,35 @@ body {
     padding-bottom: 20px;
 }
 
+.conteudo-historia__creditos {
+    font-size: 10px;
+    font-style: italic;
+}
+
+.contexto-final__texto {
+    padding-top: 20px;
+}
+
 
 /* ======== ASIDE ======== */
 
-.container-autora {
+.autora {
     background-color: #e4b7e5;
-    height: 54vh;
+    height: 57vh;
     text-align: center;
 }
 
 .autora-foto__perfil {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin-top: 32px;
 }
 
 .autora-contato {
-    font-size: 14px;
+    font-size: 16px;
     color: #63458a;
     line-height: 8px;
+    font-weight: bold;
 }
 
 .autora-contato__dados-link {
@@ -204,7 +196,6 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 30px;
-    height: 250px;
 }
 
 
@@ -217,6 +208,7 @@ body {
     font-size: 12px;
     text-align: center;
     line-height: 26px;
+    margin: 0 auto;
 }
 
 .rodape__link a {
@@ -251,3 +243,97 @@ body {
     padding: 2px;
     color: #ffffff;
 }
+
+
+/* ========== NAVBAR ============== */
+
+@media (min-width: 768px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .navegar-barra__menu {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .navegar-hamburguer {
+        display: none;
+    }
+    .navegar-barra,
+    .navegar-barra__menu,
+    .navegar-barra__link,
+    .navegar-barra__icone {
+        display: flex;
+        align-items: center;
+    }
+    .container-navegar {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navegar-barra__lista li {
+        margin-right: 40px;
+        display: flex;
+        flex-direction: row;
+    }
+    .navegar-barra__link a {
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .navegar-barra__icone img {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+/* ======== HEADER ============== */
+
+
+/* 
+@media (min-width: 450px) {
+    .cabecalho {
+        width: 100vw;
+        height: 60vh;
+    }
+} */
+
+@media (min-width: 768px) {
+    .cabecalho {
+        width: 100vw;
+        height: 60vh;
+    }
+    .conteudo {
+        padding: 35px 100px 0px;
+    }
+    .conteudo-responsivo {
+        display: flex;
+        flex-direction: row;
+        align-items: center
+    }
+    .conteudo-perfil {
+        margin-right: 20px;
+    }
+    .container-rodape {
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+    }
+    .autora {
+        height: 44vh;
+    }
+    .container-autora {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .autora-foto__perfil {
+        margin-right: 30px;
+    }
