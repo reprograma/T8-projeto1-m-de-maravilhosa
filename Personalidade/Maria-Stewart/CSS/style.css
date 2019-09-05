@@ -140,6 +140,10 @@ h3 {
     font-weight: 700;    
 }
 
+.dados_texto-link {
+    color: #674582; 
+}
+
 /* =====================FOOTER========================= */
 
 .container_botao {
@@ -251,7 +255,6 @@ h3 {
 
     .banner {
         font-size: 40px;
-        
     }
 
     h2 {
