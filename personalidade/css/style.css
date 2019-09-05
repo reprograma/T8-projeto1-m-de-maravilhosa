@@ -3,11 +3,7 @@
 }
 
 html {
-<<<<<<< Updated upstream
     font-size: 10px;
-=======
-    font-size: 9px;
->>>>>>> Stashed changes
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -16,72 +12,101 @@ body {
 }
 
 .navegacao {
-<<<<<<< Updated upstream
-width: 100%;
-background-color: purple;
-display: block;
-}
-.navegacao a {
-    padding: 15px;
-}
-
-.navegacao__logo {
-    display: inline-block;
-    font-size: 16px;
-=======
 background-color: purple;
 width: 100%;
+color: white;
+text-transform: uppercase;
+box-shadow: 0px 5px 5px black;
+position: fixed;
+justify-content: space-around;
+align-items: center;
+height: 50px;
+
 }
 
->>>>>>> Stashed changes
+h1 {
+    text-transform: uppercase;
+    margin-top: -25px;
+    color: white;
+    margin-left: 68px;
+    font-size: 20px;
+    justify-content: center;
+
+
+}
+.img_angel {
+    width: 100%;
+    margin-top: 43px;
+}
+
+p {
+    margin:8px;
+}
+.img-responsive {
+    width: 66%;
+}
+
+.angela__davis {
+    width: 297px;
+    height: 272px;
+    border-radius: 179px;
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
 }
 .navegacao__itens {
     list-style: none;
     position: relative;
-    display:flex;
+    display:none;
 }
+ .angel_davis { 
+    width: 100%;
+    height: 231px;
+    margin-left: 12px;
+  }
 .navegacao__redes-sociais {
     display:none;
-<<<<<<< Updated upstream
-=======
-    
->>>>>>> Stashed changes
 }
 .navegacao__redes-sociais a {
     margin: 0 1rem;
 }
-<<<<<<< Updated upstream
-=======
-
+.menu__hamburguer {
+    max-width: 82px;
 }
->>>>>>> Stashed changes
+.segundo_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navegacao_logo{
     max-width: 50px;
 }
 .navegacao__box-container{
     display: flex;
-<<<<<<< Updated upstream
+    justify-content: space-around;
+    
 }
- a: {
+ a {
  text-decoration:none;
-        }
-=======
-    align-items: flex-start;
+ color: purple;
 
 }
-
->>>>>>> Stashed changes
-ul {
-    margin-right: 0;
-    padding-left: 0px;
-    width: 301px;
-    text-align: center;
-<<<<<<< Updated upstream
+.navegacao__menu-hamburguer{
+    margin-left: 39px;
+    padding: 10px; 
 }
+ h3 {
+     font-size: 20px;
+     margin: 10px;
+     text-align: center;
+     color: purple;
 
-.img-responsive {
-    width: 100%;
-}
+    }
+
+    h2 {
+        margin-bottom: 1px;
+        display: flex;
+    }
 blockquote {
     font: 14px/22px normal helvetica, sans-serif;
     margin-top: 10px;
@@ -89,189 +114,157 @@ blockquote {
     margin-left: 50px;
     padding-left: 15px;
     border-left: 3px solid #ccc;
-=======
-    text-decoration: none;
-    flex-direction: row;
+    color: mediumpurple;
     display: flex;
-    list-style: none;
-    
-}
-ul {
-    display: none;
-}
-.img-angela {
-    width: 100%;
-
-}
-
-.img-responsive {
-max-width: 109px;
-}
-
-.img {
-    max-width: 200px;
-    display: inline-block
-}
-blockquote {
-    font: 14px/20px normal helvetica, sans-serif;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    margin-left: 40px;
-    padding-left: 10px;
-    border-left: 2px solid #ccc;
->>>>>>> Stashed changes
+    align-items: center;
+    justify-content: center;
     }
-    .angel_davis {
-        width: 100%;
-    }
-<<<<<<< Updated upstream
+.biografia_angela {
+    font-size: 15px;
+    color: purple;
 
+}
+.secao-diva__historia {
+    margin: 2px;
+}
+.prigs {
+    width: 100px;
+    float: left;
+    padding: 4px;
+    padding: 14px;
+    margin-top: -10%;
+}
+.modal_footer{
+    justify-content: center;
+}
 
-    @media(min-width: 768px){
-    .navegacao__menu-hamburguer{
-        display: none;
-=======
-    p {
-        font: 14px/22px normal helvetica, sans-serif;
-    }
-.sessao-autora {
+.modal_conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    margin-top: -15px;
+
+}
+.sessao-autora{
+    background-color: pink;
+    margin-top: 0;
+    flex-direction: unset;
+}
+.section__autora{
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    align-items: inherit;
+}
+
+.secao-cta {
+    justify-content: center;
+    display: bl;
+    margin-bottom: 12px;
+    margin-top: -16px;
+    display: flex;
+}
+.ver_todas {
+    background-color: rgb(236, 116, 136);
+    width: 121px;
+    height: 27px;
+    margin-top: 22px;
+    margin-left: 108px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__principal {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rodape__cc  {
+    background-color:gray;
+    margin-top: -10px;
+    justify-content: center;
+}
+.rodape__logo{
+    max-width: 100px;
+
+}
+.rodape__redes-sociais {
+    max-width: 80px;
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+.rodape__navegacao {
+    margin: -15px;
+    margin-left: -69px;
+}
+.tem_que {
+    display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: -19px;
+    width: 71vw;
+    justify-content: space-between;
 
 }
-    .rodape {
-        background-color: #323534;
-        color: white;
-        font-size: .9rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-    }
-    
-    .rodape__principal {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-        padding: 2px; 0;
-    }
-    
-    .rodape__principal > * {
-        margin: 1rem 0;
-    }
-    
-    .rodape__navegacao > li {
-        font-size: 1.1rem;
-        margin: 1rem;
-    }
-    
-    .rodape__navegacao a {
-        transition: all .5s;
-    }
-    
-    .rodape__navegacao a:hover {
-        color: #C083B9;
-    }
-    
-    .rodape__logo {
-        max-width: 200px;
-    }
-    
-    .rodape__redes-sociais a {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: all .5s;
-    }
-    
-    .rodape__redes-sociais a:hover {
-        color: #C083B9;
-    }
-    
-    .rodape__redes-sociais img {
-        max-width: 10px;
-        margin-right: .5rem;
-    }
-    
-    .rodape__redes-sociais span {
-        display: flex;
-        font-size: 1.5rem;
-    }
-    
-    .rodape__cc {
-        width: 100%;
-        background-color: #292A2A;
-        font-size: 1rem;
-        opacity: 0.5;
-        text-align: center;
-    }
+.facetruque {
+    margin-left: -7px;
+    max-width: 40px;
+}
+    @media(min-width: 768px) {
 
-
-    @media(min-width: 600px){
-    .navegacao__menu-hamburguer{
+.navegacao__menu-hamburguer{
         display: none;
-        width: 100%;
->>>>>>> Stashed changes
 }
 .navegacao__redes-sociais {
     display:flex;
 }
-.navegacao__itens{
-    display: flex;
-<<<<<<< Updated upstream
-}
 .navegacao__nav{
     display: flex;
+    color: white;
 }
-    }
-=======
-}.navegacao {
-    width: 100%;
-    background-color: purple;
-    position: fixed;
-    display: flex;
-    justify-content: space-around;
-    }
-    
-    .navegacao__logo {
-        display: inline-block;
-        font-size: 16px;
-    }
-    .navegacao__itens {
-        list-style: none;
-        position: relative;
-        display:flex;
-    }
-    .navegacao_logo{
-        max-width: 50px;
-    }
-    .navegacao__box-container{
-        display: flex;
-    }
-  ul{
-            display:inline;
-            float:left;
-            list-style:none;
-            text-align:center;
-            margin:0px; 
-            padding:0px; 
-        }
-    
-    .img-responsive {
-        width: 100%;
-    }
-    blockquote {
-        width: 100%;
-    }
-    .rodape {
-        background-color: #323534;
-        color: white;
-        font-size: .9rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
+.img_angel {
+   max-width: 100%;
+    margin-top: 43px;
 }
+.navegacao__itens {
+    list-style: none;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+.angel_davis{
+    width: 40%;
+    height: 31%;
+    margin-left: 33%;
+    
+}
+.angela__davis{
+    margin-left: 30%;
+}
+h1 {
+    text-transform: uppercase;
+    margin-top: -25px;
+    color: white;
+    margin-left: 247px;
+    font-size: 22px;
+    justify-content: center;
+}
+.secao-cta {
+margin-bottom: 3px;
+margin-top: -12px;
+justify-content: center;
+margin-right: 132px;
+display: flex;
     }
->>>>>>> Stashed changes
+    ul {
+        display: flex;
+        color:white;
+    }
