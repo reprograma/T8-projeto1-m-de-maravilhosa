@@ -4,7 +4,7 @@
 
 html {
     margin: 0 auto;
-    font-size: 12px;
+    font-size: 16px;
     width: 100%;
     height: 100%;
     
@@ -63,22 +63,7 @@ li {
 .navbar__itens > ul{
     display: inline;
 }
-/* .navbar__itens.ativo{
-    display: block;
-    right: 0;
-    top: 85px;
-    width: 100%;
-    background-color: #674582;
-    text-align: center;
-    padding: 3rem 0;
-    transition: right 1s;
-} */
-/* .navbar__itens li > a {
-    transition: all .2s;
-}
-.navbar__itens li > a:hover{
-    color: #C083B9;
-} */
+
 .navbar__menu-hamburguer{
     background-color: #C083B9;
     border-radius: 5px;
@@ -115,6 +100,8 @@ li {
 /* ===SECTION APRESENTAÇÃO=== */
 .conteudo__introducao > h2{
     text-align: center;
+    color: #63458a;
+    padding: 0 5%;
 }
 .conteudo__introducao_resumo{
     display: flex;
@@ -124,11 +111,23 @@ li {
     color: #63458a;
 }
 .conteudo__introducao_imagem {
-   width: 50%;
-
+    width: 200px;
+    height: 200px;
+    background-color: #674582;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.img-perfil{
+    width: 230px;
+}
+.
 .conteudo__introducao_texto{
-    width: 50%;
+    width: 80%;
+}
+.conteudo__introducao_texto > p{
+    padding: 0 10%;
 }
 /* ===SECTION FRASE=== */
 .conteudo__frase{
@@ -140,10 +139,49 @@ li {
     padding: 5%;
     font-style: italic;
 }
-.conteudo__introducao_imagem > img{
-    border-radius: 50%;
-    padding: 10%;
+
+/* ===SECTION PRINCIPAL=== */
+.conteudo__principal{
+    padding: 5% 10%;
 }
+/* ===SOBRE O AUTOR=== */
+
+.sobre-autor__imagem{
+    background-color: #C083B9;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #674582;
+}
+.sobre-autor__imagem > img {
+    height: 120px;
+}
+/* ===BOTÃO=== */
+.sobre-autor__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.sobre-autor__button{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 12px;
+}
+button {
+    background-color: #C083B9;
+    border:none;
+    border-radius: 5px;;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+
+}
+
 
 
 /* ===FOOTER=== */
@@ -214,4 +252,10 @@ li {
     font-size: 1rem;
     opacity: 0.5;
     text-align: center;
+}
+/* ===MEDIA QUERIES=== */
+@media (max-width: 768px) {
+    .navbar__itens{
+        display: none;
+    }
 }
