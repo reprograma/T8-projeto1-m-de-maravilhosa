@@ -195,8 +195,8 @@ li {
 }
 .dilma__apresentacao{
     width: 300px;
-    font-size: 2.5rem;
-    font-weight: 900;
+    font-size: 16pt;
+    /* font-weight: 900; */
     margin-left: 5%;
 }
 
@@ -210,6 +210,32 @@ li {
     margin-left:30%;
     margin-right: 30%;
     margin: 5%;
+}
+
+.container__dilma {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px; 
+}
+
+.foto__dilmahist {
+    width: 200px;
+    height: 100%;
+}
+
+.autora {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    background-color: #E4B7E5
+}
+
+.foto__autora {
+    width: 90px;
+    height: 100%;
 }
 
 
