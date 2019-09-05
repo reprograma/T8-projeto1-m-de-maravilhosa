@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 html {
@@ -9,8 +8,14 @@ html {
 }
 
 body {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color: #63458A;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    
 }
 
 .navegacao {
@@ -24,17 +29,25 @@ body {
 .links-redes {
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
+    width: 600px;
     align-items: center;
+   
+}
+
+.links > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.links > ul > li {
+    list-style: none;
 }
 
 a {
     text-decoration: none;
 }
 
-.links {
-    width: 200px;
-}
+
 
 .link-texto {
     font-size: 10px;
@@ -61,7 +74,8 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
-    color: white;  
+    color: white; 
+    
 }
 
 .personalidade h1 {
@@ -81,6 +95,18 @@ a {
 .foto-com-paragrafo {
     display: flex;
     margin-bottom: 4%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro__foto {
+    display: flex;
+    align-self: center;
+}
+
+.intro__texto {
+    width: 65%;
+
 }
 
 .citacao {
@@ -98,19 +124,20 @@ a {
     margin-bottom: 1%;
 }
 
-.paragrafo {
-    margin-bottom: 2%;
-}
-
 .foto-descricao {
     display: flex;
     justify-content: center;
     background-color: #e4b7e5;
-    padding: 5%;
+}
+
+.autora {
+    display: flex;
+    align-self: center;
 }
 
 .autora ul {
-    list-style: none;    
+    list-style: none;
+    font-weight: bold;
 }
 
 .botao {
@@ -131,7 +158,8 @@ button {
 }
 
 footer {
-        
+    margin: 0 auto;
+    
 }
 
 .cinza-claro {
@@ -140,6 +168,7 @@ footer {
     display: flex;
     justify-content: space-around;
     padding: 65px 35px;
+    margin: 0;
 }
 
 .cinza-claro__lista {
@@ -147,6 +176,7 @@ footer {
     flex-direction: column;
     align-items: center;
     list-style: none;
+    margin-right: 20px;
     line-height: 1.5;
 }
 
@@ -157,10 +187,6 @@ footer {
 
 .cinza-claro__item > a:hover {
     color: #c083b9;
-}
-
-.face__img {
-    
 }
 
 .face > a {
@@ -181,4 +207,56 @@ footer {
     font-size: 10px;
     text-align: center;
     padding: 5px 0;
+    margin: 0;  
+}
+
+@media (max-width: 768px) {
+    .foto-com-paragrafo {
+        display: block;
+    }
+
+    .intro__foto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro__texto {
+        margin: 0 auto;  
+    }
+    .cinza-claro {
+        display: block;    
+    }
+
+    .logo-m-maravilhosa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .face {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 320px) {
+    .cinza-claro {
+        text-align: center;
+
+    }
+
+    .links-redes {
+        display: none;
+    
+    }
+    .personalidade {
+        background-position: center;
+    }
+
+}
+@media (min-width: 768px) {
+    .menu-hamburguer {
+        display: none;
+    }
 }
