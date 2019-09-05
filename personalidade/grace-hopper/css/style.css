@@ -77,6 +77,7 @@ section {
     text-align: center;
 }
 .ultima-foto-grace {
+    width= 80%;
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
@@ -95,6 +96,10 @@ section {
 }
 .autora-texto {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .autora a {
     text-decoration: none;
@@ -131,32 +136,32 @@ section {
 .rodape {
     background-color: #323534;
     color: white;
-    font-size: .9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: .8rem;
-    text-align: center;
+    font-size: 12px;
 }
 .rodape a {
     text-decoration: none;
-    color: white;
+    color:white;
 }
 .rodape-principal {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-bottom: 15px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.rodape-home-site {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
 }
 .rodape-logo {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
-.rodape-redes-sociais {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 15px;
+.rodape-redes-sociais img {
+    width: 10px;
+}
+.menu-redes-sociais {
+    margin-bottom: 10px;
 }
 .rodape-final {
     width: 100%;
@@ -164,6 +169,7 @@ section {
     font-size: small;
     opacity: 0.5;
     text-align: center;
+    font-size: 10px;
 }
 @media (max-width: 767px){
     .menu-redes-sociais {
@@ -189,6 +195,11 @@ section {
         width: 100pw;
         height: 450px;
     }
+    .rodape-principal {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 @media (min-width: 1000px) {
     .menu-redes-sociais {
@@ -212,23 +223,5 @@ section {
     .primeira-foto-1 {
         width: 20%;
         margin-left: 40%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 1440px) {
-
+    }
 }
