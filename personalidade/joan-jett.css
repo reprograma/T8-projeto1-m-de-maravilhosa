@@ -357,7 +357,7 @@ footer{
         font-size: 55pt;
     }
     article h2{
-        font-size: 25pt;
+        font-size: 23pt;
     }
     .article-box{
         display: flex;
@@ -390,7 +390,7 @@ footer{
     }
 
     .article-box__frase h3{
-        font-size: 16pt;
+        font-size: 14pt;
         padding: 0px 30px;
     }
 
@@ -398,7 +398,7 @@ footer{
         text-align: center;
         padding: 5px 30px;
         font-weight: normal;
-        font-size: 12pt;
+        font-size: 10pt;
     }
     .article__historia h4,
     .article__historia p {
@@ -634,6 +634,16 @@ footer{
     .article-box__texto {
         width: 50%;
         
+    }
+    .article-box__foto {
+        width: 36%;
+    }
+
+    .article-box__frase h3 {
+        font-size: 17pt;
+    }
+    .article-box__frase h5 {
+        font-size: 13pt;
     }
     .article-box__texto p {
         font-size: 17pt;
