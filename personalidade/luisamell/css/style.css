@@ -435,7 +435,7 @@ display: flex;
     }
 
     .tituloBafao > h2{
-        font-size: 47px;
+        font-size: 30px;
     }
 
     .fotoBafao_img {
@@ -444,8 +444,8 @@ display: flex;
     }
 
     .textoBafao_texto {
-        line-height: 61px;
-        font-size: 26px;
+        line-height: 58px;
+        font-size: 22px;
     }
 
     .citacao {
@@ -459,20 +459,19 @@ display: flex;
     }
 
     .historia > h3 {
-        font-size: 47px; 
+        font-size: 28px; 
     }
 
 
-    .historia_texto p {
+    .historia_texto p  {
         line-height: 61px;
-        font-size: 26px;  
-    } 
+        font-size: 19px;  
+    }    
    
-
     
     .texto_sub {
         line-height: 61px;
-        font-size: 26px;}
+        font-size: 19px;}
 
     .autora_img {
         width: 20vw;
@@ -499,24 +498,31 @@ display: flex;
         border-radius: 37px;
     }
 
+    .contatos{
+        height: 8vh;
+
+    }
+
     .contatos a {
-        font-size: 31px;
+        font-size: 19px;
+        
     }
 
 
     .contatos_logo img {
-        width: 290px;
-        height: 110px;
-    }
+        width: 249px;
+        height: 74px
+}
+
 
 
     .contatos_facebook img {
-        width: 86px;
-        height: 80px;
+        width: 47px;
+        height: 39px;
     }
 
     .contatos_facebook span {
-        font-size: 23px;
+        font-size: 16px;
     }
 
     .criado{
