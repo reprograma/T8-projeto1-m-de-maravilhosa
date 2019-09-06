@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 10px;
+    font-size: 12px;
 }
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -121,7 +121,7 @@ width: 80%;
 display: flex;    
 flex-direction: column;
 text-align: initial;
-    color: #63458a;
+color: #63458a;
     
 }
 .resume-back{
@@ -143,7 +143,7 @@ margin: 7px auto;
 }
 .resume p{
 justify-content: space-around;
-line-height: 16px;
+line-height: 24px;
 }
 
 .quote{
@@ -160,7 +160,7 @@ line-height: 16px;
     color: #63458a;
     font-size: larger;
     font-weight: bold;
-    line-height: 20px;
+    line-height: 24px;
     height: 70%;
     padding: 20px;
 }
@@ -180,7 +180,7 @@ line-height: 16px;
     justify-content: space-around;
     text-align: initial;
     color: #63458a;
-    line-height: 16px;
+    line-height: 24px;
 }
 .foto-vo{
     display: flex;
@@ -240,6 +240,7 @@ margin: 10px;
     display: flex;
     justify-content: center;
     margin: 10px auto;
+    font-size: 12px
     
 }
 .footer-botao :hover{
@@ -263,7 +264,7 @@ background-color: rgb(192, 156, 188); */
 .footer__call-to-action{
     color: white;
      display: block;
-    max-width: 250px;
+    /* max-width: 250px; */
     text-align: center;
     background-color: #C083B9;
     margin: 10 auto;
@@ -360,6 +361,9 @@ color:#C083B9
     /* ======MEDIA QUERY====== */
 
 @media (min-width: 768px){
+    html {
+        font-size: 14px;
+    }
 
 .nav_container{
         background-color: #674582;
@@ -412,10 +416,14 @@ header  {
 
 .resume{   
     display: flex;    
-   text-align: center;
+   text-align: initial;
    flex-direction: row;
     color: #63458a;
-}    
+    }    
+.resume p{
+    padding: 10px !important;
+}
+
 
 main{
     padding: 60px auto;
@@ -446,7 +454,7 @@ align-content: center;
     display: flex;
     background-color: #C083B9;
     justify-content: center;
-    height: 156px;
+    height: 162px;
     margin: 10px auto;
 
 }
@@ -459,6 +467,7 @@ align-content: center;
     color: #63458a;
     font-weight: bold;
     width: 116px;
+    font-size: 12px
     
 }
 .footer-autor img{
