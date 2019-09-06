@@ -59,9 +59,9 @@ body {
 /* === HEADER=== */
 
 .header{
-    background: linear-gradient(rgba(211, 165, 255, 0.591), rgba(235, 132, 255, 0.591)), url(../img/oprah_1.jpg);
+    background: linear-gradient(rgba(211, 165, 255, 0.591), rgba(235, 132, 255, 0.591)), url(../img/autora.back.jpg);
     background-size: cover; /* para a img conter exatamente o tamanho da div*/
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -83,21 +83,21 @@ body {
     
     .img__historia{
         width: 100%;
-       margin: 10px 10px; 
+       margin: 10px 0px; 
        }
     
-    .img__autora {
-        width: 20vw;
-        
-    }
-    
+   
     .img__perfil {
-    width: 40vw;
+    width: 30vw;
     margin: 10px;
     }
     
     
 /* === MAIN=== */
+
+main{
+    margin: 0px 10px;
+}
 
 .principal__sub {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
@@ -106,50 +106,31 @@ body {
     margin: 15px;
 }
 
-.resumo {
+.resumo > div  {
     display: flex;
     align-items: center;
     text-align: left;
-    margin: 10px;   
-
-}
-
-.frase {
-        border: 1px solid #63458a;
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
     margin: 10px 20px;
-}
-
-.historia__titulo {
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin: 10px;
+    width: 90%;   
 
 }
 
-.historia {
-    text-align: left;
-    margin: 10px;
-    
-}
-
-.autora {
+.redes {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 0;
-    background-color: #E4B7E5;
+    margin: 20px 10px;
 }
 
-.autora > ul > li {
-    list-style-type: none;
+.redes > a{
+    text-decoration: none;
     font-weight: bold;
-    font-size: 8px;
-    margin-left: -20px;
+    color: #674582;
+}
+
+hr {
+    width: 50%;
+    margin:auto;
+    color: #674582
 }
 
 /* === BOTÃO=== */
@@ -198,7 +179,6 @@ body {
 
 .rodape__navegacao > li {
     list-style-type: none;
-    font-size: 11px;
     line-height: 2;
     text-align: center;
     display: block; 
@@ -234,4 +214,130 @@ body {
     width: 95%;
     margin-top: 20px;
     
+}
+/* === MEDIA QUERIES=== */
+
+@media (max-width: 588px) {
+    .nav{
+        width: 100%;
+    }
+
+    .nav__menu-hamburguer{
+        padding:20px;
+    }
+
+    .rodape__principal {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .rodape__redes-sociais > a> span{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    main{
+        font-size: 15px;
+    }
+    .nav {
+    height: 50px;
+    }
+    .nav__menu-hamburguer > a > img {
+        display: none;
+    }
+    .img-responsive {
+        width: 20%;
+    }
+    .nav__redes-sociais  {
+        display: flex;
+    }
+    .nav__links >ul>li {
+        display: flex;
+        margin-right: 30px;
+    }
+    .nav__links > ul {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .nav__img{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .img__perfil{ 
+        width: 20vw;
+    }
+    .resumo {
+        margin: 10px 110px;
+    }
+   
+    .rodape__redes-sociais > a > span {
+        font-size: 13px;   
+    }
+}
+
+
+@media (max-width: 1440px) {
+    html{
+        font-size: 25px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    .nav {
+        height: 70px;
+    }
+
+    .nav_links > ul >li > a {
+        font-size: 20px;
+
+    } 
+
+    .nav__container{
+        width: 90%;
+
+    }
+    .img-responsive {
+    width: 18%; 
+    }
+
+    .img__perfil{
+        width: 18vw;
+    }
+
+    .principal__sub, .historia__titulo {
+        font-size: 25px;
+        margin: 30px;
+    }
+      
+
+    .btn_vertodas {
+        width: 230px;
+        height: 50px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .btn_vertodas > a{
+        font-size: 20px;
+    }
+    .rodape__cc {
+        padding-top: 0px;
+        font-size: 10px;
+    }
+
+    main {
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+    .header {
+        height: 450px;
+    }
+    h1 {
+        margin-top: 370px;
+    }
 }
