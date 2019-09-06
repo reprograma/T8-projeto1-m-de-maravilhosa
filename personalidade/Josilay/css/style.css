@@ -201,7 +201,7 @@ a {
 
 /* BOTÃO */
 .botao {
-    background-color:#674582;
+    background-color: purple;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -210,9 +210,9 @@ a {
     border-radius: 5px;
 }
 
-/* RODAPÉ */
+/* FOOTER */
 .rodape {
-    background-color: #323534;
+    background-color: #674582;
     color: white;
     font-family: 'Helvetica';
     font-size: 0px;
@@ -230,8 +230,6 @@ a {
     font-size: 10px;
     justify-content: center;
     margin-right: 120px;
-
-
 }
 
 .rodape__navegacao{
@@ -340,6 +338,12 @@ a {
         margin-top: -167px; 
     }
 
+    .mulheres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .foto__mulheres {
         height: 309px;
         width: 645px;
@@ -357,10 +361,10 @@ a {
     /* AUTORA */
     .dados {
         justify-content: space-around;
-        width: 768px;
+        width: 100%;
     }
 
-    /* RODAPÉ */
+    /* FOOTER */
     .rodape {
         padding-top: 0;
     }
@@ -451,7 +455,7 @@ a {
    /* AUTORA */
     .dados {
         margin-top: 35px;
-        width: 1348px;
+        width: 100%;
     }
 
     .foto__giane {
