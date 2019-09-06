@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+    padding: 33px;
+}
+
+/* h1 {
+    margin-left: 45%;
+} */
+
+h3 {
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h6 {
+    align-items: center;
+    margin-top: 50px;
+}
+
+div {
+    display: block;
+   
+}
+
+p {
+    margin-left: 38px;
+    margin-right: 28px;
+}
+
+.container {
+    width: 90%;
+}
+
+
+
+.rodape {
+    background-color: purple;
+    color: beige;
+    /* display: flex; */
+    width: 100vw;
+    justify-content: space-around;
+
+}
+
+.rodape__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape__block {
+    margin-left: 35%;
+    padding-bottom: 25px;
+}
+
+.rodape img {
+    height: 45px;
+    margin-top: 20px;
+}
+
+.rodape li {
+    padding: 1px;
+}
+
+.navegacao {
+    background-color: purple;
+    width: 100vw;
+
+}
+
+.navegacao__box  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+ .navegacao__menu-hamburguer {
+    display:none;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    padding: 33px;
+}
+
+.navegacao__itens {
+    display: flex;
+
+}
+
+.navegacao__redes-sociais {
+    padding-right: 25px;
+}
+
+.navegacao__box {
+    height: 53px;
+}
+
+.nav_img {
+    width: 30px;
+}
+
+/* .navegacao__menu-hamburguer */
+
+.antonieta img {
+    width: 100vw;
+}
+
+.frase__antonieta {
+    border-style: solid;
+    border-radius: 10px;
+    height: 109px;
+    border-color: gray;
+    padding-top: 6px;
+    margin-right: 46px;
+    margin-left: 46px;
+}
+
+.eu img {
+    width: 10vw;
+    height: 10vh;
+}
+
+.eu {
+    background-color: darkorchid;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.nome {
+    margin-left: 40%;
+}
+
+.hist {
+    margin-left: 45%;
+}
+
+h3 {
+    margin-left: 46%;
+}
+
+
+@media ( max-width: 768px) {
+    
+    /* body{
+        ;
+    } */
+
+    li {
+        width: 15vw;
+        /* margin-left: -42vw;
+        margin-top: 8px; */
+    }
+
+    h1 {
+        margin-left: 40%;
+        color: #000000;
+    }
+
+    h3 {
+        margin-left: 37%;
+    }
+    
+    .rodape {
+        background-color: purple;
+        color: beige;
+        /* display: flex; */
+        width: 100vw;
+        justify-content: space-around;
+    
+    }
+    
+    /* .rodape__flex {
+        /* display: flex; */
+        /* justify-content: space-around;
+        display: block;
+    } */ 
+    
+    .rodape__block {
+        margin-left: 11%;
+
+    }
+
+    /* .rodape__flex {
+        display: flex;
+        /* justify-content: space-around; */
+        /* height: 76px;
+        align-items: center;
+     }  */
+    
+    
+    .img__logo{
+        height: 25px;
+    }
+    
+    .rodape > li {
+        /* display: block; */
+        justify-content: center;
+        width: 50vw;
+    }
+
+    span {
+        display: none;
+    }
+
+    .img__fb {
+        display: none;
+    }
+    
+    .navegacao {
+        background-color: purple;
+        width: 100vw;
+    
+    }
+
+    .navegacao__img img {
+        height: 37px;
+    }
+    
+    .navegacao__box  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+     .navegacao__menu-hamburguer {
+        width: 25px;
+        display:flex;
+    }
+    
+    .lista {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 66px;
+    }
+
+    .reprograma__nav {
+        display: flex;
+    padding-left: 46px;
+    }
+
+    .navegacao__itens {
+        display: flex;
+    
+    }
+    
+    .navegacao__nav {
+        display: none;
+    }
+
+    .navegacao__redes-sociais {
+        padding-right: 25px;
+        display: none;
+    }
+    
+    .navegacao__box {
+        height: 53px;
+    }
+    
+    .nav_img {
+        width: 30px;
+    }
+    
+    .antonieta img {
+        width: 100vw;
+    }
+    
+    .frase__antonieta {
+        border-style: solid;
+        border-radius: 10px;
+        height: 163px;
+        border-color: gray;
+        padding-top: 1px;
+    }
+}
+
+@media (max-width: 475px) {
+    .antonieta img {
+        height: 63vh;
+        width: 100vw;
+    }
+
+.rodape__flex {
+    display: block;
+    height: 76px;
+    font-size: 12px;
+    margin-left: 68px;
+}
+.rodape img {
+    margin-top: -12px;
+}
+
+.eu img {
+    width: 38vw;
+    height: 20vh;
+    align-items: center;
+}
+
+}
+
+
+
+@media (width: 728px) {
+    .antonieta img {
+    height: 83vh;
+    width: 100vw;
+}
+
+}
+
+@media (max-width: 320px) {
+    .frase__antonieta {
+        border-style: solid;
+        border-radius: 10px;
+        height: 337px;
+        border-color: gray;
+        padding-top: 1px;
+    }
+
+    .eu img {
+        width: 40vw;
+        height: 33vh;
+        align-items: center;
+    }
+
+    .nome {
+        margin-left: 12%;
+    }
+
+    .hist {
+        margin-left: 30%;
+    }
+
+}
+
+@media (min-width: 480px) {
+    .eu img {
+    width: 22vw;
+    height: 18vh;
+}
+}

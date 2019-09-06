@@ -1,0 +1,240 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #674582;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__logo{
+    width: 250px;
+     
+}
+
+.navbar__link{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+.navbar__redes a >img{
+    width: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+header{
+    background-image: url(../img/harriet_tubman.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient hsla(290,100%,20%,0.3);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+}
+
+.texto{
+    text-align: center;
+
+}
+
+.conteudo-tubman{
+    display: flex;
+    align-items: center;
+}
+
+.conteudo-tubman__img{
+    margin: 0;
+    width: 350px;
+    height: 250px;
+
+}
+
+.conteudo-tubman__texto{
+    color: #674582;
+    width: 700px;
+}
+
+.amburg{
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding: 10px;
+   }
+
+   h1{
+       color: white;
+       align-self: flex-end;
+   }
+
+   .titulo{
+       width: 100%;
+       height: 200%;
+       margin-top: 30px;
+       text-align: center;
+       font-size: 20px;
+       color: #674582;
+       font-weight: bold;
+       
+   }
+
+   .paragrafo_um{
+       color: #674582;
+       font-weight: bold;
+       border: 1px solid #674582;
+       width: 100%;
+       height: 150px;
+       margin-top: 10PX;
+       display: flex;
+       align-items: center;
+   }
+
+   .segundo-paragrafo{
+       margin-top: 50px;
+       color: #674582;
+
+   }
+
+   .segundo-paragrafo > h3{
+       font-weight: bold;
+       margin: 10px 0px;
+       text-align: left;
+       font-size: 20px;
+
+   }
+
+   .segundo-paragrafo > p{
+       margin-bottom: 20px;
+       text-align: left;
+   }
+
+   .foto_nota{
+       margin-bottom: 20px;
+       
+
+   }
+
+   .sobre_autora{
+       background-color: #E4B7E5;
+       height: 160px;
+       
+   }
+
+   .sobre_autora-conteudo{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+
+    }
+
+   .info_autora{
+       color: #674582;
+       font-weight: bold;
+       margin:0px;
+       margin-left: 20PX;
+   }
+
+   .autora{
+       margin: 0;
+   }
+
+   .ver{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 150px;
+       
+   }
+
+   button{
+       color: #674582;
+       background-color: #E4B7E5;
+       font-weight: bold;
+       font-size: 20px;
+       border: none;
+       border-radius: 5px;
+       border-color: #ffffff 1px solid;
+       margin-top: 25px;
+       padding: 15px 20px;
+       text-transform: uppercase;
+       
+      
+   }
+
+   .footer_principal{
+       background-color: #323534;
+       display: flex;
+       align-items: stretch
+       
+   }
+
+   .footer_links{
+       font-size: 12px;
+       color: #ffffff;
+       text-align: center;
+       padding: 30px;
+       
+       
+}
+
+.opcao_links{
+    list-style: none;
+}
+       
+       
+
+   .footer__logo{
+        
+        width:200px;
+        height: 80px;
+        margin-left:30px;
+        
+        
+
+     }
+
+     .logo__facebook a{
+        color: #ffffff;
+        text-decoration: none;
+        padding-top: 25px;
+
+     }
+
+     .icone__f{
+         width: 15px;
+     }
+
+     .link__face{
+         margin-top: 25px;
+     }
+
+
+   .footer_menor{
+       background-color: #292A2A;
+       color: #ffffff;
+       font-size: 8px;
+       text-align: center;
+   }
+
+
+

@@ -1,0 +1,413 @@
+/* === GERAL=== */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #63458a; 
+}
+
+/* === NAVEGAÇÃO=== */
+.nav {
+    background-color: #674582;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    position: fixed;
+    margin-top: -50px;
+    
+
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    margin-left: 34px;
+    
+}
+
+.nav__links >ul>li {
+    list-style-type: none;
+    display: none;
+
+}
+
+.nav__links > ul > li > a {
+    text-decoration: none;
+    color: white;
+    
+}
+.img-responsive {
+    width:70%;
+}
+
+.nav__img {
+    width: 10%;
+}
+
+.nav__redes-sociais{
+    display: none;
+}
+
+/* === HEADER=== */
+
+.header{
+background: linear-gradient(rgba(211, 165, 255, 0.591), rgba(235, 132, 255, 0.591)), url(../img/oprah_1.jpg);
+background-size: cover; /* para a img conter exatamente o tamanho da div*/
+background-position: top;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 335px;
+width: 100vw;
+margin-top: 50px;
+
+}
+
+h1 {
+    margin-top: 220px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+p {
+    margin: 10px 0;
+}
+/* === IMAGENS=== */
+
+.img__historia > img {
+    width: 100%;
+   margin: 10px 0; 
+   }
+
+   figcaption {
+       font-size: 10px;
+       text-align: center;
+   }
+.img__autora {
+    width: 20vw;
+    
+}
+
+.img__perfil {
+width: 40vw;
+margin: 10px;
+}
+
+/* === MAIN=== */
+
+.principal__sub {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin: 30px;
+}
+
+.resumo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 10px;   
+
+}
+
+.frase {
+        border: 1px solid #63458a;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 10px;
+}
+
+.historia__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 10px;
+
+}
+
+.historia {
+    text-align: left;
+    margin: 10px;
+    
+}
+
+.autora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #E4B7E5;
+}
+
+.autora > ul > li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 8px;
+    margin-left: -20px;
+}
+
+/* === BOTÃO=== */
+
+.btn_vertodas {
+    background-color: #C083B9;
+    display: block;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border: 0px solid #C083B9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  
+}
+
+.btn_vertodas > a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    
+}
+
+/* === FOOTER=== */
+.rodape {
+    background-color: #323534;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: 30px;   
+}
+.rodape__navegacao {
+    margin-left: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.rodape__navegacao >li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.rodape__navegacao > li {
+    list-style-type: none;
+    line-height: 2;
+    text-align: center;
+    display: block; 
+    
+}
+.rodape__redes-sociais > a > span {
+    color: white;
+    font-size: 15px;
+     
+}
+
+.rodape__redes-sociais > a > span >  img {
+    max-width: 10px;     
+}
+
+.rodape__logo > img {
+    max-width: 20vw;
+}
+
+.rodape__cc {
+    background-color: #292A2A;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding-top: 10px;
+    font-size:7px;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 87%;
+    margin-top: 20px;
+    
+}
+
+/* === MEDIA QUERIES=== */
+
+@media (min-width: 320px) {
+    
+    main{
+        margin-left: 20px;
+        
+    }
+    p{
+        font-size: 10px;
+    }
+    .nav{
+        width: 100%;
+    }
+
+    .nav__menu-hamburguer{
+        padding:20px;
+    }
+
+    .rodape__principal {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .rodape__redes-sociais > a> span{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+    margin-right: 30px;
+    }
+    p {
+    font-size: 14px;
+    }
+    .nav {
+    height: 58px;
+    }
+    .nav__menu-hamburguer > a > img {
+        display: none;
+    }
+    .img-responsive {
+        width: 20%;
+    }
+    .nav__redes-sociais  {
+        display: flex;
+    }
+    .nav__links >ul > li {
+        display: flex;
+        margin-right: 30px;
+        font-size: 10px;
+    }
+    .nav__links > ul {
+        display:flex;
+        flex-direction: row;
+        
+    }
+    .nav__img{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+    .img__perfil{ 
+        width: 28vw;
+    }
+    .resumo {
+        margin: 10px 110px;
+    }
+    .frase {
+        margin: 10px 105px;
+    }
+    .historia { margin: 10px 110px;
+
+    }
+    .img__autora {
+        width: 10vw;
+    }
+
+    .autora {
+        margin-top: 40px;
+    }
+    
+    .autora > ul >li {
+        font-size: 10px;  
+    }
+   
+    .rodape__redes-sociais > a > span {
+        font-size: 13px;   
+    }
+
+    .principal__sub, .historia__titulo, .frase {
+        font-size: 15px;
+    }
+
+    .rodape__principal {
+        display: flex;
+        justify-content: space-between;
+        width: 86%;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    p{
+        font-size: 30px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+ 
+    .nav_links > ul >li > a {
+        font-size: 20px;
+
+    } 
+    .img-responsive {
+    width: 18%; 
+    }
+
+    .img__perfil{
+        width: 18vw;
+    }
+
+    .principal__sub, .historia__titulo, .frase {
+        font-size: 25px;
+        margin: 30px;
+        
+    }
+    
+    .autora > ul > li {
+        font-size: 20px;
+        
+    }
+    .btn_vertodas {
+        width: 230px;
+        height: 50px;
+        margin-top: 45px;
+        margin-bottom: 50px;
+    }
+    .btn_vertodas > a{
+        font-size: 20px;
+    }
+    .rodape__cc {
+        padding-top: 0px;
+        font-size: 10px;
+    }
+    .frase {
+        padding: 30px;
+        line-height: 2.5;
+    }
+
+    main {
+        margin-left: 80px;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+    .header {
+        height: 450px;
+    }
+    h1 {
+        margin-top: 370px;
+    }
+}
+
+

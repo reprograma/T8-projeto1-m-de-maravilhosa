@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+.img-responsive {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+
+/* --- NAV --- */
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    padding: 3%;
+    position: fixed;
+    width: 100%;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao__itens {
+    position: absolute;
+    right: -700px;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens li > a {
+    transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+    color: #C083B9;
+}
+
+.navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+
+
+/* --- HEADER --- */
+.header {
+    min-height: 80vh;
+    height: 500px;
+    background: url(../../../Personalidade/img/Dilma2.jpeg) center no-repeat;  
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(22, 22, 22); */
+    font-size: 16pt; color:black;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.dilma__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.dilma__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+.dilma__perfil {
+    max-width: 220px;
+    margin: 2rem;
+    display: flex;
+}
+.img-fotodilma1{
+    width: 300px;  
+}
+.dilma__apresentacao{
+    width: 300px;
+    font-size: 16pt;
+    /* font-weight: 900; */
+    margin-left: 5%;
+}
+
+.dilma__destaque {
+    border: black solid;
+    font-size: 2rem;
+    font-weight: 900;
+    height:16%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.container__dilma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.sobre__dilma{
+    font-size: 26pt;
+
+}
+
+.foto__dilmahist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px;  */
+}
+
+.foto__dilmahist>img{
+    width: 60%;
+}
+
+.autora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4B7E5;
+    font-size: 12pt;
+}
+
+.autora>img{
+    width: 30%;
+    margin-right: 30px;
+}
+
+.foto__autora {
+    width: 90px;
+    height: 100%;
+}
+
+/* --- BOTAO --- */
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 14pt;
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.rodape__principal > * {
+    margin: 40px;
+}
+
+.rodape__navegacao > li {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: 15px;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 10pt;
+    opacity: 0.5;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    /* --- NAV --- */
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+    }
+    .navegacao__redes-sociais img {
+        max-height: 30px;
+    }
+
+    .navegacao__nav {
+        margin-bottom: 0;
+    }
+    
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .navegacao__itens li {
+        font-size: 1.2rem;
+        margin: 0 .6rem;
+    }
+    
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+
+    /* --- HEADER --- */
+    .header {
+        min-height: 75vh;
+        text-align: left;
+        padding: 5rem 10rem;
+    }
+
+    .principal__titulo {
+        font-size: 150%;
+    }
+    
+    .principal__sub {
+        font-size: 1.8rem;
+    }
+
+    /* --- FOOTER --- */
+    .rodape {
+        padding-top: 0;
+    }
+
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__navegacao > li {
+        font-size: 1.5rem;
+    }
+  
+    .img-fotodilma1{
+        width: 600px;
+    }
+    .dilma__apresentacao{
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .dilma__destaque {
+        border: black solid;
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        justify-content:10px;
+        height:16%;
+        margin-left:30%;
+        margin-right: 30%;
+        margin: 5%;
+    }
+
+    .dilma__perfil{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .dilma__perfil>img{
+        width: 200px;
+        height: 227px;
+    }
+    .autora>img{
+        width: 20%;
+
+    }
+    .dilma__box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
+}
+
+
+@media (min-width: 1440px) {
+    .navegacao__box {
+        max-width: 80%;
+    }
+    .header {
+        min-height: 90vh;
+    }
+    .navegacao__itens li {
+        font-size: 1.5rem;
+        margin: 0 1rem;
+    }
+    .principal__titulo {
+        font-size: 7rem;
+
+    }
+   
+
+ }
