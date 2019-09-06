@@ -11,6 +11,7 @@ body {
 .navegacao {
     display: flex;
     justify-content: space-between;
+    position: fixed;
     background-color: #674582;
     height: 90px;
     width: 100%;
