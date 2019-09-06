@@ -376,4 +376,10 @@ background-color: blueviolet;
 .container-row {
     display: none;
 }
+@media (max-width: 375px) }
+.logo {
+width: 354px;
+background-color: blueviolet;
+}
+
 }
