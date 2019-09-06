@@ -323,7 +323,7 @@ margin-top: 31px;
 
     .hamburger-icone{
         height: 30px;
-        padding-left: 68px;
+        padding-left: 61px;
         margin-bottom: 14px;
         border-radius: 3px;
         
@@ -581,6 +581,11 @@ margin-top: 31px;
                     
              }
 
+             .metade__cabecalho{
+                 display: flex;
+                 flex-direction: row;
+             }
+
 
             .logo-responsivo{
                 width: 200px;
@@ -589,10 +594,12 @@ margin-top: 31px;
 
             .menu__redes-sociais{
               display: flex;  
-            
+           
               margin-top: 20px;
               margin-left: 22px;
             }
+
+           
 
             .icone__facebook, .icone__twitter, .icone__instagram, .icone__linkedin{
                 width: 40px;
@@ -606,9 +613,9 @@ margin-top: 31px;
              background-size: 100%;
              height: 504px;
         
-    }
+            }
             
-                .titulo_nome{
+             .titulo_nome{
                     color: #ffffff;
                     padding: 401px 116px;
                 margin-left: -20px;
@@ -918,7 +925,7 @@ margin-top: 31px;
 
         .creditos__rodape-reprograma {
             color: #ffffff;
-            font-size: 15px;
+            font-size: 14px;
             text-align: center;
             margin-top: 43px;
         }
