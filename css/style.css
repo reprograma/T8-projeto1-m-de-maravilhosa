@@ -301,7 +301,6 @@ li {
     /* --- HEADER --- */
     .header {
         min-height: 75vh;
-        text-align: left;
         padding: 5rem 10rem;
     }
 
