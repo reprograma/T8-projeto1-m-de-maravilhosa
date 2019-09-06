@@ -712,9 +712,7 @@ margin-top: 31px;
                 text-align: center;
             }
 
-            .lista__rodape-preto a:hover{
-                color: #c083b9;
-            }
+            
         
         }
 
@@ -835,8 +833,8 @@ margin-top: 31px;
         }
 
         .imagem__esconderijo {
-            width: 417px;
-            margin-left: 434px;
+            width: 600px;
+            margin-left: 354px;
         }
 
         .texto-sobre p {
