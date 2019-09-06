@@ -124,11 +124,6 @@ h1{
 
 .foto_sua_historia img{
     width:100%;
-
-}
-
-.foto_autora{
-    width: 20vw;
 }
 
 .historia2{
@@ -137,35 +132,92 @@ h1{
 }
 
 .links_leticia{
+    display: flex;
     padding-bottom: 60px;
-    width: 10%;
-    height: 5%;
-    
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.links_leticia .link_ufpr {
+    width: 100px;
+
+}
+
+.links_leticia .link_blog {
+    width: 150px;
+}
+
+.links_leticia .link_livro {
+    width: 100px;
+
+}
+
 
 .autora{
     background-color: #674582;
     font-size: 15px;
     display: flex;
-    width: 20%;
-    height: 10%;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 
+.autora .foto_autora .foto_autora_romenia{
+    width: 200px;
+    height: auto;
+
+}
+
+.autora .info_autora {
+    font-size: 20px;
+    color: white;
+
+}
+
+
 .todas{
     background-color: white;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.todas button{
+    color: white;
+    background-color: blueviolet;
+
+
 }
 
 .footer1{
     display: flex;
     font-family: Arial;
-    background-color: black;
+    background-color: gray;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+    align-items: center;
 
+}
+
+.footer1 .m_de_m {
+    width: 100px;
+    height: 60px;
 }
 
 .footer2{
     font-family: Arial;
-    background-color: black;
+    background-color: darkorchid;
     width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
 
 }
