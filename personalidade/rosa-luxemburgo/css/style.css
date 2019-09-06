@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: #63458A;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;    
+}
+
+.navegacao {
+    background-color: #674582;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links-redes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    align-items: center; 
+}
+
+.links > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.links > ul > li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-texto {
+    font-size: 10px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 7px;
+}
+
+.redes-sociais img {
+    max-width: 18px;
+    max-height: 17px;
+    margin: 5px;
+}
+
+.personalidade {
+    background-image: url(../img/rosa-luxemburgo-fundo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;     
+}
+
+.personalidade h1 {
+    margin-bottom: 20px;
+}
+
+.texto {
+    margin: 4% 15%;
+}
+
+.titulo {
+    color: #63458A;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.foto-com-paragrafo {
+    display: flex;
+    margin-bottom: 4%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro__foto {
+    display: flex;
+    align-self: center;
+}
+
+.intro__texto {
+    width: 65%;
+
+}
+
+.citacao {
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #674582;
+    padding: 3%;
+    color: #63458A;
+}
+
+.subtitulo {
+    color: #63458A;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.foto-frase {
+    width: 89%;
+    margin-left: 60px;
+}
+
+.foto-descricao {
+    display: flex;
+    justify-content: center;
+    background-color: #e4b7e5;
+}
+
+.autora {
+    display: flex;
+    align-self: center;
+}
+
+.autora ul {
+    list-style: none;
+    font-weight: bold;
+}
+
+.botao {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+button {
+    background-color: #c083b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+footer {
+    margin: 0 auto;    
+}
+
+.cinza-claro {
+    width: 100%;
+    background-color: #323534;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 35px;
+    margin: 0;
+}
+
+.cinza-claro__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.cinza-claro__item > a {
+    color: #ffffff;
+}
+
+.cinza-claro__item > a:hover {
+    color: #c083b9;
+}
+
+.face > a {
+    color: #ffffff;
+}
+
+.face > a:hover {
+    color: #c083b9;
+}
+
+.cinza-escuro {
+    background-color: #292A2A;
+}
+
+.cinza-escuro > p {
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;  
+}
+
+@media (max-width: 768px) {
+    .foto-com-paragrafo {
+        display: block;
+    }
+
+    .intro__foto {
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro__texto {
+        margin: 0 auto;  
+    }
+    .foto-frase {
+        margin-left: 31px;
+    }
+
+    .cinza-claro {
+        display: block;    
+    }
+
+    .logo-m-maravilhosa {
+        display: flex;
+        justify-content: center;
+    }
+
+    .face {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .cinza-claro {
+        text-align: center;
+    }
+
+    .links-redes {
+        display: none;
+    }
+
+    .personalidade {
+        background-position: center;
+    }
+
+    .foto-frase {
+        margin-left: 14px;
+    }
+
+}
+@media (min-width: 768px) {
+    .menu-hamburguer {
+        display: none;
+    }
+}
+
+
