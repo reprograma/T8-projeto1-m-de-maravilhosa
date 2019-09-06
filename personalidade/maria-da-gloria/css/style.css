@@ -73,7 +73,7 @@ background-color: #674582;
 header  { 
 height: 180px;
 background-image: url("../img/img-02-maria-da-gloria.jpg");
-background-repeat: repeat;
+background-repeat: no-repeat;
 background-color: darkviolet;
 background-size: cover;
 background-position: center;
@@ -93,7 +93,7 @@ margin: 150px auto;
 color: #ffffff;
 text-transform: uppercase;
 font-weight: 900;
-display: flex;
+/* display: flex; */
 align-items:  flex-end;
 }
 
@@ -222,10 +222,10 @@ align-content: center;
 
 }
 .footer-autor img{
-max-height: 92px;
+max-height: 120px;
 flex-direction: column;
-border-radius: 25%;
-margin: 10px;
+/* border-radius: 25%; */
+/* margin: 10px; */
 }
 
 .footer-botao {
@@ -403,16 +403,30 @@ justify-content: space-between
 header  { 
     height: 180px;
     background-image: url("../img/foto-perfil.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-color: darkviolet;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     height: 300px;
+    
        
            
     }
+    .title-maravilhosa h1{
+        align-items:  flex-end;
+     
+    }
+    .title-maravilhosa {
+
+        min-width: 100%;
+        margin:255px auto;;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-weight: 900;
+        display: flex;
+        align-items: flex-end;}
 
 .resume{   
     display: flex;    
@@ -471,10 +485,10 @@ align-content: center;
     
 }
 .footer-autor img{
-    height: 135px;
+    max-height: 162px;
 flex-direction: column;
-border-radius: 25%;
-margin: 10px;
+/* border-radius: 25%;
+margin: 10px; */
 }
 
 .footer-reprograma { 
