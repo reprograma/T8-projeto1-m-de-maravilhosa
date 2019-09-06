@@ -113,7 +113,7 @@ li {
 .header {
     min-height: 80vh;
     height: 500px;
-    background: url(../../../Personalidade/img/Dilma2.jpeg) center no-repeat;  
+    background: url(../img/Dilma2.jpeg) center no-repeat;  
     background-size: cover;
     display: flex;
     align-items: flex-end;
