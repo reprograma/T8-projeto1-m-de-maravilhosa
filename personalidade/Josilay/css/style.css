@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+    background-color: #ede2f8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+   /* ITENS DE NAVEGAÇÃO */
+   .navegacao__box__container {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo__maravilhosa {
+    width: 100px;
+}
+
+.img_responsive {
+    width: 120px;
+}
+
+span {
+    width: 10px;
+}
+.navegacao__itens > a {
+    margin-right: 20px;
+}
+
+.navegacao__redes-sociais {
+    display: none;
+}
+
+.navegacao__itens {
+    display: none;
+}
+
+/* SOBRE A PERSONALIDADE */
+.header {
+    min-height: 30vh;
+    height: 100px;
+    background-image: url("../img/josipalestra.jpg");
+    background-repeat: no-repeat;   
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    background-size: cover;   
+}
+
+.palestra__fundo {
+    background-attachment: inherit;
+    align-items: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;  
+}
+ 
+.nome__maravilhosa {
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #800080;
+    font-weight: 900;
+    margin: 6px;
+    padding: 0px;
+    margin-top: auto;
+    text-shadow:1px 2px mediumpurple;
+}
+
+.titulo__bafao {
+    font-family: 'Helvetica';
+    color: #800080;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 4px;
+    margin: 10px;
+}
+
+.foto__perfil {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-top: -12px;
+}
+
+.texto__bafao {
+    font-family:'Helvetica';  
+    color: #800080;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.frase__impacto {
+    font-family: 'Cormorant Infant', serif;
+    color: mediumpurple;
+    font-size: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color:  #5f0f5f;
+    margin: 10px;
+}
+
+.foto__mulheres {
+    height: 200px;
+    width: 305px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-top: -5px;
+}
+
+.texto__bafao {
+    margin-top: -5px;
+    margin: 10px;
+}
+
+.frase__impacto {
+    margin-top: -5px;
+}
+
+.historia {
+    font-family: 'Helvetica';
+    color: #800080;
+    font-size: 18px;
+    margin-top: -5px;
+    margin: 10px
+}
+
+.historia__texto {
+    font-family: 'Helvetica';
+    color: #800080;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.texto__mulheres {
+    font-family: 'Helvetica';
+    color: #800080;
+    font-size: 18px;
+    margin-top: -5px;
+    margin: 10px;
+}
+
+/* SOBRE A AUTORA */
+.foto__giane {
+    height: 80px;
+    width: 100px;
+    margin: 7px;
+    margin-top: 5px; 
+}
+
+.dados {
+    background-color: #c083b9;
+    color: #674582;
+    display: flex;
+    align-items: center;
+    width: 320px;
+}
+
+.dados__autora {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    color: #800080;
+    font-size: 15px;
+    line-height: 2px;
+    margin-top: -15px;
+}
+
+.container__botao { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/* BOTÃO */
+.botao {
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+.rodape {
+    background-color: #674582;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.rodape__principal {
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+.rodape__navegacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__navegacao > li {
+    font-size: 10px;
+    margin-left: 5px;
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+.navegacao__redes-sociais {
+    display: none;
+}
+
+.rodape__logo img {
+    max-width: 100px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.rodape__redes-sociais {
+    display: flex;
+}
+
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: 3px;
+    max-width: 20px;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 10px;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/* MEDIA QUERES */
+@media (min-width: 768px) {
+
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        padding: 0;
+        width: auto;
+        font-size: 10px;
+    }
+
+    .navegacao__redes-sociais {
+        display: flex;
+    }
+    
+    .navegacao__redes-sociais img {
+       margin: 5px;
+    }
+
+    .header {
+        background-size: cover;
+        min-height: 60vh;
+    }
+
+    /* PERSONALIDADE */
+    .nome__maravilhosa {
+        display: flex;
+        margin-left: 237px;
+        padding-bottom: 43px;
+    }
+
+    .titulo__bafao {
+        font-size: 23px;
+        text-align: center;
+        margin-right: 100px;
+        margin-top: 15px;
+        margin: 20px;
+    }
+
+    .frase__impacto, .historia, .historia__texto, .texto__mulheres, .texto__bafao {
+        margin: 20px;   
+    }
+
+    .foto__perfil {
+        width: 459px;
+        height: 344px;
+        border-radius: 5px;
+        margin: 177px;
+        margin-top: -12px;
+    }
+
+    .texto__bafao {
+        font-size: 19px;
+        display: flex;
+        margin-top: -165px; 
+    }
+
+    .mulheres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto__mulheres {
+        height: 309px;
+        width: 645px;
+        border-radius: 5px;
+        margin: 60px;
+        padding: 20px;
+        margin-top: -8px;
+        margin-bottom: 0;
+    }
+
+    .texto__mulheres {
+        margin-top: -8px;   
+    }
+
+    /* AUTORA */
+    .dados {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .rodape {
+        padding-top: 0;
+    }
+    
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+    }
+    
+    .rodape__logo img {
+        max-width: 250px;
+    }
+}
+
+@media (min-width: 1366px) {
+    /* NAV */
+    .navegacao__redes-sociais {
+        display: flex;
+    }
+
+    .header {
+        background-size: cover;
+        height: 714px;
+    }
+
+    /* PERSONALIDADE */
+    .nome__maravilhosa {
+        margin-left: 350px;
+        font-size: 60px;
+    }
+
+    .foto__perfil {
+        width: 552px;
+        height: 396px;
+        border-radius: 5px;
+        margin: 33px;
+        margin-top: -103px; 
+    }
+
+    .historia__texto {
+        font-size: 20px;
+        margin-right: 123px;
+    }
+
+   /*BAFÃO  */
+    .foto__texto__bafao {
+        display: flex;
+        font-size: 25px;
+        margin-top: 167px;
+        
+    }
+
+    .texto__bafao {
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: -5px;
+    }
+
+    .titulo__bafao {
+        font-size: 30px;
+        margin-top: 56px;
+        margin: 61px;
+        margin-left: 262px;
+    }
+
+    .frase__impacto {
+        margin-right: 128px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    /* MULHERES */
+    .foto__mulheres {
+        height: 393px;
+        width: 1024px;
+        border-radius: 5px;
+        margin: 180px;
+        margin-top: -20px;
+    }
+
+    .texto__mulheres {
+        margin-top: -194px;
+        font-size: 17px;
+        margin-left: 5px;
+        display: flex;
+        margin-left: 50px;
+    }
+
+   /* AUTORA */
+    .dados {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    .foto__giane {
+        height: 100px;
+        width: 148px;
+        margin: 7px;
+        margin-top: 5px;
+    }
+
+    .dados__autora {
+        font-size: 20px;
+    }
+}

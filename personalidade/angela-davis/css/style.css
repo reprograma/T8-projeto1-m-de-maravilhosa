@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #F4F0E4;
+}
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: -25px;
+    color: white;
+    margin-left: 103px;
+    font-size: 20px;
+    justify-content: center;
+
+
+}
+.img_angel {
+    width: 100%;
+    margin-top: 76px;
+}
+
+p {
+    margin:8px;
+}
+.img-responsive {
+    width: 66%;
+}
+
+.angela__davis {
+    width: 297px;
+    height: 269px;
+    border-radius: 170px;
+    justify-content: center;
+    display: flex;;
+}
+.navegacao__itens {
+    list-style: none;
+    position: relative;
+    display:none;
+}
+ .angel_davis { 
+    width: 100%;
+    height: 231px;
+    margin-left: 0 px;
+    display: flex;
+  }
+.navegacao__redes-sociais {
+    display:none;
+}
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+.menu__hamburguer {
+    max-width: 82px;
+}
+.segundo_titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navegacao_logo{
+    max-width: 50px;
+}
+.navegacao__box-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+ a {
+ text-decoration:none;
+ color: white;
+
+}
+.navegacao__menu-hamburguer{
+    margin-left: 39px;
+    padding: 10px; 
+}
+ h3 {
+     font-size: 20px;
+     margin: 10px;
+     text-align: center;
+     color: purple;
+
+    }
+
+    h2 {
+        margin-bottom: 1px;
+        display: flex;
+    }
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+    color: mediumpurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+.biografia_angela {
+    font-size: 15px;
+    color: black;
+
+}
+.secao-diva__historia {
+    margin: 2px;
+}
+.prigs {
+    width: 100px;
+    float: left;
+    padding: 4px;
+    padding: 14px;
+    margin-top: -10%;
+}
+
+.modal_conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    margin-top: -15px;
+
+}
+.sessao-autora{
+    background-color: pink;
+    margin-top: 0;
+    flex-direction: unset;
+}
+.section__autora{
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    align-items: inherit;
+}
+
+.secao-cta {
+        margin-bottom: 17px;
+        margin-top: 5px;
+        justify-content: center;
+        display: flex;
+}
+.ver_todas {
+    background-color: rgb(236, 116, 136);
+    width: 119px;
+    height: 27px;
+    margin-top: 22px;
+    margin-left: -38px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+}
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.rodape__cc  {
+    background-color:#292A2A;
+    margin-top: -10px;
+    justify-content: center;
+}
+.rodape__logo{
+    max-width: 100px;
+
+}
+.rodape__redes-sociais {
+    max-width: 80px;
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
+.rodape__navegacao {
+    margin: -15px;
+    margin-left: -69px;
+    flex-direction: column; 
+}
+.tem_que {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -19px;
+    width: 71vw;
+    justify-content: space-between;
+
+}
+.facetruque {
+    margin-left: -7px;
+    max-width: 40px;
+}
+    @media(min-width: 768px) {
+
+.navegacao__menu-hamburguer{
+ display: none;
+}
+.navegacao__redes-sociais {
+    display:flex;
+}
+.navegacao__nav{
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+.img_angel {
+   max-width: 100%;
+    margin-top: 43px;
+}
+.navegacao__itens {
+    list-style: none;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    color: white;
+}
+.angel_davis{
+    width: 40%;
+    height: 31%;
+    margin-left: 33%;
+    
+}
+.angela__davis{
+    margin-left: 24%;
+}
+h1 {
+        text-transform: uppercase;
+        margin-top: -55px;
+        color: white;
+        margin-left: 32%;
+        font-size: 36px;
+        justify-content: center;
+}
+.secao-cta {
+    margin-top: -12px;
+    justify-content: center;
+    margin-right: 65px;
+    display: flex;
+    margin-bottom: 4px
+    }
+    ul {
+        display: flex;
+        color: white;
+        flex-direction: inherit;
+    }
+.menu_navegacao_itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+    }
+    .modal_footer {
+        justify-content: center;
+        font-size: 19px;
+    }
+    .biografia_angela {
+        font-size: 30px;
+}
+blockquote {
+    font-size: 25px;
+}
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+    }
+   @media (min-width: 1024px) {
+ .biografia_angela {
+            font-size: 15px;
+            color: black;
+        }
+.angela__davis {
+            margin-left: 37%;
+    }
+.img_angel {
+    width: 70%;
+    margin: 0 auto;
+        
+}
+.secao-diva__foto-perfil {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    margin-left: 10%;
+    margin-right: 10%
+}
+   }

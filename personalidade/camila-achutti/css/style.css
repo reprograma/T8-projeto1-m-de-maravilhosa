@@ -1,0 +1,444 @@
+                * {
+                    box-sizing: border-box;
+                }
+                
+                body {
+                    margin: 0;
+                    width: 100vw;
+                    height: 100vh;
+                    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+                }
+                /* ============= NAVEGAÇÃO =============== */
+                
+                .navegar {
+                    background-color: #674582;
+                    margin: 0 auto;
+                    position: fixed;
+                    width: 100%;
+                }
+                
+                .container-navegar {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 10px;
+                }
+                
+                .navegar-barra__clicar {
+                    width: 100%;
+                }
+                
+                .navegar-barra__img {
+                    width: 180px;
+                    margin-right: 30px;
+                }
+                
+                .navegar-barra__link a {
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    transition: all .2s;
+                    white-space: nowrap;
+                }
+                /* ============ HEADER ============= */
+                
+                .cabecalho {
+                    background-image: url("../img/camila-achutti_reserva_foto_thaysbittar-255-1024x683.jpg");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    width: 100%;
+                    height: 300px;
+                    /* padding-top: 50px; */
+                }
+                
+                .cabecalho__nome {
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    font-size: 20px;
+                    padding-left: 95px;
+                    padding-top: 265px;
+                    text-transform: uppercase;
+                }
+                
+                .cabecalho__nome h1 {
+                    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.75);
+                }
+                /* =========== SECTION  =========== */
+                
+                .conteudo {
+                    width: 100%;
+                    padding: 30px;
+                }
+                
+                .conteudo-titulo {
+                    color: #674582;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                
+                .conteudo-perfil {
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .conteudo-perfil__img {
+                    width: 180px;
+                    height: 180px;
+                }
+                
+                .conteudo-biografia {
+                    font-size: 15px;
+                    color: #63458a;
+                    padding: 15px;
+                }
+                
+                .conteudo-citacao {
+                    margin: 10px;
+                }
+                
+                .conteudo-citacao__texto {
+                    font-size: 20px;
+                    padding: 20px;
+                    text-align: center;
+                    border: 2px solid #63458a;
+                    color: #63458a;
+                    font-weight: bold;
+                }
+                
+                .conteudo-historia {
+                    width: 100%;
+                    padding: 20px;
+                }
+                
+                .conteudo-historia__tema {
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #63458a;
+                }
+                
+                .conteudo-historia__img {
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+                
+                .conteudo-historia__tragetoria {
+                    font-size: 15px;
+                    color: #63458a;
+                    line-height: 20px;
+                    padding-bottom: 20px;
+                }
+                
+                .conteudo-historia__creditos {
+                    font-size: 11px;
+                    font-style: italic;
+                }
+                
+                .contexto-final__texto {
+                    padding-top: 20px;
+                }
+                /* ======== ASIDE ======== */
+                
+                .autora {
+                    background-color: #e4b7e5;
+                    height: 330px;
+                    text-align: center;
+                    position: static;
+                }
+                
+                .autora-foto__perfil {
+                    width: 180px;
+                    height: 180px;
+                    margin-top: 32px;
+                }
+                
+                .autora-contato {
+                    font-size: 16px;
+                    color: #63458a;
+                    line-height: 8px;
+                    font-weight: bold;
+                }
+                
+                .autora-contato__dados-link {
+                    font-style: italic;
+                }
+                
+                .container-botao {
+                    display: flex;
+                    justify-content: center;
+                    margin: 70px auto;
+                }
+                
+                .botao-mostrar {
+                    text-align: center;
+                    width: 220px;
+                    background-color: #c083b9;
+                    border-radius: 5px;
+                    padding: 10px;
+                    box-shadow: 4px 7px 20px 2px rgba(0, 0, 0, 0.75);
+                    transition: all .5s;
+                }
+                
+                .botao-mostrar__link {
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: white;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-style: normal;
+                }
+                /* ======== FOOTER ====== */
+                
+                .container-rodape {
+                    background-color: #323534;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 30px;
+                    position: static;
+                }
+                /* .container-navegar {
+    padding: 10px;
+} */
+                
+                .rodape__link {
+                    list-style: none;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 26px;
+                    margin: 0 auto;
+                }
+                
+                .rodape__link a {
+                    text-decoration: none;
+                    color: white;
+                    letter-spacing: 1px;
+                    padding-bottom: 10px;
+                }
+                
+                .rodape__img {
+                    height: 60px;
+                }
+                
+                .rodape__link-facebook {
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                .rodape__link-facebook img {
+                    width: 16px;
+                }
+                /* ======== CRÉDITOS ============ */
+                
+                .rodape-final {
+                    background-color: #292A2A;
+                    text-decoration: none;
+                    width: 100%;
+                    text-align: center;
+                    font-size: 11px;
+                    padding: 2px;
+                    color: #ffffff;
+                }
+                /* ========== NAVBAR ============== */
+                
+                @media (min-width: 768px) {
+                    body {
+                        width: 100vw;
+                        height: 100vh;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .navegar-barra__menu {
+                        display: none;
+                    }
+                }
+                
+                @media (min-width: 768px) {
+                    .navegar-hamburguer {
+                        display: none;
+                    }
+                    .navegar-barra,
+                    .navegar-barra__menu,
+                    .navegar-barra__link,
+                    .navegar-barra__icone {
+                        display: flex;
+                        align-items: center;
+                    }
+                    .container-navegar {
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    .navegar-barra__lista li {
+                        margin-right: 40px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .navegar-barra__link a {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 10px;
+                    }
+                    .navegar-barra__icone img {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                    }
+                    .container-botao {
+                        margin: 60px auto;
+                    }
+                }
+                /* ======== HEADER ============== */
+                /* 
+@media (min-width: 450px) {
+    .cabecalho {
+        width: 100vw;
+        height: 60vh;
+    }
+} */
+                
+                @media (min-width: 768px) {
+                    .cabecalho {
+                        position: center;
+                        height: 470px;
+                    }
+                    .cabecalho__nome {
+                        font-size: 40px;
+                        padding-left: 230px;
+                        padding-top: 420px;
+                    }
+                    .conteudo {
+                        padding: 35px 100px 0px;
+                    }
+                    .conteudo-titulo {
+                        font-size: 30px;
+                    }
+                    .conteudo-responsivo {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center
+                    }
+                    .conteudo-perfil {
+                        margin-right: 20px;
+                    }
+                    .container-rodape {
+                        display: flex;
+                        flex-direction: row;
+                        padding: 30px;
+                    }
+                    .autora {
+                        height: 250px;
+                    }
+                    .container-autora {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .autora-foto__perfil {
+                        margin-right: 30px;
+                    }
+                }
+                
+                @media (min-width: 1440px) {
+                    body {
+                        width: 100vw;
+                        height: 100vh;
+                    }
+                    .container-navegar {
+                        height: 120px;
+                    }
+                    .navegar-barra__img {
+                        width: 300px;
+                        height: 80px;
+                        margin-right: 260px;
+                    }
+                    .cabecalho {
+                        height: 840px;
+                    }
+                    .cabecalho__nome {
+                        font-size: 65px;
+                        padding-left: 450px;
+                        padding-top: 750px;
+                    }
+                    .conteudo-historia__tema {
+                        font-size: 34px;
+                    }
+                    .conteudo-biografia,
+                    .conteudo-historia__tragetoria {
+                        font-size: 26px;
+                        line-height: 40px;
+                    }
+                    .autora {
+                        height: 330px;
+                    }
+                    .autora-contato {
+                        font-size: 24px
+                    }
+                    .autora-foto__perfil {
+                        width: 270px;
+                        height: 270px;
+                    }
+                    .conteudo {
+                        padding: 50px 200px 0px;
+                    }
+                    .conteudo-titulo {
+                        font-size: 50px;
+                        padding: 0px 80px;
+                    }
+                    .conteudo-perfil__img {
+                        width: 300px;
+                        height: 300px;
+                    }
+                    .conteudo-citacao__texto {
+                        font-size: 34px;
+                    }
+                    .conteudo-historia__creditos {
+                        margin-top: 20px;
+                        font-size: 20px;
+                        padding: 20px 20px;
+                    }
+                    .container-botao {
+                        margin: 80px auto;
+                    }
+                    .botao-mostrar {
+                        width: 375px;
+                        padding: 14px;
+                    }
+                    .botao-mostrar__link {
+                        font-size: 24px;
+                    }
+                    .container-rodape {
+                        padding: 100px;
+                    }
+                    .rodape__link a {
+                        font-size: 22px;
+                    }
+                    .rodape__img {
+                        height: 100px;
+                    }
+                    .rodape__link-facebook {
+                        font-size: 22px;
+                    }
+                    .rodape__link-facebook img {
+                        width: 26px;
+                    }
+                    .rodape-final {
+                        padding: 3px;
+                        font-size: 18px
+                    }
+                    .navegar-barra__link a {
+                        font-size: 15px;
+                        margin-right: 20px;
+                    }
+                    .navegar-barra__icone img {
+                        width: 34px;
+                        height: 34px;
+                    }
+                }
