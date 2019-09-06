@@ -135,7 +135,7 @@ a {
 }
 
 .header {
-    background: url(../img/nausicaa_banner.jpg) center no-repeat;
+    background: url(../IMG/nausicaa_banner.jpg) center no-repeat;
     background-size: cover;
     background-position: 0px 0px;
     display: flex;
