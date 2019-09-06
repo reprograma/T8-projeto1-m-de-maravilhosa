@@ -91,6 +91,7 @@ a {
     margin: 6px;
     padding: 0px;
     margin-top: auto;
+    text-shadow:1px 2px mediumpurple;
 }
 
 .titulo__bafao {
@@ -232,7 +233,7 @@ a {
     margin-right: 120px;
 }
 
-.rodape__navegacao{
+.rodape__navegacao {
     display: flex;
     flex-direction: column;
 }
@@ -244,7 +245,9 @@ a {
     margin-bottom: 5px;
 }
 
-
+.navegacao__redes-sociais {
+    display: none;
+}
 
 .rodape__logo img {
     max-width: 100px;
@@ -292,7 +295,7 @@ a {
     }
 
     .navegacao__redes-sociais {
-        display: none;
+        display: flex;
     }
     
     .navegacao__redes-sociais img {
@@ -309,7 +312,6 @@ a {
         display: flex;
         margin-left: 237px;
         padding-bottom: 43px;
-
     }
 
     .titulo__bafao {
@@ -335,7 +337,7 @@ a {
     .texto__bafao {
         font-size: 19px;
         display: flex;
-        margin-top: -167px; 
+        margin-top: -165px; 
     }
 
     .mulheres {
@@ -381,7 +383,7 @@ a {
     }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1366px) {
     /* NAV */
     .navegacao__redes-sociais {
         display: flex;
@@ -394,7 +396,8 @@ a {
 
     /* PERSONALIDADE */
     .nome__maravilhosa {
-        margin-left: 500px;
+        margin-left: 350px;
+        font-size: 60px;
     }
 
     .foto__perfil {
@@ -402,8 +405,7 @@ a {
         height: 396px;
         border-radius: 5px;
         margin: 33px;
-        margin-top: -103px;
-        float: left;
+        margin-top: -103px; 
     }
 
     .historia__texto {
@@ -416,12 +418,13 @@ a {
         display: flex;
         font-size: 25px;
         margin-top: 167px;
+        
     }
 
     .texto__bafao {
         font-size: 25px;
         margin-top: 30px;
-        margin-right: 205px;
+        margin-left: 30px;
     }
 
     .titulo__bafao {
@@ -434,6 +437,7 @@ a {
     .frase__impacto {
         margin-right: 128px;
         text-align: center;
+        margin-left: 80px;
     }
 
     /* MULHERES */
@@ -447,10 +451,11 @@ a {
 
     .texto__mulheres {
         margin-top: -194px;
-        font-size: 18px;
-        margin-left: 0px;
+        font-size: 17px;
+        margin-left: 5px;
+        display: flex;
+        margin-left: 50px;
     }
-
 
    /* AUTORA */
     .dados {
