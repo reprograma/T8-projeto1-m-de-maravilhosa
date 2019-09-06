@@ -407,7 +407,10 @@ footer {
 
     .banner{
         width: 100vw;
-        height: 100vh;
+        min-height: 116vh;
+    }
+    .title{
+        padding-left: 153px;
     }
 
 
