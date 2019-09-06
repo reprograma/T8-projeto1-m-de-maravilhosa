@@ -29,7 +29,8 @@
                 }
                 
                 .navegar-barra__img {
-                    width: 200px;
+                    width: 180px;
+                    margin-right: 30px;
                 }
                 
                 .navegar-barra__link a {
@@ -37,6 +38,7 @@
                     text-transform: uppercase;
                     letter-spacing: 2px;
                     transition: all .2s;
+                    white-space: nowrap;
                 }
                 /* ============ HEADER ============= */
                 
@@ -281,12 +283,12 @@
                     .navegar-barra__link a {
                         color: white;
                         text-decoration: none;
-                        font-size: 12px;
+                        font-size: 10px;
                     }
                     .navegar-barra__icone img {
-                        width: 30px;
-                        height: 30px;
-                        margin-right: 20px;
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
                     }
                     .container-botao {
                         margin: 60px auto;
@@ -355,6 +357,7 @@
                     .navegar-barra__img {
                         width: 300px;
                         height: 80px;
+                        margin-right: 260px;
                     }
                     .cabecalho {
                         height: 840px;
