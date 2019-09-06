@@ -30,7 +30,8 @@ h1{
 }
 p{
     margin-left: 15px;
-    line-height: 1.5; 
+    line-height: 1.5;
+    text-align: justify; 
 } 
 .imagen-propiedades{
     width: 60vw;
@@ -39,6 +40,9 @@ p{
     display: flex;
     align-items: center;
     background-color: #674582;
+}
+.propiedades-menu_nav{
+    margin-right: 10px;
 }
 .propiedades-link{
     display: none;
@@ -73,9 +77,8 @@ p{
 }
 .contenedor-historia_maravillosa{
     width: 100%;
-    display: inline-block;
+    margin: 0 auto;
     padding: 10px;
-    /* background-color: #d3add0;  */
 }
 .historia-peque{
     display: flex;
@@ -85,21 +88,23 @@ p{
     width: 35vw;
     display: flex;
     border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
     margin-top: 13px;
     margin-left: 20px; 
 }
 .historia-pequena{
     margin-right: 15px;
-
-}
-.frase{
-    padding: 30px;
 }
 .contenedor-frase{
-    display: flex;
+    width: 50%;
     border-color: #63458a;
     border-style: solid;
-    justify-content: center;
+    /* Centra automaticamente, porque el parrafo ya es automatico display */
+    margin: 0 auto;
+}
+.contenedor-frase p{
+    font-size: 5px;
+    font-weight: bold;
 }
 .img-banner{
     background: linear-gradient(
@@ -127,30 +132,23 @@ p{
 }
 .navegacion-link_autora a{
     color: #63458a;
-}
-.contenedor-volver_home{
-    width: 100%;
-    display: flex;
-    padding: 10px;
-    justify-content: center;
 } 
 .contenedor-volver_home{
     width: 100%;
-    height: 100%;
     display: flex;
-    justify-content: center;
-
 }
 .boton-volver_home{
-    width: 100%;
-    margin:auto 0;
+    width: 30%;
+    margin: 7px auto;
+    padding: 5px 10px;
     background-color: #d3add0;
     color: #63458a;
     font-weight: bold;
-    font-size: 9px;
+    font-size: 8px;
     box-shadow: 0 5px 5px rgba(0,0,0,.2);
     text-transform: uppercase;
     border-radius: 5px;
+    text-align: center;
 }
 
 .footer{
@@ -202,6 +200,7 @@ p{
     .propiedades-link, .redes-sociales {
         display: flex;
     }
+    
     .propiedades-link{
         font-size: 12px;
     }
@@ -228,8 +227,11 @@ p{
     .titulo-maravillosa{
         font-size: 25px;
     }
-    .contenedor-frase, p{
-        font-size: 15px;
+    .contenedor-frase p{
+        font-size: 10px;
+    }
+    .contenedor-frase{
+        margin-left:225px;
     }
     .contenedor-historia_maravillosa{
         padding: 43px;
@@ -238,13 +240,12 @@ p{
     .img-banner{
         height: 60vh;
     }
-    .contenedor-volver_home{
-        margin-bottom: 50px;
+    .contenedor-autora_maravillosa{
+        padding: 44px;
     }
     .boton-volver_home{
-        width: 150px;
-        height: 50px;
-        font-size: 12px;
+        margin: 26px auto;
+        font-size: 10px;
     }
     .img-pequena_angelica img{
         width: 15vw;
@@ -264,7 +265,7 @@ p{
         font-size: 12px;   
     }
     .logo-facebook{
-        margin-top: 
+        margin-top:0 ;
     }
     .cargo{
         font-size: 9px;
@@ -291,13 +292,27 @@ p{
     .imagen-propiedades{
         margin-left: -293px;
     }
-    .contenedor-historia_maravillosa, .contenedor-frase,.img-banner, .contenedor-historia_maravillosa{
+    .contenedor-historia_maravillosa{
         width: 69%;
         margin-left: 17%;
+        text-align: center;
+        font-size: 17px;
+    }
+    .img-banner{
+        width: 62%;
+        margin-left: 21%;   
+    }
+    .contenedor-frase{
+        margin-left: 370px;
+    }
+    .contenedor-frase p{
+        font-size: 11px;
+        font-weight: bolder;
+        text-align: center;
     }
     .img-pequena_angelica img{
-        width: 8vw;
-        height: 20vh;
+        width: 10vw;
+        height: 22vh;
     }
     .imagen-footer{
         max-width: 40vw;
@@ -307,6 +322,9 @@ p{
     }
     .footer-lista li{
         font-size: 15px;
+    }
+    .footer-2 p{
+        color: #e7e5e5;
     }
     .contenedor-navegacion{
         height: 14vh;
@@ -320,8 +338,12 @@ p{
     .contenedor-autora_maravillosa{
         justify-content: center;
     }
-    .contenedor-volver_home{
-        margin-bottom: 5px;
+    .boton-volver_home{
+        font-size: 12px;
+        width: 30%;
+        margin: 10px auto;
+        padding: 8px 10px;
     }
+    
 }
 
