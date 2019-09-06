@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+ 
 }
 
 html {
@@ -8,9 +9,8 @@ html {
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
-
 a {
     text-decoration: none;
     color: inherit;
@@ -23,6 +23,22 @@ ul {
 li {
     list-style: none;
 }
+p {
+    color: #674582;
+    font-size: 16px;
+
+}
+h1 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 32px;
+    color: #674582;
+}
+main {
+    width: 100%;
+    
+}
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
@@ -32,46 +48,10 @@ li {
 /* define o tamanho da caixa */
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     max-width: 960px;
+   
 }
-
-/* --- BOTAO --- */
-
-.btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
-}
-
-.btn_roxo {
-    color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
-    background-color: rgb(192, 156, 188);
-}
-
-.btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
-}
-
-.btn_center {
-    margin: 0 auto;
-}
-
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
@@ -82,6 +62,7 @@ li {
     z-index: 99;
     position: fixed;
     width: 100%;
+    height: 87px;
 }
 
 .navegacao__logo {
@@ -143,18 +124,18 @@ li {
     margin: 0 1rem;
 }
 
-
 /* --- HEADER --- */
 .header {
     min-height: 80vh;
-    height: 500px;
-    background: url(../img/bg-banner-claro.png) center no-repeat;
+    height: 300px;
+    background: url(../img/bg-banner-claro.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     align-items: flex-end;
     text-align: center;
     padding: 11rem 2rem 5rem 2rem;
     color: white;
+    
 }
 
 .principal__titulo {
@@ -162,61 +143,134 @@ li {
     font-size: 2.5rem;
     font-weight: 900;
 }
+/* --- SECTION CONTEÚDO ---*/
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
+
+.conteudo .container {
+    min-height: 80vh;
+    height: 500px;
+    background-color: white;
+    display:flex;
+    align-content: center;
+    
 }
 
-/* --- SECTION MARAVILHOSAS --- */
-.maravilhosas__titulo {
-    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
-    color: #63458a;
-    font-size: 2rem;
+
+
+.nina-silva__titulo {
+    color: #674582;
+    text-align: center;
+
+}
+
+
+.nina-silva__quote {
+    border: #674582 1px solid;
+    border-radius: 2px;
+    margin: 20px auto;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    width: 63vw;
     text-align: center;
 }
 
-.maravilhosas__box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+
+.nina-silva__perfil {
+    margin: 0 20px;
+    max-width: 95%;
+
+    
+    
+}
+
+.nina-silva__perfil h3 {
     text-align: center;
-    color: #63458a;
+
+}
+.nina-silva__perfil p {
+   font-size: 16px;
 }
 
-.maravilhosas__perfil {
-    max-width: 220px;
-    margin: 2rem;
-}
-
-.maravilhosas__perfil img {
+.nina-silva__perfil img {
     background-color: #63458a;
     border-radius: 10px;
+    display: flex;
 }
 
-.maravilhosas__perfil a img {
-    transition: all .5s;
+.nina-silva__historia {
+    padding: 20px;
+}
+.autora-container {
+    width: 100%;
+    height: 250px;
+    
+    
+}
+.caixa-lilas {
+    background-color: #C083B9; 
+    width: 100%;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    
+
 }
 
+.bio {
+ 
 
-.maravilhosas__perfil a:hover {
-    text-decoration: underline;
+   
+
 }
 
-.maravilhosas__perfil a:hover img {
-    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+.caixa-lilas img {
+    width: auto;
+    height: 100%;
 }
 
+.botao {
+    width: auto;
+    height: 88px;
+    text-align: center;
+  
+}
+
+.btn {
+    color: white;
+    background-color: #63458a;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.bio {
+    display: block;
+    font-size: 16px;
+    padding: 32px;
+    font-weight: 600;
+}
+.btnResponsivo {
+    width: auto;
+    height: 158px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nina-silva__historia {
+    max-width: 90% auto;
+}
 /* --- FOOTER --- */
 .rodape {
     background-color: #323534;
     color: white;
-    font-size: 15px;
+    font-size: .9rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    padding-top: .8rem;
 }
 
 .rodape__principal {
@@ -225,16 +279,24 @@ li {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 3px 0;
+    padding: 1.5rem 0;
 }
 
 .rodape__principal > * {
-    margin: 2px 0;
+    margin: 1rem 0;
 }
 
 .rodape__navegacao > li {
-    font-size: 5px;
-    margin: 2px;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
 }
 
 .rodape__logo {
@@ -245,12 +307,16 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s;
 }
 
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
 
 .rodape__redes-sociais img {
     max-width: 10px;
-    margin-right: 3px;
+    margin-right: .5rem;
 }
 
 .rodape__redes-sociais span {
@@ -275,8 +341,12 @@ li {
         padding: 0;
         width: auto;
     }
+    .navegacao__redes-sociais {
+        display: flex;
+        align-items: center;
+    }
     .navegacao__redes-sociais img {
-        max-height: 30px;
+        max-height: 25px;
     }
 
     .navegacao__nav {
@@ -302,13 +372,14 @@ li {
 
     /* --- HEADER --- */
     .header {
-        min-height: 75vh;
+        min-height: 85vh;
         text-align: left;
         padding: 5rem 10rem;
+        background-position: inherit;
     }
 
     .principal__titulo {
-        font-size: 2.9rem;
+        font-size: 4.9rem;
     }
     
     .principal__sub {
@@ -318,15 +389,34 @@ li {
     .principal__btn {
         margin: 0;
     }
-    /* ---- CONTEÚDO ---*/
+    /* --- CONTEUDO ---*/
     .nina-silva__perfil {
         display: flex;
+        justify-content: space-between;
+        margin: 0 55px;
+    }
+    .nina-silva__perfil img {
+        width: 28%;
+        height: 28%;
     }
 
+    .perfil_resumo {
+        width: 80%;
+        margin-left: 40px;
 
-
-
-
+    }
+    .nina-silva__quote {
+        border: #674582 1px solid;
+        border-radius: 2px;
+        margin: 20px auto;
+        padding: 10px 10px 10px 10px;
+        font-size: 16px;
+        width: 86vw;
+        text-align: center;
+}
+    .nina-silva__historia {
+        padding: 50px;
+    }
     /* --- FOOTER --- */
     .rodape {
         padding-top: 0;
@@ -344,12 +434,13 @@ li {
     }
 
     .rodape__navegacao > li {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
+    
 }
 
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
     .navegacao__box {
         max-width: 80%;
     }
@@ -357,11 +448,36 @@ li {
         min-height: 90vh;
     }
     .navegacao__itens li {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 0 1rem;
     }
     .principal {
         max-width: 650px;
     }
+
+    /* ---- CONTEÚDO ---*/
+    .nina-silva__quote {
+        height: 125px;
+        width: 86%;
+    }
     
+    
+    
+}
+@media (max-width: 320px) {
+
+    .rodape__principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 0;
+    }
+    .nina-silva__quote p {
+        font-size: 13px;
+    }
+    .bio {
+        font-size: 10px;
+    }
 }
