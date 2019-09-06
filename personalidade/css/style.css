@@ -4,12 +4,12 @@
 }
 
 html {
-    font-size: 6px; /* definir uma font-size padrão */
+    font-size: 10px; /* definir uma font-size padrão */
 }
 
 body {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
 a {
     text-decoration: none;
@@ -35,6 +35,10 @@ h3 {
     font-size: 32px;
     color: #674582;
 }
+main {
+    width: 100%;
+    
+}
 
 /* define que as imagens tem que ter o tamanho máximo da div mãe */
 .img-responsive {
@@ -44,7 +48,7 @@ h3 {
 /* define o tamanho da caixa */
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     max-width: 960px;
    
 }
@@ -131,6 +135,7 @@ h3 {
     text-align: center;
     padding: 11rem 2rem 5rem 2rem;
     color: white;
+    
 }
 
 .principal__titulo {
@@ -154,8 +159,6 @@ h3 {
 
 .nina-silva__titulo {
     color: #674582;
-    display: flex;
-    align-items: flex-end;
     text-align: center;
 
 }
@@ -198,13 +201,14 @@ h3 {
     padding: 20px;
 }
 .autora-container {
-    width: auto;
+    width: 100%;
     height: 250px;
+    
     
 }
 .caixa-lilas {
     background-color: #C083B9; 
-    width: 100vw;
+    width: 100%;
     height: 162px;
     display: flex;
     justify-content: center;
@@ -213,7 +217,7 @@ h3 {
 }
 
 .bio {
-    display: block;
+ 
 
    
 
@@ -242,6 +246,7 @@ h3 {
 
 }
 .bio {
+    display: block;
     font-size: 16px;
     padding: 32px;
     font-weight: 600;
@@ -336,8 +341,12 @@ h3 {
         padding: 0;
         width: auto;
     }
+    .navegacao__redes-sociais {
+        display: flex;
+        align-items: center;
+    }
     .navegacao__redes-sociais img {
-        max-height: 30px;
+        max-height: 25px;
     }
 
     .navegacao__nav {
@@ -439,12 +448,13 @@ h3 {
         min-height: 90vh;
     }
     .navegacao__itens li {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 0 1rem;
     }
     .principal {
         max-width: 650px;
     }
+
     /* ---- CONTEÚDO ---*/
     .nina-silva__quote {
         height: 125px;
@@ -463,5 +473,11 @@ h3 {
         align-items: center;
         text-align: center;
         padding: 1.5rem 0;
+    }
+    .nina-silva__quote p {
+        font-size: 13px;
+    }
+    .bio {
+        font-size: 10px;
     }
 }
