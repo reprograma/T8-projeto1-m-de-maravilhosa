@@ -424,7 +424,7 @@ a {
     .texto__bafao {
         font-size: 25px;
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: -5px;
     }
 
     .titulo__bafao {
