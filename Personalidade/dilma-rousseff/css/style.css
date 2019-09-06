@@ -3,12 +3,16 @@
 }
 
 html {
-    font-size: 10px; /* definir uma font-size padrão */
+    font-size: 10px; 
 }
 
 body {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
     margin: 0;
+    
 }
 
 a {
@@ -24,62 +28,23 @@ li {
     list-style: none;
 }
 
-/* define que as imagens tem que ter o tamanho máximo da div mãe */
+
 .img-responsive {
     width: 100%;
 }
-
-/* define o tamanho da caixa */
 .container {
     margin: 0 auto;
     width: 100%;
     max-width: 960px;
 }
 
-/* --- BOTAO --- */
-
-.btn {
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem 3rem;
-    border-radius: 5px;
-    font-size: 1.8rem;
-}
-
-.btn_roxo {
-    color: white;
-    background-color: #C083B9;
-    display: block;
-    max-width: 250px;
-    text-align: center;
-    transition: all .5s;
-    margin: 0 auto;
-}
-
-.btn_roxo:hover,
-.btn_roxo:focus {
-    transform: translateY(-1rem);
-    box-shadow: 0 10px 10px rgba(0,0,0,.2);
-    background-color: rgb(192, 156, 188);
-}
-
-.btn_roxo:active {
-    transform: translateY(-.5rem);
-    box-shadow: 0 5px 5px rgba(0,0,0,.2);
-}
-
-.btn_center {
-    margin: 0 auto;
-}
 
 /* --- NAV --- */
 .navegacao {
     background-color: #674582;
     color: white;
     text-transform: uppercase;
-    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
-    padding: 1.5rem;
-    z-index: 99;
+    padding: 3%;
     position: fixed;
     width: 100%;
 }
@@ -148,75 +113,127 @@ li {
 .header {
     min-height: 80vh;
     height: 500px;
-    background: url(../img/bg-banner-claro.png) center no-repeat;
+    background: url(../../../Personalidade/img/Dilma2.jpeg) center no-repeat;  
     background-size: cover;
     display: flex;
     align-items: flex-end;
     text-align: center;
-    padding: 11rem 2rem 5rem 2rem;
-    color: white;
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(22, 22, 22); */
+    font-size: 16pt; color:black;
 }
 
 .principal__titulo {
     text-transform: uppercase;
-    font-size: 2.5rem;
-    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.principal__sub {
-    font-weight: 300;
-    margin: 2rem 0 3rem 0;
-    font-size: 1.5rem;
-}
 
-/* --- SECTION MARAVILHOSAS --- */
-.maravilhosas__titulo {
+.dilma__titulo {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     color: #63458a;
     font-size: 2rem;
     text-align: center;
 }
 
-.maravilhosas__box {
+.dilma__box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    color: #63458a;
-}
-
-.maravilhosas__perfil {
+    flex-direction: column;
+    justify-content: center;
+}   
+.dilma__perfil {
     max-width: 220px;
     margin: 2rem;
+    display: flex;
+}
+.img-fotodilma1{
+    width: 300px;  
+}
+.dilma__apresentacao{
+    width: 300px;
+    font-size: 16pt;
+    /* font-weight: 900; */
+    margin-left: 5%;
 }
 
-.maravilhosas__perfil img {
-    background-color: #63458a;
+.dilma__destaque {
+    border: black solid;
+    font-size: 2rem;
+    font-weight: 900;
+    height:16%;
+    margin: 5%;
+    padding: 5%;
+}
+
+.container__dilma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px; 
+}
+
+.sobre__dilma{
+    font-size: 26pt;
+
+}
+
+.foto__dilmahist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px;  */
+}
+
+.foto__dilmahist>img{
+    width: 60%;
+}
+
+.autora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E4B7E5;
+    font-size: 12pt;
+}
+
+.autora>img{
+    width: 30%;
+    margin-right: 30px;
+}
+
+.foto__autora {
+    width: 90px;
+    height: 100%;
+}
+
+/* --- BOTAO --- */
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
     border-radius: 10px;
+    font-size: 14pt;
+    color: white;
+    background-color: #C083B9;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
-.maravilhosas__perfil a img {
-    transition: all .5s;
-}
 
 
-.maravilhosas__perfil a:hover {
-    text-decoration: underline;
-}
-
-.maravilhosas__perfil a:hover img {
-    box-shadow: 0 3px 10px rgba(0,0,0,.2);
-}
-
-/* --- FOOTER --- */
 .rodape {
     background-color: #323534;
     color: white;
-    font-size: 15px;
+    font-size: 10pt;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .rodape__principal {
@@ -225,16 +242,24 @@ li {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 3px 0;
+    padding: 10px;
 }
 
 .rodape__principal > * {
-    margin: 2px 0;
+    margin: 40px;
 }
 
 .rodape__navegacao > li {
-    font-size: 5px;
-    margin: 2px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
 }
 
 .rodape__logo {
@@ -245,12 +270,16 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all .5s;
 }
 
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
 
 .rodape__redes-sociais img {
     max-width: 10px;
-    margin-right: 3px;
+    margin-right: 15px;
 }
 
 .rodape__redes-sociais span {
@@ -261,7 +290,7 @@ li {
 .rodape__cc {
     width: 100%;
     background-color: #292A2A;
-    font-size: 1rem;
+    font-size: 10pt;
     opacity: 0.5;
     text-align: center;
 }
@@ -308,24 +337,12 @@ li {
     }
 
     .principal__titulo {
-        font-size: 2.9rem;
+        font-size: 150%;
     }
     
     .principal__sub {
         font-size: 1.8rem;
     }
-
-    .principal__btn {
-        margin: 0;
-    }
-    /* ---- CONTEÚDO ---*/
-    .nina-silva__perfil {
-        display: flex;
-    }
-
-
-
-
 
     /* --- FOOTER --- */
     .rodape {
@@ -344,8 +361,49 @@ li {
     }
 
     .rodape__navegacao > li {
-        font-size: 1.5rem;;
+        font-size: 1.5rem;
     }
+  
+    .img-fotodilma1{
+        width: 600px;
+    }
+    .dilma__apresentacao{
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .dilma__destaque {
+        border: black solid;
+        font-size: 20px;
+        font-weight: 900;
+        display: flex;
+        justify-content:10px;
+        height:16%;
+        margin-left:30%;
+        margin-right: 30%;
+        margin: 5%;
+    }
+
+    .dilma__perfil{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .dilma__perfil>img{
+        width: 200px;
+        height: 227px;
+    }
+    .autora>img{
+        width: 20%;
+
+    }
+    .dilma__box {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    } 
 }
 
 
@@ -360,8 +418,10 @@ li {
         font-size: 1.5rem;
         margin: 0 1rem;
     }
-    .principal {
-        max-width: 650px;
+    .principal__titulo {
+        font-size: 7rem;
+
     }
-    
-}
+   
+
+ }
