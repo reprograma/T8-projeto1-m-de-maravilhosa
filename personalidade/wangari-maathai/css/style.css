@@ -109,21 +109,24 @@ header{
     height: 95%;
 }
 
-.container-infos-foto{
+.container_infos-foto{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    margin: 40px 50px 20px 50px;
 }
+
 
 .mini__bio{
     margin: 40px 30px 40px 50px;
 }
 
 .container__citacao{
-    width: 300px;
-    height: 190px;
+    width: 315px;
+    height: 250px;
     border: 1px solid #63458A;
     margin-bottom: 20px;
+    
 }
 
 .citacao{
@@ -132,7 +135,11 @@ header{
 }
 
 .container__citacao > p{
-    margin: 40px 20px;
+    
+    padding: 0 19px;
+}
+.citacao-texto{
+    padding: 20px;
 }
 
 
@@ -163,13 +170,27 @@ header{
 .container__imagem-arvore{
     display: flex;
     justify-content: center;
-    margin-top: 40px:
+    margin-top: 40px;
 }
 
 .imagem-arvore {
-    width: 70vw;
+    width: 60vw;
 }
 
+.ted{
+    width: 100%;
+    color: rgb(196, 121, 206);
+    text-align: center;
+}
+
+.ted > a{
+    cursor: pointer;
+}
+
+.ted > a > span{
+    font-weight: bold;
+
+}
 
 /* ===============  SECTION PERFIL AUTORA ============== */
 
@@ -178,6 +199,7 @@ header{
     justify-content: center;
     height: 180px;
     background-color: #E4B7E5;
+    margin: 70px 0;
     }
 
 .infos-autora{
@@ -213,7 +235,7 @@ header{
     background-color: #C083B9;
     border-radius:5%;
     padding: 5px 10px;
-
+    margin-bottom: 80px;
 }
 
 .botao > a{
@@ -228,6 +250,7 @@ footer{
     background: #323534;
     height: 250px;
     font-size: 15px;
+        
 }
 .logo-footer{
     width: 210px;
@@ -269,11 +292,11 @@ footer{
     cursor: pointer;
 }
 
-.container-rodape{
+.container__rodape{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 12px;
+    /* padding: 12px; */
 }
 
 .rodape__links >a{
@@ -287,6 +310,17 @@ footer{
     
 }
 
+.rodape__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.container__imagem-logo-footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
 
 
 /* ============ MIDIA QUERY ============== */
@@ -310,6 +344,7 @@ footer{
 
     footer{
         height: 101px;
+
     }
 
     .container__menu-hamburger >a{
@@ -331,8 +366,11 @@ footer{
 
     .container__infos-foto{
         display: flex;
+        align-items: center;
         margin: 40px 50px 20px 50px;
-    }
+        padding: 0 70px;
+}
+    
 
     .citacao {
         display: flex;
@@ -346,6 +384,7 @@ footer{
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
+        flex-direction: row;
     }
 
     .rodape__links{
@@ -353,12 +392,14 @@ footer{
         justify-content: space-around;
         margin-left: 20px;
         width: 50%;
+        flex-direction: row;
     }
 
     .container__imagem-logo-footer{
         display: flex;
         justify-content: space-around;
         width: 50%;
+        flex-direction: row;
     }
 
     .container__redes-sociais{
@@ -403,7 +444,15 @@ footer{
         width: 180px;
     }
 
-   
+   .citacao-texto{
+       padding: 0 85px;
+ 
+    }
+    .container__texto > p{
+        
+        padding: 0 85px;
+    }
+
 }
 
 
