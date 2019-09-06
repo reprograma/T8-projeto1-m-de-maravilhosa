@@ -192,11 +192,15 @@ body{
     border-radius: 5px;
     padding: 10px 30px;
     border: none;
+}
+
+.btn__call-to-action > a{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /*---- Footer ----*/
