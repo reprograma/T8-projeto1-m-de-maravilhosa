@@ -1,0 +1,468 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+html {
+    font-size: 10px; 
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.img-responsive {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+.btn_roxo {
+    color: white;
+    background-color: #C083B9;
+    max-width: 250px;
+    text-align: center;
+    transition: all .5s;
+    margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+    transform: translateY(-.5rem);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+
+.btn_center {
+    margin: 0 auto;
+}
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao__itens {
+    position: absolute;
+    right: -700px;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #674582;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 1s;
+}
+
+.navegacao__itens li > a {
+    transition: all .2s;
+}
+
+.navegacao__itens li > a:hover {
+    color: #C083B9;
+}
+
+.navegacao__menu-hamburguer img {
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+
+.header {
+    background: url(../img/nausicaa_banner.jpg) center no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.principal__sub {
+    font-weight: 300;
+    margin: 2rem 0 3rem 0;
+    font-size: 1.5rem;
+}
+
+.maravilhosas__titulo {
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5%;
+}
+
+.maravilhosas__box {
+    text-align: center;
+    color: #63458a;
+}
+
+.maravilhosas__perfil {
+    max-width: 100%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.maravilhosas__perfil img {
+    width: 210px;
+    height: 216px;
+}
+
+.maravilhosas__perfil a img {
+    transition: all .5s;
+}
+
+.resume-nausicaä {
+    font-family: "Montserrat";
+    font-style: thin;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 40px;
+    padding: 5%;
+}
+
+.nausica_line{
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    color: #63458a;
+    font-size: 20px;
+    line-height: 30px;
+    border: 1px solid #63458a;
+    padding: 20px 20px 20px 20px;
+    max-width: 100%;
+    margin: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-image-outset: -45px;  
+    width: 890px;
+    margin: 30px auto;  
+}
+
+.Historia_Nausicaä{
+    font-family: "Montserrat";
+    font-style: thin;
+    font-weight: lighter;
+    color: #63458a;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    margin: 10rem;
+    margin-bottom: -5rem;
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+
+.IMG_center_text{
+margin-top: 20px;
+margin-bottom: 20px; 
+}
+
+.maravilhosas__perfil a:hover {
+    text-decoration: underline;
+}
+
+.maravilhosas__perfil a:hover img {
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+.Autora{
+    background: #E4B7E5;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: 211px;
+}
+
+.Foto_autora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 500px;
+}
+
+.texto_autora{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: -450px ;
+
+    font-family: "Roboto";
+    font-style: bold;
+    color: #63458a;
+    font-size: 20px;
+}
+
+.IMG_center_text{
+    width: 100%;
+    height: auto;
+}
+
+.mae_ver-todas-elas {
+    
+    width: 100vw;
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ver-todas-elas {
+    background-color: #C083B9;
+    border: 2px solid #C083B9;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    width: 15%;
+    height: 25px;
+    padding: 15px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 500px;
+    margin-bottom: 150px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape {
+    background-color: #323534;
+    color: white;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: .8rem;
+}
+
+.rodape__principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+    margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.rodape__navegacao a {
+    transition: all .5s;
+}
+
+.rodape__navegacao a:hover {
+    color: #C083B9;
+}
+
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.rodape__redes-sociais a:hover {
+    color: #C083B9;
+}
+
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: .5rem;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/*** MEDIA QUERIES ***/
+@media (min-width: 768px) {
+
+    /* --- NAV ---*/
+
+    .navegacao__box{
+        display: flex;
+        width: 160%;
+    }
+    .navegacao__itens {
+        position: static;
+        display: flex;
+    }
+    .navegacao__redes-sociais img {
+        max-height: 30px;
+    }
+
+    .navegacao__nav {
+        margin-bottom: 0;
+        
+    }
+    
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .navegacao__itens li {
+        font-size: 1.2rem;
+        margin: 0 .6rem;
+    }
+    
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+
+    /* --- HEADER --- */
+    .header {
+        height: 400px;
+        text-align: left;
+        padding: 5rem 10rem;
+    }
+
+    .principal__titulo {
+        font-size: 2.9rem;
+        font-display: center;
+    }
+    
+    .principal__sub {
+        font-size: 1.8rem;
+    }
+
+    .principal__btn {
+        margin: 0;
+    }
+    .maravilhosas__perfil{
+
+        display: flex;
+    }
+ .Historia_Nausicaä {
+     display: block;
+     width: 75%;
+    }
+
+.Foto_autora{
+
+    margin: 5px 250px;
+    }
+
+.texto_autora{
+    margin: -230px;
+    }
+.ver-todas-elas{
+    height: 25px;
+    width: 20%;
+    margin-bottom: 100px;
+    margin: 0;
+    margin-top: -50px;
+
+}
+}
