@@ -91,6 +91,7 @@ h1 {
 .perfil-personagem {
     width: 230px;
     height: 230px;
+    border-radius: 150px;
 }
 
 h2 {
