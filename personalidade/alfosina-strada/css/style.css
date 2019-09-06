@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    padding: 0px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* margin-bottom: 15px; */
+}
+p{
+    margin-left: 15px;
+    line-height: 1.5;
+    text-align: justify; 
+} 
+.imagen-propiedades{
+    width: 60vw;
+}
+.contenedor-navegacion{
+    display: flex;
+    align-items: center;
+    background-color: #674582;
+}
+.propiedades-menu_nav{
+    margin-right: 10px;
+}
+.propiedades-link{
+    display: none;
+}
+.navegacion-link{
+    padding: 0px;
+    list-style: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.redes-sociales img{
+    width: 4vw;
+    height: 4vh;
+}
+.header{
+    background: linear-gradient(
+     rgba(103, 69, 130, 0.56),
+     rgba(1, 0, 2, 0.75)), url(../img/alfonsina-strada.jpg);
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    display: flex;
+    align-items: flex-end;
+}
+.titulo-maravillosa{
+    font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+    color: #63458a;
+    font-size: 20px;
+    text-align: center;
+}
+.contenedor-historia_maravillosa{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.historia-peque{
+    display: flex;
+}
+
+.img-pequena_alfonsina img{
+    width: 35vw;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    margin-top: 13px;
+    margin-left: 20px; 
+}
+.historia-pequena{
+    margin-right: 15px;
+}
+.contenedor-frase{
+    width: 50%;
+    border-color: #63458a;
+    border-style: solid;
+    /* Centra automaticamente, porque el parrafo ya es automatico display */
+    margin: 0 auto;
+}
+.contenedor-frase p{
+    font-size: 5px;
+    font-weight: bold;
+}
+.img-banner{
+    background: linear-gradient(
+     rgba(103, 69, 130, 0.56),
+     rgba(1, 0, 2, 0.75)), url(../img/alfonsina-banner.jpg);
+    width: 100vw;
+    height: 30vh;
+    background-size: cover;   
+}
+.contenedor-autora_maravillosa{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #d3add0; 
+    color: #63458a;
+    font-weight: bold;
+}
+.img-pequena_angelica img{
+    width: 27vw;
+    height: 20vh;
+    display: flex;
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.navegacion-link_autora a{
+    color: #63458a;
+} 
+.contenedor-volver_home{
+    width: 100%;
+    display: flex;
+}
+.boton-volver_home{
+    width: 30%;
+    margin: 7px auto;
+    padding: 5px 10px;
+    background-color: #d3add0;
+    color: #63458a;
+    font-weight: bold;
+    font-size: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer-1{
+    display: block;
+    width: 100%;
+    background-color: #323534;
+    margin: 0 auto;    
+    padding: 2px;
+}
+.footer-lista, .facebook-footer, .propiedades-logo{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0;    
+}
+.imagen-footer{
+    max-width: 50vw;
+}
+.logo-facebook{
+    width: 12px;
+}
+.span{
+    font-size: 10px;
+}
+.footer-2{
+    display: flex;
+    background-color: #292A2A;
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #e7e5e5;
+    font-size: 10px;
+}
+
+/*  responsivo 768 */
+
+@media (min-width: 768px){
+    h1{
+        font-size: 40px;
+    }
+    .contenedor-navegacion{
+        padding: 0;
+    }
+    .propiedades-link, .redes-sociales {
+        display: flex;
+    }
+    
+    .propiedades-link{
+        font-size: 12px;
+    }
+    .imagen-propiedades{
+        width: 27vw;
+    }
+    ul, li{
+        display: flex;
+        margin-right: 30px;
+        font-style: 15px;
+    }
+    .navegacion-link{
+        align-self: auto;
+    }
+    .redes-sociales img{
+        width: 4vw;
+        height: 5vh;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .propiedades-menu_nav{
+        display: none;
+    }
+    .titulo-maravillosa{
+        font-size: 25px;
+    }
+    .contenedor-frase p{
+        font-size: 10px;
+    }
+    .contenedor-frase{
+        margin-left:225px;
+    }
+    .contenedor-historia_maravillosa{
+        padding: 43px;
+        font-size: 15px;
+    }
+    .img-banner{
+        height: 60vh;
+    }
+    .contenedor-autora_maravillosa{
+        padding: 44px;
+    }
+    .boton-volver_home{
+        margin: 26px auto;
+        font-size: 10px;
+    }
+    .img-pequena_angelica img{
+        width: 15vw;
+        height: 20vh;
+    }
+    .contenedor-autora_maravillosa{
+        justify-content: center;
+    }
+    .footer-1{
+        display: flex;
+        width: 100%;
+        height: 30%;
+        padding: 2%;
+        margin: 0 auto;
+    }
+    .span{
+        font-size: 12px;   
+    }
+    .logo-facebook{
+        margin-top:0 ;
+    }
+    .cargo{
+        font-size: 9px;
+    }
+}
+
+/* Responsivo 1024*/
+@media(min-width: 1024px){
+    .imagen-propiedades{
+        width: 18vw;
+    }
+    .redes-sociales img{
+        width: 2vw;
+        height: 4vh;
+        margin-right: 30px;
+    }
+    .header{
+        width: 99vw;
+        height: 69vh;
+    }
+    .h1-header h1{
+        margin-left: 40px;
+    }
+    .imagen-propiedades{
+        margin-left: -293px;
+    }
+    .contenedor-historia_maravillosa{
+        width: 69%;
+        margin-left: 17%;
+        text-align: center;
+        font-size: 17px;
+    }
+    .img-banner{
+        width: 62%;
+        margin-left: 21%;   
+    }
+    .contenedor-frase{
+        margin-left: 370px;
+    }
+    .contenedor-frase p{
+        font-size: 11px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .img-pequena_angelica img{
+        width: 10vw;
+        height: 22vh;
+    }
+    .imagen-footer{
+        max-width: 40vw;
+    }
+    .span{
+        font-size: 15px;   
+    }
+    .footer-lista li{
+        font-size: 15px;
+    }
+    .footer-2 p{
+        color: #e7e5e5;
+    }
+    .contenedor-navegacion{
+        height: 14vh;
+    }
+    .navegacion-link{
+        margin-right: 100px;
+    }
+    .navegacion-link_autora, p{
+        color: #292A2A;
+    }
+    .contenedor-autora_maravillosa{
+        justify-content: center;
+    }
+    .boton-volver_home{
+        font-size: 12px;
+        width: 30%;
+        margin: 10px auto;
+        padding: 8px 10px;
+    }
+    
+}
+
