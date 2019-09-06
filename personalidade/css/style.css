@@ -1,0 +1,310 @@
+* {
+box-sizing: border-box;
+}
+
+html {
+font-size: 12px;
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+}
+
+body {
+font-family: 'Roboto Slab', serif;
+background-color:white;
+margin: 0;
+width:100%;
+}
+
+footer {
+background-color:#323534;
+width: 100vw;
+display: flex;
+bottom: 0;
+justify-content: space-around;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+ul {
+display: flex;
+padding: 0;
+}
+
+li {
+list-style: none;
+}
+
+
+/*NAV*/
+
+.menu {
+    background-color: #674582;
+    color:black;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgmaravilhosa {
+width: 200px;
+height: 60px;
+margin: 15px;
+display: flex;
+justify-content: space-around;
+}
+
+.home {
+text-decoration: none;
+color: inherit;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+
+.home-um {
+display: flex;
+justify-content: space-evenly;
+margin-right: 30px
+}
+
+
+.logos {
+width: 30vw;
+height: 60px;
+margin: 15px;
+display: flex;
+background-color: transparent;
+justify-content: space-around;
+}
+
+.mae-menu__hamburguer {
+display: none;
+}
+.menu-hamburguer {
+width: 60px;
+height: 60px;
+margin: 20px;
+}
+
+/*HEADER*/
+
+.alissa__um {
+width: 100vw;
+height: 900px; 
+background-size: cover;
+background-image: url(../img/Alissa1.jpg);
+background-repeat: no-repeat;
+background-position:center; 
+}
+
+.principal__titulo {
+color: white;
+text-transform: uppercase;
+text-align: -webkit-center;
+font-size: 50px;
+margin: 0;
+font-weight: 900;
+}
+
+
+/*CONTAINER 1*/
+
+.c-1 {
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+width: 100%;
+max-width: 890px;
+    
+} 
+
+.div__mae__perfil {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+.segundo__titulo {
+color: black;
+text-transform: uppercase;
+text-align: center;
+font-size: 45px;
+font-weight: 900;
+}
+
+.alissa__dois {
+width: 250px;
+height: auto; 
+border-radius: 0px;
+}
+
+.caixa__de__texto {
+border: 1px solid black;
+margin: 40px;
+padding: 55px;
+font-weight: 900;
+font-size: 24px;
+}
+    
+/*CONTAINER 2*/
+.c-2 {
+width: 100%;
+height: 0;
+margin: 0;
+}
+
+.terceiro__titulo {
+color: black;
+padding: 30px;
+margin-bottom: auto;
+text-align: center;
+font-weight: 900;
+}
+
+.archenemy {
+width: 764px;
+display: flex;
+margin: 175px;
+justify-content: center;
+}
+
+.texto__final {
+color: black;
+margin: 60px;
+padding: 30px;
+text-align: center;
+
+font-weight: 900;
+}
+
+.sobre__mim {
+background-color: rosybrown; 
+display: flex;
+justify-content: center;  
+}
+
+.barbara {
+width: 150px;
+height: 150px;
+margin: 20px;    
+}
+
+.barbara-perfil {
+width: 150px;
+height: 150px;
+}
+
+.dados {
+color: black;
+font-size: 18px;
+line-height: 1.5;
+margin-top: 15px;
+}
+
+.botaomae {
+height: 150px;
+display: flex;
+align-items: center;
+}
+
+.botao {
+color: white;
+background-color: #674582;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 160px;
+height: 40px;
+text-align: center;
+margin: 0 auto;
+}
+
+/*FOOTER*/
+
+.rodape__principal {
+color: white;
+display: flex;
+justify-content: space-around;
+margin-right: 100px;
+}
+
+.rodape__navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    padding: 5px;
+}
+
+.rodape__espaçamento{
+display: flex;
+padding: 0px;
+}
+.rodape__logo {
+display: flex;
+justify-content: space-around;
+}
+
+.rodape__redes-sociais {
+width: 10px;
+height: 10px; 
+}
+
+.rodape__cc {
+color: white;
+display: flex;
+justify-content: space-around;
+}
+
+/*media query*/
+
+@media (max-width: 768px) {
+
+    .home {
+        display: none;
+     }
+  
+     .mae-menu__hamburguer{
+      display: flex;
+  }
+       .terceiro__titulo {
+      font-size: 25px;
+  
+  }
+       .texto__final {
+      font-size: 25px;
+  }
+}
+
+
+
+@media (min-width: 960px) {
+
+.mae-menu__hamburguer {
+    display: none;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+     .terceiro__titulo {
+        font-size: 25px;
+    }
+
+    .texto__final {
+        font-size: 25px;
+    }  
+}
+ 
+
