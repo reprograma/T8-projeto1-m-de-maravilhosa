@@ -424,9 +424,14 @@ footer {
     .figure__banner{
         height: auto;
     }
+    .author{
+        padding: 0 0 0 200px;
+    }
     .button{
         display: flex;
         justify-content: center;
     }
-    
+    .infos-container{
+        padding-left: 130px;
+    }
 }
