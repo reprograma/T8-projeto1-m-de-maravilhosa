@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+}
+
+
+/* ========NAVEGAÇÃO======= */
+
+.topo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #674582;
+    width: 100%;
+    color: white;
+}
+
+.topo>img {
+    width: 200px;
+}
+
+.hamburguinho {
+    background-image: url("../img/menu-nav.png")
+}
+
+.menu {
+    display: none;
+}
+
+.personalidade h1 {
+    align-items: center;
+    position: absolute;
+    top: 38%;
+    left: 21%;
+    color: #ffffff;
+    font-size: 20px;
+    justify-content: center
+}
+
+.personalidade>img {
+    width: 100vw;
+}
+
+.titulo {
+    color: #674582;
+    text-align: center;
+}
+
+.primeiro_texto>p {
+    text-align: justify;
+    color: #674582;
+    font-size: 15px;
+}
+
+.primeira-img_carla>img {
+    width: 50%;
+    margin-left: 70px;
+}
+
+.texto-img p {
+    padding: 20px;
+    color: #63458a;
+    text-align: justify;
+}
+
+.citacao {
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #674582;
+    border: 1px solid #63458a;
+    padding: 18px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.segundo_texto {
+    padding: 20px;
+    color: #674582;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.segundo_texto>img {
+    width: 100%;
+}
+
+.bloco {
+    width: 100%;
+    max-width: 960px;
+    padding-bottom: 10px;
+    background-color: #E4B7E5;
+}
+
+.bloco>img {
+    margin-top: 18px;
+    margin-left: 90px;
+    width: 149px;
+    justify-content: center;
+}
+
+.bloco>p {
+    padding: 24px;
+    margin: 0;
+    color: #63458a;
+    font-size: 15px;
+}
+
+section a {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: #C083B9;
+    border-radius: 5px;
+    color: #674582;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #323534;
+}
+
+.reprograma-menu {
+    margin-right: 72px color white;
+    height: 48px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.reprograma-menu>ul {
+    list-style: none;
+}
+
+.logo-M {
+    width: 70%;
+    height: auto;
+    padding-bottom: 33px;
+}
+
+.rodape__link {
+    color: #ffffff;
+}
+
+.rodape__link>img {
+    width: 10px;
+}
+
+.rodape__segundo {
+    padding: 12px;
+    margin: 0 auto;
+    background-color: #292A2A;
+    width: 100%;
+}
+
+.rodape__segundo>p {
+    color: #ffffff;
+    font-size: 10px;
+}

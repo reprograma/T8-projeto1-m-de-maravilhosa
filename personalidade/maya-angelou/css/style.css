@@ -1,0 +1,425 @@
+/*---- Geral ----*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;    
+}
+
+/*---- Navegação ----*/
+
+.navegacao{
+    height: 80px;
+    background-color: #674582;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navegacao__logo > a > img{
+    width: 160px;
+}
+
+.navegacao__links > a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.navegacao__midias-sociais > a > img{
+    width: 44px;
+    height: auto;
+}
+
+/*--- Header ----*/
+
+.cabecalho{
+    background-image: url(../img/maya-angelou-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.cabecalho > h1{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+/*---- Main ----*/
+
+.conteudo__titulo{
+    font-size: 12px;
+    text-align: center;
+    color: #63458A;
+    font-family: 'Roboto Slab', serif;
+    padding: 0 20px;
+}
+
+.conteudo__conteiner{
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.conteudo__imagem{
+    height: 180px;
+    width: 180px;
+    background-color: #63458A;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.conteudo__imagem > img{
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+.conteudo__texto > p{
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #63458A;
+}
+
+/*---- Texto box-destaque ----*/
+
+.conteudo__texto-destaque{
+    padding: 0 30px;
+    border: solid 1px #63458A;
+    margin: 0 20px;
+}
+
+.conteudo__texto-destaque > p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: #63458A;    
+}
+
+.conteudo-principal{
+    margin: 10px 20px;
+}
+
+.conteudo-principal > h2{
+    font-family: 'Roboto slab', sans-serif;
+    font-size: 20px;    
+    color: #63458A;   
+}
+
+.conteudo-principal > p{
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 10px 0;    
+    color: #63458A;
+}
+
+.conteudo-principal > img{
+    width: 100%;
+    margin: 25px 0px;
+    padding: 10px;
+    border: solid 1px #63458A;  
+}
+
+/*---- Seção Autora ----*/
+
+.secao-autora{
+    height: 140px;
+    background-color: #E4B7E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 50px 0 0;
+}
+
+.secao-autora__img{
+    width: 140px;
+    height: 139px;
+}
+
+.secao-autora__img > img{
+    width: 140px;
+    position: absolute;
+}
+
+.secao-autora__curriculo > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #63458A;
+    margin-left: 40px;
+}
+
+.secao-autora__curriculo > p > a{
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*---- Botão ----*/
+
+.btn{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__call-to-action{
+    background-color: #C083B9;
+    border-radius: 5px;
+    padding: 10px 30px;
+    border: none;
+}
+
+.btn__call-to-action > a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*---- Footer ----*/
+
+footer{ 
+    background-color: #323534;
+    height: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteiner__footer{
+    display: block;
+    margin: 0 auto;
+}
+
+.footer__navegacao{
+    margin-bottom: 6px;
+}
+
+.footer__navegacao > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.footer__logo > img{
+    width: 200px;
+    margin-top: 16px;
+}
+
+.footer__midias-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__midias-sociais > img{
+    width: 15px;
+}
+
+.footer__midias-sociais > p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.footer__direitos-autorais{
+    background-color: #292A2A;
+    text-align: center;
+    height: 25px;
+    padding: 6px;
+}
+
+.footer__direitos-autorais > p{
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+/*---- Medias ----*/
+
+@media (min-width: 320px){
+    .navegacao__links > a {
+        display: none;
+    }
+
+    .navegacao__midias-sociais > a > img {
+        display: none;
+    }
+}
+
+@media (min-width: 768px){ 
+    .navegacao__menu-hamburguer{
+        display: none;
+    }
+
+    .navegacao{
+        padding: 10px 50px;
+    }
+
+    .navegacao__links{
+        margin-right: 20px;
+    }
+
+    .navegacao__links > a{
+        display: inline-block;
+        font-size: 13px;
+        margin-right: 10px;
+    }
+
+    .navegacao__midias-sociais > a > img {
+        display: inline-block;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .conteudo-principal{
+        padding: 10px 50px;
+    }
+
+    .conteudo__conteiner{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 40px 70px;
+        align-items: center;
+    }
+
+    .conteudo__texto-destaque{
+        margin: 10px 67px;
+        font-size: 40px;
+    }
+
+    .conteudo__texto-destaque > p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .conteudo__texto > p{
+        text-align: initial;        
+    }
+
+    .conteudo__titulo{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .conteudo__imagem > img{
+        margin-top: 0;
+    }
+
+    .conteudo__imagem{
+        margin-right: 20px;
+    }
+
+    .conteiner__navegacao{
+        display: flex;
+        align-items: center;
+    }
+
+    .conteudo__conteiner .conteudo__imagem{
+        height: 150px;
+        width: 150px;
+    }    
+
+    .conteiner__footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    footer{
+        height: 100px;
+        padding: 0;
+    }
+
+    .footer__navegacao{
+        margin-top: 25px;
+    }
+    
+    .footer__midias-sociais{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1024px){
+    .secao-autora__img > img{
+        width: 139px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .conteudo__texto > p {
+        font-size: 16px;
+        padding-right: 200px;
+        margin-left: 30px;
+    }
+
+    .conteudo__conteiner .conteudo__imagem {
+        height: 150px;
+        padding: 10px;
+        width: 150px;
+    }
+
+    .conteudo__imagem > img {
+        margin-top: 0;
+        width: 132px;
+        height: auto;
+    }
+
+    .secao-autora__curriculo > p{
+        font-size: 15px;
+    }
+
+    .cabecalho{
+        height: 400px;
+    }
+
+    .cabecalho > h1{
+        font-size: 50px;
+    }
+
+    .conteudo-principal {
+        padding: 10px 180px;
+    }
+
+    .conteudo__conteiner{
+        padding: 10px 130px;
+    }
+
+    .conteudo__texto-destaque {
+        margin: 10px 200px;
+    }
+}

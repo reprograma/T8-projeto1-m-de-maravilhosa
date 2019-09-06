@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    }
+
+/* ===========NAV============ */
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    background-color: #674582;
+    height: 90px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+}
+
+.navegacao_desktop {
+    display: none;
+}
+
+.img_logo {
+    max-width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 60px;
+}
+
+.img_menu {
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+/* ==================BANNER=================== */
+
+.banner{
+    background: url(../IMG/1832.png) center no-repeat;
+    background-size: cover;
+    height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+     color: #fffcf7;
+     text-shadow: black 0.1em 0.1em 0.2em;
+     font-size: 20px;
+}
+
+h2 {
+    color: #63458a;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* =====================APRESENTAÇÃO=========================*/
+
+.apresentacao_foto {
+    width: 150px;
+    height: 150px; 
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.apresentacao_texto {
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+    color: #63458a;    
+}
+
+.apresentacao_citacao {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    border-width: thin;
+    border-style: outset;
+    border-color: #63458a;
+    margin: 0 15px;
+    margin: 40px;
+    line-height: 25px;
+    font-weight: bold;
+    color: #63458a;    
+}
+
+/* =====================HISTÓRIA================ */
+
+h3 {
+    color: #63458a;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.container_historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.historia_texto {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    line-height: 15px;
+    color: #63458a;
+}
+
+.historia_imagem {
+    max-height: 250px;
+    display: flex;
+    justify-content: center;   
+}
+
+/* ==================DADOS====================== */
+
+.container_dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C083B9;
+    margin-top: 30px;
+}
+
+.dados_imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.dados_texto {
+    color: #674582;
+    font-size: 10px;
+    margin-left: 20px;
+    font-weight: 700;    
+}
+
+.dados_texto-link {
+    color: #674582; 
+}
+
+/* =====================FOOTER========================= */
+
+.container_botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;  
+    margin-top: 30px;  
+}
+
+.botao {
+    text-decoration: none;
+    font-weight: 700;
+    color: #fffcf7;
+    background-color: #63458a;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: #323534;
+    padding: 30px;  
+    }
+
+.rodape_links {
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    align-items: center; 
+}
+
+.link {
+    color: #fffcf7;  
+    text-decoration: none; 
+}
+
+.rodape_logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.rodape_img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 5px;  
+}
+
+.facebook {
+    color: #fffcf7;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img_facebook {
+    height: 15px;
+}
+
+.rodape_final {
+   background-color: #292A2A;
+   color: #fffcf7;
+   font-size: 7px;
+   text-align: center; 
+   padding-bottom: 3px;
+   padding-top: 5px;
+}
+
+/* =================MEDIA QUERIES============================= */
+@media (min-width:440px){
+    .container_apresentacao-corpo {
+        display: flex;
+        align-items: center;   
+    }
+
+    .banner {
+        height: 600px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .navegacao_mobile {
+        display: none;
+    }
+
+    .navegacao_desktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;            
+    }
+
+    .navegacao_desktop-redes {
+        margin-right: 10px;
+    }
+
+    .desktop_links {
+        color: #f0f8ff;
+        margin-left: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+
+    .banner {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+    
+    .container_apresentacao {
+        margin: 30px;
+    }
+
+    .apresentacao_citacao {
+        font-size: 17px;
+        margin: 60px;
+    } 
+    
+    .apresentacao_texto {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .container_geral {
+        margin: 30px;
+    }
+    .historia_texto {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .dados_texto {
+        font-size: 15px;
+        line-height: 10px;
+    }
+
+    .rodape {
+        display: flex;
+        background-color: #323534;
+        justify-content: space-evenly;
+        padding-bottom: 15px; 
+    }
+    .rodape_links {
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        align-items: center; 
+    }
+           
+    .rodape_img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 5px;  
+    }
+    
+    .facebook {
+        color: #fffcf7;
+        font-size: 15px;
+    }
+    
+    .img_facebook {
+        height: 20px;
+    }
+
+    .rodape_final {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .banner {
+        font-size: 60px;
+       
+    }
+    
+    .apresentacao_citacao {
+        font-size: 25px;
+        line-height: 35px;
+    } 
+    
+    .apresentacao_foto {
+        width: 300px;
+        height: 300px;
+    }
+    .apresentacao_texto {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .historia_texto {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    
+    .historia_imagem {
+        width: 600px;
+    }
+}
