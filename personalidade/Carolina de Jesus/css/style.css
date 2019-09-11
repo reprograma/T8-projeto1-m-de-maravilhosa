@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.img-responsive{
+    width: 100%;
+}
+.container {
+    /* width: 80%; */
+    /* height: 960px; */
+}
+/* ===NAVBAR=== */
+.navbar{
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);   
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar__logo{
+    max-width: 200px;  
+}
+.navbar__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.navbar__itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #674582;
+   
+}
+.navbar__itens > ul{
+    display: inline;
+}
+.navbar__navegacao{
+    display: flex;
+}
+.navbar__menu-hamburguer{
+    background-color: #C083B9;
+    border-radius: 5px;
+}
+.navbar__redes-sociais{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar__redes-sociais a{
+    margin: 0 3px;
+}
+
+
+/* ===HEADER=== */
+.header {
+    min-height: 80vh;
+    height: 500px;
+    background: url(../img/carolina-maria-de-jesus.png) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: white;
+}
+.header__titulo{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+/* ===SECTION APRESENTAÇÃO=== */
+.conteudo__introducao > h2{
+    text-align: center;
+    color: #63458a;
+    padding: 0 5%;
+}
+.conteudo__introducao_resumo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #63458a;
+}
+.conteudo__introducao_imagem {
+    width: 200px;
+    height: 200px;
+    background-color: #674582;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-perfil{
+    width: 200px;
+}
+.conteudo__principal_imagem {
+    width: 250px;
+}
+.conteudo__introducao_texto{
+    width: 80%;
+}
+.conteudo__introducao_texto > p{
+    padding: 0 10%;
+}
+/* ===SECTION FRASE=== */
+.conteudo__frase{
+    margin-left: 10%;
+    width: 80%
+}
+.conteudo__frase_citacao{
+    border: 2px solid #674582;
+    padding: 5%;
+    font-style: italic;
+}
+
+/* ===SECTION PRINCIPAL=== */
+.conteudo__principal{
+    padding: 5% 10%;
+}
+.container_imagem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ===SOBRE O AUTOR=== */
+
+.sobre-autor__imagem{
+    background-color: #C083B9;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: #674582;
+}
+.sobre-autor__imagem > img {
+    height: 120px;
+}
+/* ===BOTÃO=== */
+.sobre-autor__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.sobre-autor__texto {
+    font-size: 12px;
+}
+.sobre-autor__button{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 2%;
+    font-size: 12px;
+}
+button {
+    background-color: #C083B9;
+    border:none;
+    border-radius: 5px;;
+    width: 125px;
+    height: 25px;
+    text-align: center;
+
+}
+
+
+
+/* ===FOOTER=== */
+span{
+    font-size: 12px;
+}
+.rodape{
+    background-color: #323534;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.rodape__principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.rodape__principal_logo img{
+    max-width: 200px;
+}
+.rodape__principal_links >li{
+    font-size: 12px;
+    margin: 3px;
+    padding: 10px;
+    text-align: center;
+}
+.rodape__principal_links a {
+    transition: all .5s;
+}
+.rodape__principal_links a:hover {
+    color: #C083B9;
+}
+.rodape__principal_logo {
+    max-width: 200px;
+}
+
+.rodape__principal_rede-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.rodape__principal_rede-social a:hover {
+    color: #C083B9;
+}
+
+.rodape__principal_rede-social img {
+    max-width: 10px;
+}
+
+.rodape__principal_rede-social span {
+    display: flex;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.rodape__secundario {
+    width: 100%;
+    background-color: #292A2A;
+    font-size: 10px;
+    opacity: 0.5;
+    text-align: center;
+}
+/* ===MEDIA QUERIES=== */
+@media (max-width: 767px) {
+    .navbar__itens{
+        display: none;
+    }
+    .navbar__redes-sociais{
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .navbar__menu-hamburguer{
+        display: none;
+    }
+    .navbar__logo{
+        width: 150px;
+    }
+    .navbar__container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar__navegacao{
+        width: 350px;
+        font-size: 12px;
+        text-align: right;
+        padding-left: 70px;
+    }
+    .navbar__redes-sociais{
+        width: 200px;
+    }
+    .navbar__redes-sociais img {
+        width: 30px;
+    }
+    .navbar__navegacao > ul{
+        display: flex;
+    }
+    .navbar__navegacao a{
+        margin-left:  10px;
+    }
+    .header {
+        display: flex;
+        align-items: flex-end;
+    }
+    .header__titulo {
+        margin-left: 75px;
+    }
+    .conteudo__introducao_resumo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10%;
+    }
+    .conteudo__principal {
+        display: flex;
+        align-items: center;
+    }
+    .conteudo__principal_imagem{
+        width: 600px;
+    }
+    .rodape__principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .rodape__principal_links li{
+        padding: 5px;
+    }
+    .rodape__principal_links span{
+        font-size: 12px;
+    }
+    .rodape__principal {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 1440px){
+    .navbar__container {
+        height: 60px;
+    }
+    .navbar__logo{
+        width: 200px;
+    }
+    .navbar__navegacao {
+        width: 500px;
+    }
+    .navbar__navegacao a{
+        margin-right: 20px;
+        text-align: right;
+        font-size: 18px;
+        padding-left: -100px;
+    }
+    .conteudo__introducao_resumo {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .conteudo__introducao_texto > p{
+        font-size: 18px;
+    }
+    .conteudo__principal_texto{
+        font-size: 18px;
+        margin: 0 10%;
+    }
+    .conteudo__principal_texto img{
+        width: 500px;
+        border: 1px solid #674582;
+    }
+    .container_imagem{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo__frase{
+        margin: 0 10%;
+    }
+    .sobre-autor__imagem{
+        height: 170px;
+    }
+    .sobre-autor__imagem img{
+        height: 170px;
+    }
+    .sobre-autor__texto{
+        font-size: 18px;
+    }
+    button{
+        margin: 3%;
+        width: 200px;
+        height: 50px;
+    }
+    .sobre-autor__button {
+        font-size: 18px;
+    }
+    .rodape__principal span{
+        font-size: 18px;
+    }
+    .rodape__principal a {
+        font-size: 18px;
+    }
+    .rodape__principal {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .conteudo__principal{
+        padding: 0px 144px;
+    }
+
+}
+/* Barbara Silva 08 */

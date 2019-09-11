@@ -1,0 +1,385 @@
+* { 
+    box-sizing: border-box;
+}
+html {
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    margin: 0 auto;
+}
+.container-row {
+    height: 80px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: blueviolet;
+}
+.logo {
+    width: 180px;
+    height: 50px;
+    margin: 0 auto; 
+}
+.menu-itens {
+    height: 40px; 
+}
+.item {
+    flex: 1;
+    font-size: 18px;
+    margin-right: 70px;
+    
+}
+.item-1 {
+    height: 40px;
+    margin-right: 70px;
+}
+.menu-hamburguer-1 {
+    display: none;
+}
+    
+.Facebook {
+    width: 30px;
+    height: 29px;
+}
+.instagram {
+    width: 30px;
+    height: 29px;
+}
+.twitter {
+    width: 30px;
+    height: 29px;
+}
+.linkedin {
+    width: 30px;
+    height: 29px;
+}
+
+.banner-Muhammad img {
+    width: 100vw;
+    height: 100vh; 
+    align-items: center;
+    text-align: center;
+    
+}
+.texto-bottom {
+    position: relative;
+    bottom: 90px;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.titulo-personalidade {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color:black;
+    font-size: 50px;
+}
+.container-personalidade {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+width: 60%;
+}
+
+.logo-mulher {
+    width: 20%;
+    height: 20%;
+    margin-left: 10px;
+}
+.texto-personalidade {
+    width: 100vw;
+    height: 20vh;
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.texto-geral {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 10px;
+width: 73%;
+}
+.texto-geral-1 {
+    width: 100vw;
+    font-size: 30px;
+    color: #63458a;
+    text-align: center;
+    border: 1px solid #63458a;
+    letter-spacing: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.historia-mulher {
+    color: #63458a;
+    display: flex;
+    justify-content: center;
+    
+}
+h1 {
+    font-size: 30px;
+    align-items: center;
+    color: #63458a;
+    text-align: left;
+    margin-left: 350px;
+    margin-bottom: 10px;
+
+}
+
+.texto-Muhammad-1 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+
+}
+.texto-Muhammad-2 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+.esgrima {
+    width: 650px;
+    height: 300px;
+    color: #63458a;
+    margin-left: 350px;
+}
+.texto-Muhammad-3 {
+    font-size: 20px;
+    color: #63458a;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 10px;
+}
+.container-autora {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+
+}
+.autora {
+    margin-top: 10px;
+    width: 10vw;
+    height: 10hw;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+.texto-autora {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #63458a;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.recuadro-ver-todas {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.buttom-ver-todas {
+    display: flex;
+    background-color: #c083b9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.footer-recuadro {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2b2926;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.itens {
+    display: block;
+
+}
+
+.itens li {
+    height: 30px;  
+    margin-left: 0;
+}
+
+.Logo-maravilhosa {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+}
+.Facebook-icon {
+    display: flex;
+    margin-right: 20px;
+} 
+.icone {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.maravilhosa > a {
+    font-size: 10px;
+    margin-right: 0 auto;
+}
+.made {
+    font-size: 20px;
+}
+.final {
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    background-color: black;
+}
+.texto-final {
+    font-size: 12px;
+    color: white;
+    
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+p {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+ul, li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width:768px) {
+.logo {
+    margin: 0;
+}
+.item {
+margin-right: -12px;
+margin-left: 0;
+}
+.item-1 {
+margin-right: 0;
+margin-left: 23px;
+
+}
+.Facebook {
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.instagram {
+margin-left: 10px;
+margin-right: 10px;
+}
+.linkedin {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+.twitter {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.banner-Muhammad img {
+    height: 67vh;
+
+}
+.texto-bottom {
+bottom: 64px;
+
+} 
+.texto-personalidade {
+    font-size: 18px;
+    color: #63458a;
+    margin-left: 10px;
+    margin-right: 0 auto;
+    margin-bottom: 10px;
+}
+.logo-mulher {
+    width: 30%;
+    height: 20%;
+    margin-left: -92px;
+}
+.texto-personalidade {
+    font-size: 19px;
+    margin-left: 22px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+.texto-geral-1 {
+    font-size: 21px;
+    margin-left: -39px;
+    margin-right: -17px;
+}
+h1 {
+    font-size: 28px;
+    margin-left: 10px;
+}
+.texto-Muhammad-1 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.texto-Muhammad-2 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.esgrima {
+    width: 741px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.texto-Muhammad-3 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+}
+
+@media (max-width:375px) {  
+.logo {
+width: 23px;
+background-color: blueviolet;
+} 
+.menu-hamburguer-1 {
+    display: flex;
+}
+.container-row {
+    display: none;
+}
+@media (max-width: 375px) }
+.logo {
+width: 354px;
+background-color: blueviolet;
+}
+
+}

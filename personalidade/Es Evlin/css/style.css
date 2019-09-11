@@ -1,0 +1,417 @@
+
+/* --------------- GERAL ------------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+/* ------------- MENU ---------------*/
+
+.navegacao {
+    background-color: #674582;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    width: 100%;
+    height: 200px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 300px;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: white;
+    width: 130%;
+    font-size: 20px;
+}
+
+.navegacao__boxmenu {
+    align-items: center;
+    display: flex; 
+}
+
+.navegacao__boxmenu a {
+    text-decoration: none;
+    color: white;
+}
+
+.redessociais {
+    width: 40px;
+}
+
+/* ----------------- BANNER -------------- */
+
+header {
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Covered By Your Grace';
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    align-items: flex-end;
+}
+
+
+/* ----------------- SOBRE ELA - Segundo conteiner -------------- */
+
+
+.segundo-conteiner_conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10rem;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    
+}
+
+.perfil-personagem {
+    width: 230px;
+    height: 230px;
+    border-radius: 150px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+
+.conteudo-personalidade_citacao {
+    font-size: 25px;
+    border: 1px solid #63458a;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conteudo-personalidade {
+    padding: 14px;
+    text-align: justify;
+    letter-spacing: 1x;
+}
+
+p {
+    padding: 10px;
+}
+
+/* --------------- TERCEIRA CONTEINER --------------*/ 
+
+.terceiro-conteiner_historia {
+    text-align: center;
+    /* padding: 40px; */
+    color: black;
+    font-family: 'Montserrat';
+}
+
+.esdev-conteiner_historia {
+    width: 100%;
+    /* height: 600px; */
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.conteiner-historia {
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Montserrat';
+    margin-top: 60px;
+    
+}
+
+.amostradepalco {
+    background-color: black;
+    color: white;
+    
+}
+
+.amostradepalco_palcos {
+    width: 40%;
+}
+
+/* --------------- QUARTO CONTEINER --------------*/
+
+.quarto-conteiner-autora {
+background-color: plum;
+width: 100vw;
+height: 200px;
+white-space: pre-line;
+display: flex; 
+justify-content: center;
+padding: 1px;
+
+}
+
+.adriela {
+    width: 200px;
+    height: 200px;
+}
+
+.sobre-a-autora {
+    margin-top: 60px;
+}
+
+
+/* --------------- QUINTO CONTEINER --------------*/
+
+.quinto-conteiner-sobreelas {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnroxo {
+    color: white;
+    background-color: #C083B9;
+    font-size: 15px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    transition: all .5s;
+    font-family: 'Montserrat';
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btnroxo a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------- FOOTER --------------*/
+
+footer {
+    background-color: #323534;
+    color: white;
+    box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+    padding: 1.5rem;
+    z-index: 99;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
+
+.ultima-parte {
+    background-color: #292A2A;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/* --------------- media query desktop --------------*/
+
+@media (min-width: 1024px) 
+{
+.menu-hamburguer {
+display: none;
+}
+}
+
+
+/* --------------- media query TABLET --------------*/
+
+
+
+@media (max-width: 768px) 
+{
+
+    .menu-hamburguer {
+        display: none;
+        }
+
+    .navegacao
+   {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+   }
+
+   li a {
+       font-size: 17px;
+   }
+
+   .logo {
+       width: 30%;
+       height: auto;
+   }
+
+   .redessociais {
+       width: 30px;
+   }
+
+   header {
+       width: 100%;
+       height: 300px;
+       background-size: cover;
+   }
+
+
+   p {
+    text-align: justify;
+    padding: 15px;
+   }
+
+   .segundo-conteiner_conteudo {
+    width: 100%; 
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+   }
+
+   
+   
+
+}
+
+/* --------------- CERULA --------------*/
+
+@media (max-width: 320px) {
+
+.navegacao {
+display: flex;
+justify-content: space-around;
+width: 100%;
+margin: 0 auto;
+height: auto;
+}
+
+.navegacao__boxmenu {
+    display: none;
+}
+
+.menu-hamburguer {
+    display: flex;
+    }
+  
+.redessociais {
+    display: none;
+} 
+
+.logo {
+        width: 70%;
+        height: auto;
+}
+
+header {
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.perfil-personagem {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+footer {
+display: flex; 
+justify-content: center;
+flex-direction: column;
+height: 250px;
+}
+
+.segundo-conteiner_conteudo {
+    padding: unset;
+}
+
+.quarto-conteiner-autora {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.sobre-a-autora {
+    text-align: center;
+    margin: 0;
+
+}
+
+.adriela {
+    width: 100px;
+    height: 100px;
+}
+
+.footer-list a {
+    width: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 19px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.conteudo-personalidade_citacao {
+    font-size: 20px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.ultima-parte {
+    font-size: 12px;
+}
+
+
+}
