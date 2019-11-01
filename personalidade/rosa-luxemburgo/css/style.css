@@ -54,6 +54,10 @@ a {
     margin: 7px;
 }
 
+.menu-hamburguer {
+    display: none;
+}
+
 .redes-sociais img {
     max-width: 18px;
     max-height: 17px;
@@ -216,6 +220,14 @@ footer {
         display: block;
     }
 
+    .menu-hamburguer {
+        display: inline;
+    }
+
+    .links-redes {
+        display: none;
+    }
+
     .intro__foto {
         display: flex;
         justify-content: center;
@@ -243,6 +255,12 @@ footer {
     }
 }
 
+@media (max-width: 425px) {
+    .personalidade {
+        background-position: center;
+    }
+}
+
 @media (max-width: 320px) {
     .cinza-claro {
         text-align: center;
@@ -252,19 +270,9 @@ footer {
         display: none;
     }
 
-    .personalidade {
-        background-position: center;
-    }
-
     .foto-frase {
         margin-left: 14px;
     }
 
 }
-@media (min-width: 768px) {
-    .menu-hamburguer {
-        display: none;
-    }
-}
-
 
